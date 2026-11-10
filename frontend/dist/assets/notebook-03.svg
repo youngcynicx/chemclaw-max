@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1120" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+  <title id="title">合成示例实验笔记：AQUA-008 水相观察</title>
+  <desc id="desc">水相浸泡 24 小时，实测 pH 为 6.8，观察到边缘轻微发白。浸泡后 XRD 缺失，稳定性结论待补充表征。</desc>
+  <defs><pattern id="lines" width="900" height="48" patternUnits="userSpaceOnUse"><path d="M0 47.5H900" stroke="#c5d7dd" stroke-width="1"/></pattern><pattern id="grain" width="41" height="35" patternUnits="userSpaceOnUse"><circle cx="4" cy="8" r=".5" fill="#b3a68e" opacity=".15"/><circle cx="22" cy="26" r=".6" fill="#b3a68e" opacity=".1"/></pattern></defs>
+  <rect width="900" height="1120" fill="#f7f4e9"/><rect width="900" height="1120" fill="url(#grain)"/>
+  <rect y="145" width="900" height="863" fill="url(#lines)"/><path d="M105 0V1050" stroke="#d8aba0" stroke-width="1.4"/>
+  <g fill="#bdb8a9"><circle cx="42" cy="190" r="13"/><circle cx="42" cy="565" r="13"/><circle cx="42" cy="940" r="13"/></g>
+  <g fill="#2c4a70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="27" transform="rotate(-.4 450 450)">
+    <text x="135" y="84" font-size="18" fill="#7c8579" font-family="Arial,sans-serif" letter-spacing="3">LABORATORY NOTEBOOK / 008</text>
+    <text x="132" y="137" font-size="36">Aqueous stability — control 008</text>
+    <text x="135" y="186" font-size="22">15 OCT 2026</text><text x="618" y="186" font-size="22">AQUA-008</text>
+    <text x="135" y="279">Source sample: MOF-025</text>
+    <text x="135" y="327">DI water: 20 mL, room temp.</text>
+    <text x="135" y="423">Elapsed: 24 h</text>
+    <text x="135" y="471">Measured pH: 6.8</text>
+    <text x="135" y="567">Obs. slight whitening at edges.</text>
+    <text x="135" y="855">Post-immersion XRD: not available.</text>
+    <text x="135" y="903">Conclusion: pending characterization.</text>
+    <text x="135" y="951" font-size="23">Appearance is not a stability result.</text>
+  </g>
+  <g transform="translate(234 635)" stroke="#2c4a70" stroke-width="2.1" fill="none" stroke-linecap="round">
+    <path d="M0 0v100c0 18 120 18 120 0V0M-5 0h130"/><path d="M1 45c24 12 95 12 118 0v55c0 18-118 18-118 0Z" fill="#c5dfe0" fill-opacity=".5"/>
+    <path d="m42 39 31-8 12 55-31 8Z" fill="#e4e4d6"/><path d="m44 39 29-7" stroke="#aaa597" stroke-width="4"/>
+    <path d="M146 64h62m-12-7 12 7-12 7"/>
+  </g>
+  <text x="470" y="704" fill="#2c4a70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24">24 h observation</text>
+  <text x="470" y="740" fill="#2c4a70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22">no structural conclusion</text>
+  <path d="M562 862c63 7 118 6 201-1" fill="none" stroke="#b6523e" stroke-width="2.3"/>
+  <path d="M135 1001H810" stroke="#bdb8a9"/>
+  <text x="135" y="1041" fill="#777d72" font-size="15" font-family="Arial,'Microsoft YaHei',sans-serif" letter-spacing="1.5">SYNTHETIC DEMO · 合成示例 · NOT A REAL EXPERIMENT</text>
+  <text x="794" y="1082" fill="#9c9e8e" font-size="18" font-family="Arial,sans-serif">008</text>
+</svg>

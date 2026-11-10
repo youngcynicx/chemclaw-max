@@ -1,0 +1,70 @@
+{
+  "critical_facts_pass": true,
+  "checks": [
+    {
+      "id": 1,
+      "pass": true,
+      "evidence": [
+        "evt_18e1f6c3b7e2529b8da9196c0dd1f961"
+      ],
+      "review": "Original wrong value retained inside superseded_values, current reagent is 233.2 mg."
+    },
+    {
+      "id": 2,
+      "pass": true,
+      "evidence": [
+        "evt_18e1f6c3b7e2529b8da9196c0dd1f961"
+      ]
+    },
+    {
+      "id": 3,
+      "pass": true,
+      "evidence": [
+        "evt_44a5b4f9e00d5844b43989da9a22e040"
+      ],
+      "review": "No A-only correction copied to B."
+    },
+    {
+      "id": 4,
+      "pass": true,
+      "evidence": [
+        "evt_cbd762b951975b73959d7b89e5e4cfc0",
+        "evt_dfdd925fb9a9592d954b78b0b2c84cc2"
+      ]
+    },
+    {
+      "id": 5,
+      "pass": true,
+      "evidence": [
+        "evt_28e19f47baf856ebb16b02211adf833a",
+        "evt_020e156e2ce75e4eb37567684dd68628"
+      ]
+    },
+    {
+      "id": 6,
+      "pass": true,
+      "evidence": [
+        "evt_020e156e2ce75e4eb37567684dd68628",
+        "evt_44a5b4f9e00d5844b43989da9a22e040",
+        "evt_7ee1e17c716d5d69b9d3a801200b56d5",
+        "evt_df3b8f59e7b6551cb13e231605a36b03",
+        "evt_dfdd925fb9a9592d954b78b0b2c84cc2",
+        "evt_18e1f6c3b7e2529b8da9196c0dd1f961",
+        "evt_28e19f47baf856ebb16b02211adf833a",
+        "evt_982067943ec858f7935ab759e2f8bd2c",
+        "evt_cbd762b951975b73959d7b89e5e4cfc0"
+      ],
+      "review": "Every stored sample event has synthetic-source marker and actual source references."
+    }
+  ],
+  "scope": "The six groups fixed before the trials only; not whole-page completeness or a chemical benchmark score.",
+  "limitations": [
+    "B inherited DMF/water remain textual inheritance; numeric quantities are not expanded on the B card.",
+    "Margin-arrow uncertainty and author speculation remain in source; no dedicated structured sample events.",
+    "Current page correction is stored in fields.superseded_values; no cross-page old-to-new event revision demonstration.",
+    "Only one successful proposal with 9 items; first small batch followed by expansion not demonstrated.",
+    "A failed draft omitted evidence_refs; schema rejected it before write, then model corrected within the same bounded run.",
+    "Main delegate message still 2589 characters: reduced from baseline low 3305, not proof of minimal context.",
+    "A single candidate observation is slower than baseline low; no general speed or reliability gain claimed."
+  ]
+}

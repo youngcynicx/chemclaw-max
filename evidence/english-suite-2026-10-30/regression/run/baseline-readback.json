@@ -1,0 +1,39 @@
+{
+  "id": "baseline",
+  "live_api_readback": true,
+  "counts": {
+    "samples": 0,
+    "event_revisions": 0,
+    "memory_proposals": 0,
+    "evidence_pages": 0,
+    "page_transcripts": 0,
+    "event_confirmations": 0,
+    "inventory_transactions": 0,
+    "chemicals": 0,
+    "inventory_subtasks": 0,
+    "inventory_adjustment_proposals": 0,
+    "resources": 0,
+    "resource_bookings": 0,
+    "bookings": 0,
+    "agent_runs": 0,
+    "assistant_jobs": 0
+  },
+  "cards": {
+    "samples": [],
+    "unassigned_records": [],
+    "source_notes": [],
+    "acceptance_policy": "default_accept_with_corrections",
+    "scope": [
+      "simulated_mof_english_fast_20261029"
+    ]
+  },
+  "contexts": [],
+  "view_comparisons": [],
+  "source_catalog": [],
+  "pages": [],
+  "active": {
+    "assistant_jobs": 0,
+    "agent_runs": 0
+  },
+  "active_run_tokens": 0
+}

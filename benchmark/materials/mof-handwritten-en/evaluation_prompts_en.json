@@ -1,0 +1,21 @@
+{
+  "language": "en",
+  "prompts": [
+    {
+      "id": "L1",
+      "prompt": "Reconstruct the complete experimental timeline of sample `Zr-BDC-02`, from reagent charging on October 12 to performance testing on October 19. Identify any experimental problems encountered and explain how they were resolved."
+    },
+    {
+      "id": "L2",
+      "prompt": "`Zr-BDC-03` was intended to have larger mesopores. Why did it end up with the poorest CO₂ capture and humidity resistance? Build a complete causal explanation using the synthesis, workup and characterization evidence."
+    },
+    {
+      "id": "H1",
+      "prompt": "Summarize the synthesis recipes, structural parameters (BET area, pore volumes, pore sizes and defect counts), and adsorption performance at 298 K for `Zr-BDC-01`, `Zr-BDC-02` and `Zr-BDC-03` in one comparison table. Normalize all masses to mg, CO₂ uptake at 298 K to mmol/g, and partial pressures to bar."
+    },
+    {
+      "id": "H2",
+      "prompt": "Compare the three samples. How do acid-modulator strength and loading, together with synthesis temperature, affect UiO-66 pore structure, defect concentration and CO₂/N₂ separation? Do the results follow a volcano-type relationship?"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+SIMULATED RECORD; reused real OCR transcript; no new OCR.
+LAB NOTEBOOK P01
+Date: 2026-10-12 (Mon) | Sunny | Room 23 °C | RH 45%　【红笔下划线：日期】
+Topic: UiO-66 defect engineering – first synthesis batches
+(Zr-BDC-01 & Zr-BDC-02)　【红笔下划线：主题】
+1. Batch EXP-1012-A (label: Zr-BDC-01)
+- Charge: ZrCl₄ ~~200 mg~~ → 233.2 mg *
+(1.0 mmol; 【红色波浪下划线】reweighed – balance was not zeroed) + H₂BDC 166.1 mg
+(1.0 mmol), into a 50 mL PTFE liner.
+- Solvent / modulator: 30 mL DMF; sonicate 10 min until mostly clear.
+【页边左侧曲线箭头，向下延伸至第2段 —— [unclear:批注归属]】
+Add glacial acetic acid (AA) 1.72 mL (30 eq), then DI water 100 μL.
+- Stir 15 min, seal autoclave → Oven #1, 【红圈】120 °C.
+Start 14:00; planned reaction time 【红圈】24 h.
+2. Batch EXP-1012-B (label: Zr-BDC-02)
+- Metal salt, linker, DMF and water: 【红色下划线】SAME AS PREVIOUS BATCH
+(Zr-BDC-01).
+Actual weights: ZrCl₄ 233.5 mg; H₂BDC 166.0 mg.
+- Change: replace AA with stronger 【红字】trifluoroacetic acid (TFA),
+still 30 eq.
+TFA ~~2.0 mL~~ → 2.30 mL 【红字】(volume recalculated from density –
+nearly underdosed!).
+- Slight warming on addition; solution stays clear.
+- Together with 01 in Oven #1, 120 °C; start 14:00.
+Set alarm for tomorrow 14:00 【红圈】24 h.
+【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】
+Autoclave →　（高压釜螺盖草图）
+50 mL PTFE liner →　（衬胆草图）
+AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】
+TFA (stronger competition/ more defects?) →【箭头指向簇结构图】
+【簇结构草图，内标 Zr、O 等原子记号】
+Zr₆ cluster

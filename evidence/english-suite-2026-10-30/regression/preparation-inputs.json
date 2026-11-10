@@ -1,0 +1,56 @@
+{
+  "prepared_at_utc": "2026-10-29T01:38:35.966826+00:00",
+  "archive": "C:\\Users\\yu\\Desktop\\Chemclaw 论文 (1)\\chemclaw_mof_handwritten_records_suite_en.zip",
+  "archive_sha256": "91d68d46b7e5acbc46fc7cdac5a35165140110f1abf1ee4c7a39b01b9ccd5fc8",
+  "images": [
+    {
+      "id": "P01",
+      "name": "P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2.jpg",
+      "archive_member": "images/P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2.jpg",
+      "bytes": 828023,
+      "sha256": "17ae18a80c7fc0d66a576cc24217315962f1be1ea60fe469b640c958f7c925fc"
+    },
+    {
+      "id": "P02",
+      "name": "P02_2026-10-13_Washing_and_Batch3_Synthesis.jpg",
+      "archive_member": "images/P02_2026-10-13_Washing_and_Batch3_Synthesis.jpg",
+      "bytes": 777161,
+      "sha256": "951a185c33a56b0eef462ba76a93748fd2d2b76588a21d774e3e6697ddb91494"
+    },
+    {
+      "id": "P03",
+      "name": "P03_2026-10-15_Vacuum_Activation_and_FTIR_Check.jpg",
+      "archive_member": "images/P03_2026-10-15_Vacuum_Activation_and_FTIR_Check.jpg",
+      "bytes": 864716,
+      "sha256": "f01eb65e6d0ba67ca494549283b430e3a9ebfdc7269370adf670f7c5a5d27d2d"
+    },
+    {
+      "id": "P04",
+      "name": "P04_2026-10-16_PXRD_SEM_FTIR_Summary.jpg",
+      "archive_member": "images/P04_2026-10-16_PXRD_SEM_FTIR_Summary.jpg",
+      "bytes": 850318,
+      "sha256": "0d89283541d25d897abb617e2387b4658b4238c12d63dfa004cd7a24b0d9ec53"
+    },
+    {
+      "id": "P05",
+      "name": "P05_2026-10-17_77K_N2_BET_and_TGA_Defects.jpg",
+      "archive_member": "images/P05_2026-10-17_77K_N2_BET_and_TGA_Defects.jpg",
+      "bytes": 877506,
+      "sha256": "c5bb907aed2b0b9525a2496d8a8620f6828d0e5fa5b0c13a91c3e790dfd250e3"
+    },
+    {
+      "id": "P06",
+      "name": "P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough.jpg",
+      "archive_member": "images/P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough.jpg",
+      "bytes": 963584,
+      "sha256": "da90659434ce69b58691e6e1ed1db9ff5f36d52bedb8eb6b1ff587308490248d"
+    }
+  ],
+  "public_protocol": {
+    "path": "protocol-public.json",
+    "sha256": "e0b50e24a93fade00dc6ee71a0c7e1be1ebb85cba248b8e1d9c2c7008d397e59"
+  },
+  "public_prompts_sha256": "0890a919ac88527a7f307da06af8374ac3c757f2f93306921a3a30cc4ae4b0bb",
+  "reference_text_in_product_input": false,
+  "gold_in_product_input": false
+}

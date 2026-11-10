@@ -1,0 +1,385 @@
+{
+  "source_numeric_scoring": "none found; evaluator freezes equal 25-point questions",
+  "total": 100,
+  "questions": {
+    "L1": [
+      {
+        "id": "L1.recipe",
+        "points": 5,
+        "fact_ids": [
+          "F02"
+        ],
+        "equal_weight_atoms": [
+          "Oct12 and correct sample/batch identity",
+          "actual pair of masses with base recipe inheritance",
+          "DMF and water quantities",
+          "final TFA volume/equivalents and correction",
+          "120 C nominal 24 h"
+        ]
+      },
+      {
+        "id": "L1.recovery",
+        "points": 3,
+        "fact_ids": [
+          "F03",
+          "F05"
+        ],
+        "equal_weight_atoms": [
+          "Oct13 recovery and fine-particle centrifugation solution at 9500 rpm",
+          "three DMF washes",
+          "MeOH exchange 48 h and three replacements"
+        ]
+      },
+      {
+        "id": "L1.rework",
+        "points": 6,
+        "fact_ids": [
+          "F06",
+          "F07"
+        ],
+        "equal_weight_atoms": [
+          "Oct15 initial vacuum 120 C for 4 h",
+          "FTIR DMF 1660 and CF near1180 bands with incomplete removal diagnosis",
+          "additional vacuum150 C for8 h,12 h total",
+          "repeat DMF disappearance and CF weakening show improvement",
+          "final215 mg off-white product"
+        ]
+      },
+      {
+        "id": "L1.characterization",
+        "points": 4,
+        "fact_ids": [
+          "F11",
+          "F16",
+          "F18"
+        ],
+        "equal_weight_atoms": [
+          "Oct16 retained framework and reo-domain interpretation",
+          "Oct17 BET1620 and hierarchical pores",
+          "missing-linker1.38 perZr6 and moderate defects"
+        ]
+      },
+      {
+        "id": "L1.performance",
+        "points": 5,
+        "fact_ids": [
+          "F20",
+          "F22",
+          "F23",
+          "F24"
+        ],
+        "equal_weight_atoms": [
+          "Oct19 CO2 298K 1bar3.42 mmol/g with correct STP conversion if raw mentioned",
+          "low-pressure1.28 mmol/g at0.15bar",
+          "Qst34.8 and IAST54.2 with separation conditions",
+          "dry breakthrough41.5 min/g and dry cycling98.4%",
+          "humid94.6% plus150C recoverability"
+        ]
+      },
+      {
+        "id": "L1.integrity",
+        "points": 2,
+        "fact_ids": [
+          "F02",
+          "F06",
+          "F07",
+          "F24"
+        ],
+        "equal_weight_atoms": [
+          "chronology and stage/sample ownership remain coherent",
+          "problem-to-correction links are supported; no invented full removal or collapse"
+        ]
+      }
+    ],
+    "L2": [
+      {
+        "id": "L2.synthesis",
+        "points": 4,
+        "fact_ids": [
+          "F04",
+          "F08"
+        ],
+        "equal_weight_atoms": [
+          "60eq TFA with increased0.5mL water",
+          "160C for36h harsh synthesis contrasted to intent",
+          "excess coordination/etching framed as notebook explanation or supported hypothesis"
+        ]
+      },
+      {
+        "id": "L2.workup",
+        "points": 4,
+        "fact_ids": [
+          "F08",
+          "F09",
+          "F13"
+        ],
+        "equal_weight_atoms": [
+          "acetone rapid exchange24h instead of MeOH",
+          "P03 plan and P04 actual180C12h activation",
+          "OH3674cm-1 loss and dehydroxylation interpretation"
+        ]
+      },
+      {
+        "id": "L2.degradation",
+        "points": 6,
+        "fact_ids": [
+          "F12",
+          "F18"
+        ],
+        "equal_weight_atoms": [
+          "apparent2.35 missing linkers perZr6 and weak connectivity",
+          "PXRD~55% crystallinity with broadening/amorphization",
+          "SEM fragmentation/etching/cracks",
+          "weak30.2degree ZrO2 assignment explicitly tentative",
+          "thermal stability loss Td435C"
+        ]
+      },
+      {
+        "id": "L2.pores",
+        "points": 4,
+        "fact_ids": [
+          "F17"
+        ],
+        "equal_weight_atoms": [
+          "BET740m2/g",
+          "micropore volume0.21cm3/g and diminished0.85nm cages",
+          "broad2.6-3.2nm disordered pores do not compensate for lost accessible micropores"
+        ]
+      },
+      {
+        "id": "L2.performance",
+        "points": 4,
+        "fact_ids": [
+          "F21",
+          "F22",
+          "F24"
+        ],
+        "equal_weight_atoms": [
+          "CO2 298K1bar1.52mmol/g and IAST21.0",
+          "RH50% loss38.5%/retained61.5% afterfivecycles",
+          "posthumidityBET430m2/g and hydrolysis/collapse as source attribution"
+        ]
+      },
+      {
+        "id": "L2.causal_quality",
+        "points": 3,
+        "fact_ids": [
+          "F04",
+          "F08",
+          "F09",
+          "F12",
+          "F13",
+          "F17",
+          "F18",
+          "F22",
+          "F24"
+        ],
+        "equal_weight_atoms": [
+          "complete evidence-linked chain from harsh recipe/workup through reduced integrity/micropores to capture and wet failure",
+          "does not equate larger pores or total defects with necessarily better capture; residual affinity can remain",
+          "does not prove isolated acetone/water/acid/temperature effect or certain impurity from confounded observations"
+        ]
+      }
+    ],
+    "H1": [
+      {
+        "id": "H1.recipes",
+        "points": 6,
+        "fact_ids": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "equal_weight_atoms": [
+          "correct three metal/linker mass pairs in mg",
+          "correct three modulator identities and loadings/volumes with crossed-out values rejected",
+          "water for all three with correct inherited02 amount",
+          "DMF for all three",
+          "reaction temperatures for all three",
+          "reaction durations for all three"
+        ]
+      },
+      {
+        "id": "H1.workup",
+        "points": 2,
+        "fact_ids": [
+          "F05",
+          "F07",
+          "F08",
+          "F09"
+        ],
+        "equal_weight_atoms": [
+          "MeOH48h for01/02 versus acetone24h for03",
+          "correct three activation protocols including02 two-stage rework",
+          "correct three product masses in mg"
+        ]
+      },
+      {
+        "id": "H1.structure",
+        "points": 8,
+        "fact_ids": [
+          "F10",
+          "F11",
+          "F12",
+          "F15",
+          "F16",
+          "F17",
+          "F18"
+        ],
+        "equal_weight_atoms": [
+          "three BET values with m2/g",
+          "three total pore volumes with cm3/g",
+          "three micropore volumes plus02mesoporevolume with cm3/g",
+          "three pore-size descriptions including weak/broad03 and bimodal02",
+          "three missing-linker counts perZr6",
+          "thermal decomposition trend/values",
+          "phase/crystallinity distinction including tentative impurity",
+          "morphology and size comparison"
+        ]
+      },
+      {
+        "id": "H1.adsorption",
+        "points": 7,
+        "fact_ids": [
+          "F19",
+          "F20",
+          "F21",
+          "F22",
+          "F23",
+          "F24"
+        ],
+        "equal_weight_atoms": [
+          "three298K1barCO2 values in mmol/g",
+          "three298K0.15barCO2 values in mmol/g",
+          "three298K1barN2 values with units",
+          "threeQst0 values with kJ/mol",
+          "threeIAST values with298K1bar15:85 condition",
+          "three dry breakthrough values with min/g",
+          "dry and humid retention correctly separated for all samples"
+        ]
+      },
+      {
+        "id": "H1.normalization",
+        "points": 2,
+        "fact_ids": [
+          "F02",
+          "F04",
+          "F20",
+          "F23"
+        ],
+        "equal_weight_atoms": [
+          "all masses reported in mg including packed mass if present;03 g-to-mg conversion",
+          "02STP conversion and lowpressure kPa-to-bar correct; conditions clear",
+          "one comparison table with sample ownership and readable units"
+        ]
+      }
+    ],
+    "H2": [
+      {
+        "id": "H2.recipe_axis",
+        "points": 4,
+        "fact_ids": [
+          "F01",
+          "F02",
+          "F04",
+          "F08",
+          "F09"
+        ],
+        "equal_weight_atoms": [
+          "01AA30eq versus02strongerTFA30eq at120C24h",
+          "03TFA60eq and160C36h, increasedwater",
+          "03changedworkup and180Cactivation acknowledged as joint differences"
+        ]
+      },
+      {
+        "id": "H2.moderate_defects",
+        "points": 6,
+        "fact_ids": [
+          "F11",
+          "F15",
+          "F16",
+          "F18",
+          "F22"
+        ],
+        "equal_weight_atoms": [
+          "missinglinkers0.30to1.38",
+          "retainedframework/reo assignment and0.85+1.85nm defectcages",
+          "BET1180to1620m2/g and increased accessible pore volume",
+          "openZr affinity/source interpretation andQst26.5to34.8kJ/mol"
+        ]
+      },
+      {
+        "id": "H2.excess_defects",
+        "points": 5,
+        "fact_ids": [
+          "F12",
+          "F13",
+          "F17",
+          "F18"
+        ],
+        "equal_weight_atoms": [
+          "apparent2.35 missing linkers, weaker connectivity",
+          "micropore loss/collapse and disordered2.6-3.2nm pores withBET740",
+          "lowercrystallinity/etched morphology andOHloss support damage",
+          "Td435C and worsewetstability"
+        ]
+      },
+      {
+        "id": "H2.performance",
+        "points": 5,
+        "fact_ids": [
+          "F19",
+          "F20",
+          "F21",
+          "F22",
+          "F23",
+          "F24"
+        ],
+        "equal_weight_atoms": [
+          "lowpressureCO2 0.52to1.28to0.41 at298K0.15bar",
+          "IAST28.4to54.2to21.0 withconditions",
+          "01versus02versus03capacity/order and practicalbreakthrough support02best",
+          "03Qst29.1 remains above01 despite worsecapacity/selectivity; affinity not sole driver",
+          "wetstability nuance:01best fractionalretention,02good/recoverable,03severedeactivation"
+        ]
+      },
+      {
+        "id": "H2.volcano",
+        "points": 3,
+        "fact_ids": [
+          "F15",
+          "F16",
+          "F17",
+          "F18",
+          "F22"
+        ],
+        "equal_weight_atoms": [
+          "recognizes rise then fall across tested defects with02best",
+          "balances accessible micro/hierarchical pores and affinity against connectivity/stability",
+          "qualifies volcano as descriptive three-sample trend, not independently established universal law"
+        ]
+      },
+      {
+        "id": "H2.causal_limits",
+        "points": 2,
+        "fact_ids": [
+          "F01",
+          "F02",
+          "F04",
+          "F08",
+          "F09"
+        ],
+        "equal_weight_atoms": [
+          "uses notebook-attributed or evidence-supported mechanisms without declaring correlation proof",
+          "does not isolate acidstrength/loading/temperature effects or invent a validated threshold/optimum"
+        ]
+      }
+    ]
+  },
+  "atom_scoring": {
+    "correct": 1,
+    "partial": 0.5,
+    "wrong_or_absent": 0
+  },
+  "pre_output": true
+}

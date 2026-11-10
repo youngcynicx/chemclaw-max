@@ -1,0 +1,32 @@
+{
+  "agent_id": "alice_inventory",
+  "version": "1.0.0",
+  "mode": "inventory",
+  "display_name": "Alice inventory（S07 跨域闭环）",
+  "required_capabilities": [
+    "inventory.query.list",
+    "inventory.message.process",
+    "inventory.subtask.status",
+    "inventory.subtask.execute",
+    "inventory.subtask.resolve",
+    "inventory.adjustment.propose",
+    "inventory.adjustment.apply",
+    "task.read"
+  ],
+  "triggers": ["record_inventory", "cross_domain_consumption"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "raw_text": { "type": "string" },
+      "subtask_id": { "type": "string" },
+      "expected_revision": { "type": "integer" }
+    }
+  },
+  "context_scope": { "project_ids": "auto" },
+  "timeout_s": 900,
+  "tool_call_budget": 30,
+  "max_delegation_depth": 0,
+  "retry": { "max_attempts": 2 },
+  "system_prompt_ref": "prompts/alice_inventory_1.0.0",
+  "_note": "S07：跨域库存子任务的确定性执行者。库存写入只走 inventory.* 能力；事件事实与审批在 B 域与 Core。"
+}

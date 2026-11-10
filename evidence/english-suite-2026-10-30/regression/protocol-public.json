@@ -1,0 +1,35 @@
+{
+  "language": "en",
+  "public_instruction": "This project contains simulated English laboratory notebook records supplied chronologically as images. Read and organize each supplied page, preserving sample identity, provenance, recorded corrections, units, conditions and uncertainty. Use the project state and available tools to maintain the experimental record. Do not invent missing measurements or treat planned operations as completed. Answer in English.",
+  "stages": [
+    {
+      "id": "L1",
+      "task": "Reconstruct the complete experimental timeline of sample `Zr-BDC-02`, from reagent charging on October 12 to performance testing on October 19. Identify any experimental problems encountered and explain how they were resolved.",
+      "new_images": [
+        "P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2.jpg",
+        "P02_2026-10-13_Washing_and_Batch3_Synthesis.jpg",
+        "P03_2026-10-15_Vacuum_Activation_and_FTIR_Check.jpg",
+        "P04_2026-10-16_PXRD_SEM_FTIR_Summary.jpg",
+        "P05_2026-10-17_77K_N2_BET_and_TGA_Defects.jpg",
+        "P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough.jpg"
+      ]
+    },
+    {
+      "id": "L2",
+      "task": "`Zr-BDC-03` was intended to have larger mesopores. Why did it end up with the poorest CO₂ capture and humidity resistance? Build a complete causal explanation using the synthesis, workup and characterization evidence.",
+      "new_images": []
+    },
+    {
+      "id": "H1",
+      "task": "Summarize the synthesis recipes, structural parameters (BET area, pore volumes, pore sizes and defect counts), and adsorption performance at 298 K for `Zr-BDC-01`, `Zr-BDC-02` and `Zr-BDC-03` in one comparison table. Normalize all masses to mg, CO₂ uptake at 298 K to mmol/g, and partial pressures to bar.",
+      "new_images": []
+    },
+    {
+      "id": "H2",
+      "task": "Compare the three samples. How do acid-modulator strength and loading, together with synthesis temperature, affect UiO-66 pore structure, defect concentration and CO₂/N₂ separation? Do the results follow a volcano-type relationship?",
+      "new_images": []
+    }
+  ],
+  "order": "P01-P06, then L1, L2, H1, H2 in one session",
+  "evaluation_separation": "Images and public prompts only; no transcripts, gold or image-generation prompts."
+}

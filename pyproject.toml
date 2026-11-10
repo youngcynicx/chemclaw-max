@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chemclaw-lab"
+version = "0.4.1"
+description = "Benchmarkable policy-governed chemistry lab operations assistant"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Joey" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+chemclaw = "chemclaw_lab.cli:main"
+
+[project.optional-dependencies]
+imaging = ["Pillow>=10"]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+  "websocket-client>=1.8",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+chemclaw_lab = ["schemas/*.json"]
+
+[tool.setuptools.data-files]
+"share/chemclaw-lab/benchmark/cases" = ["benchmark/cases/*.jsonl"]
+"share/chemclaw-lab/demo_data" = ["demo_data/lab_seed.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

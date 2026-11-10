@@ -1,0 +1,30 @@
+{
+  "agent_id": "planner",
+  "version": "1.0.0",
+  "mode": "planner",
+  "display_name": "Planner（实验规划与预约）",
+  "required_capabilities": [
+    "resource.list",
+    "resource.availability",
+    "resource.booking.propose",
+    "resource.booking.status",
+    "task.read"
+  ],
+  "triggers": ["plan_experiment"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "goal": { "type": "string" },
+      "resource_id": { "type": "string" },
+      "window_start": { "type": "string" },
+      "window_end": { "type": "string" }
+    },
+    "required": ["goal"]
+  },
+  "context_scope": { "project_ids": "auto" },
+  "timeout_s": 900,
+  "tool_call_budget": 20,
+  "max_delegation_depth": 0,
+  "retry": { "max_attempts": 2 },
+  "system_prompt_ref": "prompts/planner_1.0.0"
+}

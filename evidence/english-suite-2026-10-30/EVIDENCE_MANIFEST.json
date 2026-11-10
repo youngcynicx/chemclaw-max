@@ -1,0 +1,232 @@
+{
+  "files": [
+    {
+      "path": "audit_persistence.py",
+      "sha256": "10ffbb14ce9b02ab89aafceac9596ea2142f89234bee10e6f2a91431cf0046d3",
+      "bytes": 7168
+    },
+    {
+      "path": "evaluation/current-freeze.json",
+      "sha256": "5cf30801825768230600388b18fccce8da6160ba108b27294de722d3800b2aa5",
+      "bytes": 914
+    },
+    {
+      "path": "evaluation/frozen_question_rubric.json",
+      "sha256": "ae3f2a6ee04aa142b21ec1a3b29e2f76cb11f307a17197707a0867b5fe6b032c",
+      "bytes": 11076
+    },
+    {
+      "path": "evaluation/persistent_knowledge_audit.json",
+      "sha256": "1baea6376fc61c43fa4e6e64f9c12b435c7b2b53be7a22438c316bb2dcb3c746",
+      "bytes": 65177
+    },
+    {
+      "path": "evaluation/score_answers.py",
+      "sha256": "10584cc7774c7dd5de0504b3def229648dee8916826846927fe38ce193a8c0dc",
+      "bytes": 7115
+    },
+    {
+      "path": "evaluation/scored_items.json",
+      "sha256": "e0703098ed8bad08806936e4874ec3c6f2fdf1532df9c50e0ccc39febae20c0f",
+      "bytes": 21980
+    },
+    {
+      "path": "final_integrity.py",
+      "sha256": "b980b4bfbd409605c80d5a0e1f59f732e5d73d4358ea863cfe123d925f0bf1fa",
+      "bytes": 6156
+    },
+    {
+      "path": "health-after.json",
+      "sha256": "97f0813369f451c9b6fb4440086fcca88b5530d878c27a2481aab2f61ed0b76b",
+      "bytes": 608
+    },
+    {
+      "path": "health-before.json",
+      "sha256": "00f6a4d16118d17e16fb6a50a7472ef75a3739ff962d23d0fb1a908812976bee",
+      "bytes": 609
+    },
+    {
+      "path": "observe_retained.py",
+      "sha256": "9f6362ebdb786badb0a8a56989195f2c0dd3e139546ada06fcd49288179446c2",
+      "bytes": 1934
+    },
+    {
+      "path": "preparation.json",
+      "sha256": "db9a8ed5a5561d4dc4798c4321c48f67501990160ea9071fdc6283ddeb692b46",
+      "bytes": 1666
+    },
+    {
+      "path": "regression/checkpoint-read-audit.json",
+      "sha256": "0202339aec39a4a9da6d40d3e185c32f0661f5fd7b093cfb438617dccf22df67",
+      "bytes": 80027
+    },
+    {
+      "path": "regression/delivered-outputs/export-proof.json",
+      "sha256": "68302d954140d7653769c7e21d96fbd7c95fc82b17cc8b43c5068ce320c1a8d7",
+      "bytes": 9792
+    },
+    {
+      "path": "regression/delivered-outputs/H1.md",
+      "sha256": "3369b2f991974640dbfbe2f68828799fca33a334e0d07edd1517816841211a9a",
+      "bytes": 3883
+    },
+    {
+      "path": "regression/delivered-outputs/H2.md",
+      "sha256": "4331b398feadb78385b78fe5d86e1e5d306754284c8f9e173993418ca18c3a4c",
+      "bytes": 4632
+    },
+    {
+      "path": "regression/delivered-outputs/L1.md",
+      "sha256": "f59f9ff8ff07147418a773e2c064e4473f1443984f7764df774ebaebf9abaa81",
+      "bytes": 5875
+    },
+    {
+      "path": "regression/delivered-outputs/L2.md",
+      "sha256": "049715e72bb6eaf7304c16e9b5c91f1f3404181d6da26bda09504554857249db",
+      "bytes": 6255
+    },
+    {
+      "path": "regression/delivered-outputs/P01.md",
+      "sha256": "ed94c78138beeb723503f5a037315020163a96a127f670569f45f80aca8e8a84",
+      "bytes": 2578
+    },
+    {
+      "path": "regression/delivered-outputs/P02.md",
+      "sha256": "0dddf16a951eb6a04c973dc4ffec9f05503d5ff71fc68c94c14f9d82167cb06b",
+      "bytes": 3251
+    },
+    {
+      "path": "regression/delivered-outputs/P03.md",
+      "sha256": "3f608a4c1472e8723473fcb0ff7896f5cb0c84a51df1befdbce53e549b0952c3",
+      "bytes": 1381
+    },
+    {
+      "path": "regression/delivered-outputs/P04.md",
+      "sha256": "ce9ff3da58212a13f103e3cd49713f2bb078b4204c53ab05b120d386adf6fb2f",
+      "bytes": 3408
+    },
+    {
+      "path": "regression/delivered-outputs/P05.md",
+      "sha256": "f6f434a14b89379cc5f19c505237b15bcdd933bebfd809fbfdcd76f6a2dc4dcb",
+      "bytes": 3356
+    },
+    {
+      "path": "regression/delivered-outputs/P06.md",
+      "sha256": "377b4b4a22c7640400f0b04f800d9effbd55bc7df991db9d9214190314500400",
+      "bytes": 3329
+    },
+    {
+      "path": "regression/final-integrity.json",
+      "sha256": "b64b3b3331dffb87b4971627cb09eeb0d068468c2dea281d0b439dbc6a7f0777",
+      "bytes": 7066
+    },
+    {
+      "path": "regression/preparation-inputs.json",
+      "sha256": "eb7cd28954975ca79e74d6a751000159d71a34b92ea53417db4955224154257c",
+      "bytes": 2353
+    },
+    {
+      "path": "regression/protocol-public.json",
+      "sha256": "e0b50e24a93fade00dc6ee71a0c7e1be1ebb85cba248b8e1d9c2c7008d397e59",
+      "bytes": 2320
+    },
+    {
+      "path": "regression/provider-observations.json",
+      "sha256": "5bae8f2b546e44f402bf67bf22e4f94a398b23a0ec9cdca72ea84455662dc116",
+      "bytes": 164893
+    },
+    {
+      "path": "regression/run/baseline-readback.json",
+      "sha256": "6ed8ca079187691fbdae7bfba7282dfb2134c449323dc12fc3b119dda3fc9f64",
+      "bytes": 885
+    },
+    {
+      "path": "regression/run/final-live-readback.json",
+      "sha256": "bde552642125c211e98595ff13d2718e3e1d7f7208ec3e0cd9004cd8ff5cbe44",
+      "bytes": 1327140
+    },
+    {
+      "path": "regression/run/final-readback.json",
+      "sha256": "9ff0be0738c4a4247d4529de6a3629b63088d4822c69c2a9c525a05e58b9d184",
+      "bytes": 331384
+    },
+    {
+      "path": "regression/run/H1-readback.json",
+      "sha256": "37dec611549995824d1d0be20657135a4c0e0482b2fb20aabde1e96b1276cb6b",
+      "bytes": 1327131
+    },
+    {
+      "path": "regression/run/H2-readback.json",
+      "sha256": "c9dbf2b9176003a0141a6f82bdfdfa4536a227aef4dd09e0bf1f492123268be0",
+      "bytes": 1327132
+    },
+    {
+      "path": "regression/run/L1-readback.json",
+      "sha256": "97a1015a03943a54bac814e5d71d1affca68a4483aa1877059e542b8f2e5936b",
+      "bytes": 1327131
+    },
+    {
+      "path": "regression/run/L2-readback.json",
+      "sha256": "9cc89fc53eedc7c8428bcfaffdc04c9eee36ffdbcc8134def115cb90ec7d243e",
+      "bytes": 1327131
+    },
+    {
+      "path": "regression/run/manifest.json",
+      "sha256": "a2f00ce61ff3c507bff8468b4018a814a21f89945a3adce4fb2902009507bd0c",
+      "bytes": 41504
+    },
+    {
+      "path": "regression/run/upload-P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2-readback.json",
+      "sha256": "b1f7af375f69515675db8f5e845bf7d1c16d57b55336d7ab1cfb73f80dd296df",
+      "bytes": 190320
+    },
+    {
+      "path": "regression/run/upload-P02_2026-10-13_Washing_and_Batch3_Synthesis-readback.json",
+      "sha256": "afcb40b3419e4dea788b235a8dd1e8ea1080346a5855f09143b8eb781b39ad45",
+      "bytes": 364737
+    },
+    {
+      "path": "regression/run/upload-P03_2026-10-15_Vacuum_Activation_and_FTIR_Check-readback.json",
+      "sha256": "d0d93ba3795cfb31c86318ecedd5d20220be7530603cf5593e7af0ccb78df194",
+      "bytes": 570510
+    },
+    {
+      "path": "regression/run/upload-P04_2026-10-16_PXRD_SEM_FTIR_Summary-readback.json",
+      "sha256": "6e722d84e2bd538b49c222a72fd8f2fc2c5138ba8e4d6e56d597e623ec3622ad",
+      "bytes": 800411
+    },
+    {
+      "path": "regression/run/upload-P05_2026-10-17_77K_N2_BET_and_TGA_Defects-readback.json",
+      "sha256": "a2e81cfd7cb91399631600fe500a5e4394e0ddee43432fb24fb74fd4879949c2",
+      "bytes": 1024904
+    },
+    {
+      "path": "regression/run/upload-P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough-readback.json",
+      "sha256": "d0cda44131ee1b84ac547f40ff078560448c3e6dacbd3ffdb79a72b82ef9f227",
+      "bytes": 1327186
+    },
+    {
+      "path": "regression/run-summary.json",
+      "sha256": "0988266ec3ad02cfcd1e888911b91c8aad9a229112080d515af280cc6324bc09",
+      "bytes": 10953
+    },
+    {
+      "path": "regression/run_english_suite.py",
+      "sha256": "bd39f5918b3bd5fdadf934216c9af9f1ef05fd806a947b2e447edb10532b7d5f",
+      "bytes": 30768
+    },
+    {
+      "path": "REPORT_cn.md",
+      "sha256": "d4f9e56c61cbdf68b81a647b8b65611b87065e8d4923735342618094e1a6e9ee",
+      "bytes": 11075
+    },
+    {
+      "path": "runner.stdout.log",
+      "sha256": "07b621024b99a07db98b42cf1222c8ba9a494896ea6312c45a95b6db3775053a",
+      "bytes": 1009
+    }
+  ],
+  "scope": "Selected synthetic-development evidence; no DB, reader credentials, raw checkpoints or hidden reasoning.",
+  "evaluation": "Current assistant review, non-blind. No change to original rubric denominator.",
+  "inputs": "Six original image hashes retained; images remain in original user archive."
+}

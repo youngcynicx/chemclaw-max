@@ -1,0 +1,2200 @@
+{
+  "scope": "Selected descriptive checks of final persistent fields using frozen fact values; not a full semantic completeness score or unseen benchmark.",
+  "numeric_checks": [
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "product_mass",
+      "expected": 248,
+      "unit": "mg",
+      "actual": {
+        "normalized": 248,
+        "unit": "mg"
+      },
+      "event_id": "evt_466944b4777d54f6bf36c8467bae3216",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_ab835a917eaed714",
+          "page_id": "pg_f01eb65e6d0b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_2e126180c9e60a4c",
+          "page_id": "pg_f01eb65e6d0b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "product_mass",
+      "expected": 215,
+      "unit": "mg",
+      "actual": {
+        "normalized": 215,
+        "unit": "mg"
+      },
+      "event_id": "evt_927db2a1e3f15ff59f90347fe455ed36",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_9b04e24141767448",
+          "page_id": "pg_f01eb65e6d0b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "product_mass",
+      "expected": 162,
+      "unit": "mg",
+      "actual": {
+        "normalized": 162,
+        "unit": "mg"
+      },
+      "event_id": "evt_e8b7499258c553008e2aafd8238aaa97",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_34405e0ba379417b",
+          "page_id": "pg_0d89283541d2_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_5a3d5640bf7ff68c",
+          "page_id": "pg_0d89283541d2_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_042a8b162e8d48e3",
+          "page_id": "pg_0d89283541d2_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "bet_surface_area",
+      "expected": 1180,
+      "unit": "m²/g",
+      "actual": {
+        "normalized": 1180,
+        "unit": "m²/g"
+      },
+      "event_id": "evt_4efef644a8ae5f38b1da0fd3b4a7e78a",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_c6bcad014b1f30b4",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_16a3793a0b9729eb",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_c9e89fa4295724e3",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_a1198b526bafcae1",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "bet_surface_area",
+      "expected": 1620,
+      "unit": "m²/g",
+      "actual": {
+        "normalized": 1620,
+        "unit": "m²/g"
+      },
+      "event_id": "evt_54182a850e3c5005822a403e64f357bc",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_4c09e9713951e55b",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_0e864c82c899a6b6",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_b681a5be0e8397e3",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_d4bcfd1b148f79bb",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_8a12dd75b6aed3ca",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_95ce28b580c3be3e",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "bet_surface_area",
+      "expected": 740,
+      "unit": "m²/g",
+      "actual": {
+        "normalized": 740,
+        "unit": "m²/g"
+      },
+      "event_id": "evt_520df5d1bddc571a9d8f5aa8f9883a47",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_7d242cf3800426fa",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_9062c763bfe99322",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_baa3144944113a26",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_157a3f74b6830076",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "total_pore_volume",
+      "expected": 0.48,
+      "unit": "cm³/g",
+      "actual": {
+        "normalized": 0.48,
+        "unit": "cm³/g"
+      },
+      "event_id": "evt_4efef644a8ae5f38b1da0fd3b4a7e78a",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_c6bcad014b1f30b4",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_16a3793a0b9729eb",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_c9e89fa4295724e3",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_a1198b526bafcae1",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "total_pore_volume",
+      "expected": 0.74,
+      "unit": "cm³/g",
+      "actual": {
+        "normalized": 0.74,
+        "unit": "cm³/g"
+      },
+      "event_id": "evt_54182a850e3c5005822a403e64f357bc",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_4c09e9713951e55b",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_0e864c82c899a6b6",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_b681a5be0e8397e3",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_d4bcfd1b148f79bb",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_8a12dd75b6aed3ca",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_95ce28b580c3be3e",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "total_pore_volume",
+      "expected": 0.39,
+      "unit": "cm³/g",
+      "actual": {
+        "normalized": 0.39,
+        "unit": "cm³/g"
+      },
+      "event_id": "evt_520df5d1bddc571a9d8f5aa8f9883a47",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_7d242cf3800426fa",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_9062c763bfe99322",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_baa3144944113a26",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_157a3f74b6830076",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "micropore_volume",
+      "expected": 0.44,
+      "unit": "cm³/g",
+      "actual": {
+        "normalized": 0.44,
+        "unit": "cm³/g"
+      },
+      "event_id": "evt_4efef644a8ae5f38b1da0fd3b4a7e78a",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_c6bcad014b1f30b4",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_16a3793a0b9729eb",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_c9e89fa4295724e3",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_a1198b526bafcae1",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "micropore_volume",
+      "expected": 0.51,
+      "unit": "cm³/g",
+      "actual": {
+        "normalized": 0.51,
+        "unit": "cm³/g"
+      },
+      "event_id": "evt_54182a850e3c5005822a403e64f357bc",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_4c09e9713951e55b",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_0e864c82c899a6b6",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_b681a5be0e8397e3",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_d4bcfd1b148f79bb",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_8a12dd75b6aed3ca",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_95ce28b580c3be3e",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "micropore_volume",
+      "expected": 0.21,
+      "unit": "cm³/g",
+      "actual": {
+        "normalized": 0.21,
+        "unit": "cm³/g"
+      },
+      "event_id": "evt_520df5d1bddc571a9d8f5aa8f9883a47",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_7d242cf3800426fa",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_9062c763bfe99322",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_baa3144944113a26",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_157a3f74b6830076",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "t_decomposition",
+      "expected": 515,
+      "unit": "°C",
+      "actual": {
+        "normalized": 515,
+        "unit": "°C"
+      },
+      "event_id": "evt_63449ed31bea514c80bfd7a22ef39d8e",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_ea0a9a6d22b0a367",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "t_decomposition",
+      "expected": 490,
+      "unit": "°C",
+      "actual": {
+        "normalized": 490,
+        "unit": "°C"
+      },
+      "event_id": "evt_42c0bfd4181e5a85804c12d74dfe2f44",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_56e5079c1a7a8650",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "t_decomposition",
+      "expected": 435,
+      "unit": "°C",
+      "actual": {
+        "normalized": 435,
+        "unit": "°C"
+      },
+      "event_id": "evt_5bb4de2a9f6352dc96c9aee412a50f59",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_a43d8847fc28c3e4",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_6e3716301f31c6eb",
+          "page_id": "pg_c5bb907aed2b_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "co2_uptake_298k_1bar",
+      "expected": 1.85,
+      "unit": "mmol/g",
+      "actual": {
+        "unit": "mmol/g",
+        "value": 1.85
+      },
+      "event_id": "evt_870ee48feb745e5b9b6e18f7a41937a8",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_5fcba5513f80352b",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_288252edd39dda12",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_0c48227e493feecd",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "co2_uptake_298k_1bar_annotation_conversion",
+      "expected": 3.42,
+      "unit": "mmol/g",
+      "actual": {
+        "derived_from_annotation": "divide by 22.4 cm³/mmol",
+        "unit": "mmol/g",
+        "value": 3.42
+      },
+      "event_id": "evt_5846fbc999245d46a4b8479e4780c303",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_087927954ba80e1d",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_9295488a98718455",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_7be85b4d43f25dbf",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_4ab859f426161a87",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "co2_uptake_298k_1bar",
+      "expected": 1.52,
+      "unit": "mmol/g",
+      "actual": {
+        "unit": "mmol/g",
+        "value": 1.52
+      },
+      "event_id": "evt_2ed1812fea335d6486f8fa04a656cb14",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_5ffed1e0a4d7b526",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_ca861c14f8008b7c",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_01482e6898d97792",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "co2_uptake_298k_0.15bar",
+      "expected": 0.52,
+      "unit": "mmol/g",
+      "actual": {
+        "unit": "mmol/g",
+        "value": 0.52
+      },
+      "event_id": "evt_870ee48feb745e5b9b6e18f7a41937a8",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_5fcba5513f80352b",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_288252edd39dda12",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_0c48227e493feecd",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "co2_uptake_15kPa_298k",
+      "expected": 1.28,
+      "unit": "mmol/g",
+      "actual": {
+        "note": "original note '(2.46 × 0!)' ambiguous, preserved as written",
+        "unit": "mmol/g",
+        "value": 1.28
+      },
+      "event_id": "evt_5846fbc999245d46a4b8479e4780c303",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_087927954ba80e1d",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_9295488a98718455",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_7be85b4d43f25dbf",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_4ab859f426161a87",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "co2_uptake_298k_0.15bar",
+      "expected": 0.41,
+      "unit": "mmol/g",
+      "actual": {
+        "unit": "mmol/g",
+        "value": 0.41
+      },
+      "event_id": "evt_2ed1812fea335d6486f8fa04a656cb14",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_5ffed1e0a4d7b526",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_ca861c14f8008b7c",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_01482e6898d97792",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "n2_uptake_298k_1bar",
+      "expected": 0.14,
+      "unit": "mmol/g",
+      "actual": {
+        "unit": "mmol/g",
+        "value": 0.14
+      },
+      "event_id": "evt_870ee48feb745e5b9b6e18f7a41937a8",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_5fcba5513f80352b",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_288252edd39dda12",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_0c48227e493feecd",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "n2_uptake_298k_1bar",
+      "expected": 0.16,
+      "unit": "mmol/g",
+      "actual": {
+        "unit": "mmol/g",
+        "value": 0.16
+      },
+      "event_id": "evt_5846fbc999245d46a4b8479e4780c303",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_087927954ba80e1d",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_9295488a98718455",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_7be85b4d43f25dbf",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_4ab859f426161a87",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "n2_uptake_298k_1bar",
+      "expected": 0.13,
+      "unit": "mmol/g",
+      "actual": {
+        "unit": "mmol/g",
+        "value": 0.13
+      },
+      "event_id": "evt_2ed1812fea335d6486f8fa04a656cb14",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_5ffed1e0a4d7b526",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_ca861c14f8008b7c",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_01482e6898d97792",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "iast_selectivity_co2_n2_298k_1bar_15_85",
+      "expected": 28.4,
+      "unit": "dimensionless",
+      "actual": {
+        "mixture": "CO₂:N₂ = 15:85",
+        "temperature": "298 K",
+        "unit": "dimensionless",
+        "value": 28.4
+      },
+      "event_id": "evt_1b83c046b29e5bc59eba03abea9274f7",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_c601be09f920017e",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_6408fe2277b925ad",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_1e754c55c1021417",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "iast_selectivity_co2_n2_298k_1bar_15_85",
+      "expected": 54.2,
+      "unit": "dimensionless",
+      "actual": {
+        "mixture": "CO₂:N₂ = 15:85",
+        "temperature": "298 K",
+        "unit": "dimensionless",
+        "value": 54.2
+      },
+      "event_id": "evt_baab363b95ba5f7bb1788733f4ec4563",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_bfa5d50536d5af7d",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_6408fe2277b925ad",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_1e754c55c1021417",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "iast_selectivity_co2_n2_298k_1bar_15_85",
+      "expected": 21,
+      "unit": "dimensionless",
+      "actual": {
+        "mixture": "CO₂:N₂ = 15:85",
+        "temperature": "298 K",
+        "unit": "dimensionless",
+        "value": 21
+      },
+      "event_id": "evt_ceb750652a345ca98119d481042add8c",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_2212fc8d7b2942e6",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_6408fe2277b925ad",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_1e754c55c1021417",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "qst_zero_coverage",
+      "expected": 26.5,
+      "unit": "kJ/mol",
+      "actual": {
+        "method": "Virial fit to 273/298 K isotherms",
+        "unit": "kJ/mol",
+        "value": 26.5
+      },
+      "event_id": "evt_1b83c046b29e5bc59eba03abea9274f7",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_c601be09f920017e",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_6408fe2277b925ad",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_1e754c55c1021417",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "qst_zero_coverage",
+      "expected": 34.8,
+      "unit": "kJ/mol",
+      "actual": {
+        "method": "Virial fit to 273/298 K isotherms",
+        "unit": "kJ/mol",
+        "value": 34.8
+      },
+      "event_id": "evt_baab363b95ba5f7bb1788733f4ec4563",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_bfa5d50536d5af7d",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_6408fe2277b925ad",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_1e754c55c1021417",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "qst_zero_coverage",
+      "expected": 29.1,
+      "unit": "kJ/mol",
+      "actual": {
+        "method": "Virial fit to 273/298 K isotherms",
+        "unit": "kJ/mol",
+        "value": 29.1
+      },
+      "event_id": "evt_ceb750652a345ca98119d481042add8c",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_2212fc8d7b2942e6",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_6408fe2277b925ad",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_1e754c55c1021417",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "co2_breakthrough_dry",
+      "expected": 23,
+      "unit": "min/g",
+      "actual": {
+        "unit": "min/g",
+        "value": 23
+      },
+      "event_id": "evt_1045878983f05a18bf6cd43347c5a618",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_7102547ce47c891c",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "co2_breakthrough_dry",
+      "expected": 41.5,
+      "unit": "min/g",
+      "actual": {
+        "unit": "min/g",
+        "value": 41.5
+      },
+      "event_id": "evt_de67108691555166a4a1f359c01eaec2",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_7102547ce47c891c",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "co2_breakthrough_dry",
+      "expected": 16.8,
+      "unit": "min/g",
+      "actual": {
+        "unit": "min/g",
+        "value": 16.8
+      },
+      "event_id": "evt_c87554e971135459aec86a60d976d211",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_7102547ce47c891c",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "cycle_retention_dry_5cycles",
+      "expected": 99.1,
+      "unit": "%",
+      "actual": {
+        "unit": "%",
+        "value": 99.1
+      },
+      "event_id": "evt_4b07cff8932d511b808fd93e881ab2da",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_319064b033f724fe",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "cycle_retention_dry_5cycles",
+      "expected": 98.4,
+      "unit": "%",
+      "actual": {
+        "unit": "%",
+        "value": 98.4
+      },
+      "event_id": "evt_097e0968c0cb52468995a158d46246b5",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_319064b033f724fe",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "cycle_retention_dry_5cycles",
+      "expected": 94,
+      "unit": "%",
+      "actual": {
+        "unit": "%",
+        "value": 94
+      },
+      "event_id": "evt_1fbf5ed1ee765f3d8a6972f8581e2750",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_319064b033f724fe",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-01",
+      "metric": "working_capacity_retention_humid_5cycles",
+      "expected": 97.8,
+      "unit": "%",
+      "actual": {
+        "unit": "%",
+        "value": 97.8
+      },
+      "event_id": "evt_9c609d0f4f295f94b50068f22a5c9f73",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_b362017eadac03f8",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_14053117eabb72c1",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-02",
+      "metric": "working_capacity_retention_humid_5cycles",
+      "expected": 94.6,
+      "unit": "%",
+      "actual": {
+        "unit": "%",
+        "value": 94.6
+      },
+      "event_id": "evt_c89bfa5564195f7d93d0d98785aa262b",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_b362017eadac03f8",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_953d439b0cbebc74",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "uptake_loss_humid_5cycles",
+      "expected": 38.5,
+      "unit": "%",
+      "actual": {
+        "note": "uptake LOSS 38.5% → only 61.5% retained",
+        "unit": "%",
+        "value": 38.5
+      },
+      "event_id": "evt_3c546fc89bc35ba89a6db4c6b0f411c9",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_b362017eadac03f8",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_07ffd62c10e198b4",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "sample": "Zr-BDC-03",
+      "metric": "bet_after_humid_cycling",
+      "expected": 430,
+      "unit": "m²/g",
+      "actual": {
+        "unit": "m²/g",
+        "value": 430
+      },
+      "event_id": "evt_3c546fc89bc35ba89a6db4c6b0f411c9",
+      "source_refs": [
+        {
+          "block_id": "b_ocr_b362017eadac03f8",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        },
+        {
+          "block_id": "b_ocr_07ffd62c10e198b4",
+          "page_id": "pg_da90659434ce_0001",
+          "transcript_revision": 1
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "numeric_passed": 40,
+  "numeric_checked": 40,
+  "unique_events": 72,
+  "event_revisions": 72,
+  "stages": [
+    {
+      "id": "upload-P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2",
+      "status": "completed",
+      "seconds": 180.44,
+      "events_total": 13,
+      "events_added": 13,
+      "samples": 2,
+      "same_source": true,
+      "readback_sha256": "b1f7af375f69515675db8f5e845bf7d1c16d57b55336d7ab1cfb73f80dd296df"
+    },
+    {
+      "id": "upload-P02_2026-10-13_Washing_and_Batch3_Synthesis",
+      "status": "completed",
+      "seconds": 196.28,
+      "events_total": 22,
+      "events_added": 9,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "afcb40b3419e4dea788b235a8dd1e8ea1080346a5855f09143b8eb781b39ad45"
+    },
+    {
+      "id": "upload-P03_2026-10-15_Vacuum_Activation_and_FTIR_Check",
+      "status": "partial",
+      "seconds": 303.39,
+      "events_total": 33,
+      "events_added": 11,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "d0d93ba3795cfb31c86318ecedd5d20220be7530603cf5593e7af0ccb78df194"
+    },
+    {
+      "id": "upload-P04_2026-10-16_PXRD_SEM_FTIR_Summary",
+      "status": "completed",
+      "seconds": 170.06,
+      "events_total": 42,
+      "events_added": 9,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "6e722d84e2bd538b49c222a72fd8f2fc2c5138ba8e4d6e56d597e623ec3622ad"
+    },
+    {
+      "id": "upload-P05_2026-10-17_77K_N2_BET_and_TGA_Defects",
+      "status": "completed",
+      "seconds": 346.48,
+      "events_total": 52,
+      "events_added": 10,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "a2e81cfd7cb91399631600fe500a5e4394e0ddee43432fb24fb74fd4879949c2"
+    },
+    {
+      "id": "upload-P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough",
+      "status": "partial",
+      "seconds": 336.53,
+      "events_total": 72,
+      "events_added": 20,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "d0cda44131ee1b84ac547f40ff078560448c3e6dacbd3ffdb79a72b82ef9f227"
+    },
+    {
+      "id": "L1",
+      "status": "completed",
+      "seconds": 46.44,
+      "events_total": 72,
+      "events_added": 0,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "97a1015a03943a54bac814e5d71d1affca68a4483aa1877059e542b8f2e5936b"
+    },
+    {
+      "id": "L2",
+      "status": "completed",
+      "seconds": 46.66,
+      "events_total": 72,
+      "events_added": 0,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "9cc89fc53eedc7c8428bcfaffdc04c9eee36ffdbcc8134def115cb90ec7d243e"
+    },
+    {
+      "id": "H1",
+      "status": "completed",
+      "seconds": 32.84,
+      "events_total": 72,
+      "events_added": 0,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "37dec611549995824d1d0be20657135a4c0e0482b2fb20aabde1e96b1276cb6b"
+    },
+    {
+      "id": "H2",
+      "status": "completed",
+      "seconds": 35.2,
+      "events_total": 72,
+      "events_added": 0,
+      "samples": 3,
+      "same_source": true,
+      "readback_sha256": "c9dbf2b9176003a0141a6f82bdfdfa4536a227aef4dd09e0bf1f492123268be0"
+    }
+  ],
+  "page_linked_events": {
+    "P01": 13,
+    "P02": 9,
+    "P03": 11,
+    "P04": 9,
+    "P05": 10,
+    "P06": 20
+  },
+  "source_kind_counts": {
+    "absent": 49,
+    "notebook_page_header": 1,
+    "handwritten_lab_notebook": 21,
+    "lab_notebook_handwriting": 1
+  },
+  "final_same_source": [
+    {
+      "sample_id": "smp_bdb717824da24cea8d2212a88ab2977a",
+      "label": "Zr-BDC-03",
+      "human_events": 21,
+      "ai_events": 21,
+      "matched_events": 21,
+      "context_status": "complete",
+      "fingerprint": "e4b8cd888c182fffefa80cac6bca351a786f92b06e901dab2c3b52fe2687876e",
+      "mismatches": [],
+      "consistent": true
+    },
+    {
+      "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+      "label": "Zr-BDC-02",
+      "human_events": 30,
+      "ai_events": 30,
+      "matched_events": 30,
+      "context_status": "complete",
+      "fingerprint": "0e9df22e91f8e40c3dd98edc3a4ed425f5474e1b4b129f4005247074a438e9cf",
+      "mismatches": [],
+      "consistent": true
+    },
+    {
+      "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+      "label": "Zr-BDC-01",
+      "human_events": 27,
+      "ai_events": 27,
+      "matched_events": 27,
+      "context_status": "complete",
+      "fingerprint": "a66f6177577e365303c44992d9ceef13100fcb5e3c7f6002d8b41e2566a1cff4",
+      "mismatches": [],
+      "consistent": true
+    }
+  ],
+  "cross_page_state_transitions": [
+    {
+      "page": "P01",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "pending",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:42:52",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_35e3d6aa2797f778",
+              "page_id": "pg_17ae18a80c7f_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_9e1c0d711edbb65a",
+              "page_id": "pg_17ae18a80c7f_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P01",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "pending",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:42:52",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_35e3d6aa2797f778",
+              "page_id": "pg_17ae18a80c7f_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_9e1c0d711edbb65a",
+              "page_id": "pg_17ae18a80c7f_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P02",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P02",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "in_progress",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:54",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_f0476ba22d7fb9db",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_82b63435b9d5c0ba",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_df566654e3e85c9f",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_4bed50d9dc2a9d98",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_f38f2b95e9f3ef6a",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P02",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P02",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "in_progress",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:54",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_f0476ba22d7fb9db",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_82b63435b9d5c0ba",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_df566654e3e85c9f",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_4bed50d9dc2a9d98",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_f38f2b95e9f3ef6a",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P03",
+      "sample": "Zr-BDC-03",
+      "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+        "target_revision": 1,
+        "sample_id": "smp_bdb717824da24cea8d2212a88ab2977a",
+        "status": "pending",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_aa53e7bed5749f79",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_73d628154232a492",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P03",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P03",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P03",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P03",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P04",
+      "sample": "Zr-BDC-03",
+      "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+        "target_revision": 1,
+        "sample_id": "smp_bdb717824da24cea8d2212a88ab2977a",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_e8b7499258c553008e2aafd8238aaa97",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:54:14",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_34405e0ba379417b",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_5a3d5640bf7ff68c",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_042a8b162e8d48e3",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P04",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P04",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P04",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P04",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P05",
+      "sample": "Zr-BDC-03",
+      "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+        "target_revision": 1,
+        "sample_id": "smp_bdb717824da24cea8d2212a88ab2977a",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_e8b7499258c553008e2aafd8238aaa97",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:54:14",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_34405e0ba379417b",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_5a3d5640bf7ff68c",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_042a8b162e8d48e3",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P05",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P05",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P05",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P05",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P06",
+      "sample": "Zr-BDC-03",
+      "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_7132244c14cf596fb86dc2e110ce9490",
+        "target_revision": 1,
+        "sample_id": "smp_bdb717824da24cea8d2212a88ab2977a",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_e8b7499258c553008e2aafd8238aaa97",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:54:14",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_34405e0ba379417b",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_5a3d5640bf7ff68c",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_042a8b162e8d48e3",
+              "page_id": "pg_0d89283541d2_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P06",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P06",
+      "sample": "Zr-BDC-02",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_23aeec13df4740a2a8b41826ad77b356",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P06",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+      "revision": 1,
+      "historical_state": {
+        "status": "pending"
+      },
+      "current_state": {
+        "event_id": "evt_94b6dad90d195bea80606ca1e982aa1e",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_80afc187f6305579ab77e265161bfd5c",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:45:23",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_ae2abc9e99020dcd",
+              "page_id": "pg_951a185c33a5_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "P06",
+      "sample": "Zr-BDC-01",
+      "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+      "revision": 1,
+      "historical_state": {
+        "note": "ongoing as of page date; page does not state completion",
+        "status": "in_progress"
+      },
+      "current_state": {
+        "event_id": "evt_efd8524b74bc59ed8757782a68c76097",
+        "target_revision": 1,
+        "sample_id": "smp_bf99ca3fdd5f43d69a40b89c2a436070",
+        "status": "completed",
+        "explicit": true,
+        "basis": {
+          "event_id": "evt_832f447115ed5c6db48ccf55fa8cc4ba",
+          "revision": 1,
+          "knowledge_as_of": "2026-10-29 15:50:48",
+          "evidence_refs": [
+            {
+              "block_id": "b_ocr_0b1a3808bf3bb303",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "b_ocr_e6a6e744e162f286",
+              "page_id": "pg_f01eb65e6d0b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "findings": [
+    {
+      "kind": "false_ocr_correction",
+      "event_id": "evt_95b686a8e5445aaf8084ba2c179f558f",
+      "page": "P03",
+      "detail": "Original image underlines150C; OCR fabricated crossed-out120C, persisted as correction_history. Current150C/12h value is correct."
+    },
+    {
+      "kind": "false_ocr_correction",
+      "event_id": "evt_5846fbc999245d46a4b8479e4780c303",
+      "page": "P06",
+      "detail": "Original image underlines76.61cm3/g(STP); OCR fabricated old7.61. False correction is persisted and repeated in L1 despite correct final3.42mmol/g."
+    },
+    {
+      "kind": "incomplete_normalization",
+      "detail": "B inherited DMF/water quantities remain textual inheritance. Missing-linker01/02 values are preserved in annotation strings rather than normalized numeric properties."
+    },
+    {
+      "kind": "simulation_disclosure",
+      "detail": "Run/public instruction explicitly synthetic, but persisted event source_kind is absent or handwritten_lab_notebook in many records. Individual object disclosure is not consistently retained."
+    },
+    {
+      "kind": "pending_research_intent",
+      "event_id": "evt_9f955e65540252149e7ac9b3844a87a6",
+      "detail": "03 larger-mesopore research rationale remains a pending plan. It is not the completed synthesis/activation task; should not be confused with unperformed experimental work."
+    }
+  ],
+  "not_proven": [
+    "Complete semantic page coverage",
+    "Fresh independent-AI comprehension",
+    "Restart/recovery of unreadable P06 checkpoint",
+    "Human user study"
+  ]
+}

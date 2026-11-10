@@ -1,0 +1,23 @@
+{
+  "agent_id": "orchestrator",
+  "version": "1.0.0",
+  "mode": "orchestrator",
+  "display_name": "ChemClaw 主 Agent",
+  "required_capabilities": [
+    "query.events.search", "query.sample.timeline", "evidence.page.read", "evidence.pages.list",
+    "memory.event.read", "memory.sample.search", "memory.proposal.read",
+    "query.samples.list", "task.read"
+  ],
+  "triggers": ["assistant"],
+  "input_schema": {
+    "type": "object",
+    "properties": {"text": {"type": "string"}},
+    "required": ["text"]
+  },
+  "context_scope": {"project_ids": "auto"},
+  "timeout_s": 900,
+  "tool_call_budget": 60,
+  "max_delegation_depth": 1,
+  "retry": {"max_attempts": 1},
+  "system_prompt_ref": "prompts/orchestrator_1.0.0"
+}

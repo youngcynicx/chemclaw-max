@@ -1,0 +1,7 @@
+{
+  "first_delegation_observed_s": 210.0,
+  "first_write_observed_s": null,
+  "no_write_at_90s": true,
+  "poll_interval_s": 0.5,
+  "poll_errors": 0
+}

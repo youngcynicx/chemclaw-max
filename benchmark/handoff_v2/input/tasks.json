@@ -1,0 +1,42 @@
+{
+  "case_id": "SIMULATED-FILM-LONGITUDINAL-HANDOFF-V2-2026-10-24",
+  "mode": "text-only simulated notebook; no OCR; no wet-lab experimental evidence",
+  "project_id": "simulated_film_longitudinal_v2",
+  "stages": [
+    {
+      "id": "arrival",
+      "sources": ["01_p41.txt", "02_p42.txt"],
+      "organize": "请把新收到的两页模拟笔记整理到这个项目，给接班同事留一份能继续使用的样品记录。",
+      "task_ids": ["arrival_handoff"]
+    },
+    {
+      "id": "bench_update",
+      "sources": ["03_p43.txt", "04_p44.txt"],
+      "organize": "又收到了两页续记，请更新同一项目的样品记录，并整理交班信息。",
+      "task_ids": ["bench_update_handoff"]
+    },
+    {
+      "id": "notebook_close",
+      "sources": ["05_p45.txt", "06_p46.txt"],
+      "organize": "这是本轮最后两页模拟记录，请接入已有记录，处理原记录人提出的订正，再给下一位研究者留下当前交接。",
+      "task_ids": ["notebook_close_handoff"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "arrival_handoff",
+      "stage": "arrival",
+      "prompt": "分别说明两片样品已经做了什么、观察到什么、接下来安排了什么，以及还缺哪些资料。请注明来源，让接班人能回查。"
+    },
+    {
+      "id": "bench_update_handoff",
+      "stage": "bench_update",
+      "prompt": "现在能怎样比较两片样品？请分别说明已有结果及其测量条件、仍要做的安排和无法确定的事，附上可回查的依据。"
+    },
+    {
+      "id": "notebook_close_handoff",
+      "stage": "notebook_close",
+      "prompt": "请给外部研究同事一份当前交接，说明两片样品的操作、质量、测量结果、各项安排的去向及还缺的资料，解释有过哪些订正及其来源。最后给一段 JSON 便于对方继续研究，未知值用 null 并说明原因；也请说明这些记录允许怎样比较两片样品。"
+    }
+  ]
+}

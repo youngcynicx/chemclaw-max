@@ -1,0 +1,52 @@
+{
+  "case_id": "SIMULATED-CARBON-HANDOFF-2026-10-23",
+  "created_before_result_review": true,
+  "model_input": false,
+  "scoring": "Each answer criterion is 0, 0.5 or 1; partial requires an explicit reason. State criteria are scored separately and do not apply to direct chat. Human adjudication against source records and saved outputs; no chemical keyword rules in product.",
+  "answer_maximum_per_stage": 8,
+  "answer_criteria": {
+    "initial": [
+      {"id":"I1","criterion":"Both samples share the SAME activation, ordered 70 C 45 min then 105 C 90 min, without inventing rework or separate independent execution."},
+      {"id":"I2","criterion":"CCX-A mass 36 mg and CCX-B mass 31 mg are correctly assigned."},
+      {"id":"I3","criterion":"Both are black powder; actual activation/observations belong to 2026-10-21, not planned measurement date."},
+      {"id":"I4","criterion":"CO2 testing is planned for BOTH on 2026-10-25 at 20 C, 1.00 bar."},
+      {"id":"I5","criterion":"No adsorption result is yet available; planned conditions are not actual measurements."},
+      {"id":"I6","criterion":"Yield is unrecorded and surface area unmeasured, without invented values."},
+      {"id":"I7","criterion":"Key operations, masses and plan cite resolvable relevant source evidence (source record identifiers accepted for direct chat)."},
+      {"id":"I8","criterion":"Synthetic/simulated provenance is explicit; no real-laboratory claim."}
+    ],
+    "append": [
+      {"id":"A1","criterion":"Prior activation and masses remain unchanged; source02 is not new activation or weighing."},
+      {"id":"A2","criterion":"CCX-A CO2 adsorption is 2.40 mmol/g, measured at 20 C and 1.00 bar on 2026-10-25."},
+      {"id":"A3","criterion":"CCX-B adsorption remains unknown because it awaits testing; no transfer of A's measurement."},
+      {"id":"A4","criterion":"A's test is complete and B's previously planned test remains pending."},
+      {"id":"A5","criterion":"Two sample identities and individual measurements/unknowns remain separate in comparison and handoff."},
+      {"id":"A6","criterion":"No comparative superiority or causal activation effect is claimed from a single sample measurement; remaining test is actionable."},
+      {"id":"A7","criterion":"Initial conditions/masses and new test/status cite relevant source01/source02 or their exact saved event/source references."},
+      {"id":"A8","criterion":"Simulated provenance and still-unknown yield/surface area are retained."}
+    ],
+    "correction": [
+      {"id":"C1","criterion":"Current masses are A 38 mg and B 31 mg; 36 mg is not delivered as A's current mass."},
+      {"id":"C2","criterion":"A's 36 -> 38 mg is correction of the 2026-10-21 record, not a new weighing; source03/correction/current revision supports the change."},
+      {"id":"C3","criterion":"A 2.40 and B 2.10 mmol/g are assigned correctly at 20 C and 1.00 bar, with actual respective dates."},
+      {"id":"C4","criterion":"Both original CO2 test plans are now complete; completed tests are not listed as pending."},
+      {"id":"C5","criterion":"Original ordered shared activation stages and unchanged A measurement are retained."},
+      {"id":"C6","criterion":"JSON uses null with reasons for unrecorded yield, unmeasured surface area and unprovided repeat/error information."},
+      {"id":"C7","criterion":"Numerical A > B under stated conditions is allowed, but no statistical significance or causal superiority is asserted; useful followup addresses uncertainty."},
+      {"id":"C8","criterion":"A parseable JSON handoff includes each sample's operations, current observations/tests, plan status and evidence/version basis; key references resolve."}
+    ]
+  },
+  "state_maximum": 10,
+  "state_criteria": [
+    {"id":"S1","stage":"initial","criterion":"Exactly two intended sample identities exist."},
+    {"id":"S2","stage":"initial","criterion":"Shared activation facts have common event IDs across samples without symmetric duplicate facts."},
+    {"id":"S3","stage":"initial","criterion":"Both activation stages, individual masses and black-powder observations persist with correct associations."},
+    {"id":"S4","stage":"initial","criterion":"Saved facts retain resolvable source references and simulated provenance."},
+    {"id":"S5","stage":"initial","criterion":"Both planned tests and their target conditions are saved as plans, while missing results remain unknown."},
+    {"id":"S6","stage":"append","criterion":"Only A has new measurement, B remains pending; old samples/facts are reused."},
+    {"id":"S7","stage":"correction","criterion":"A mass event is revised in place with prior 36 mg and current 38 mg, including correction reason and source; B unchanged."},
+    {"id":"S8","stage":"correction","criterion":"Both measured values and all measurement conditions persist correctly."},
+    {"id":"S9","stage":"correction","criterion":"Plan-to-complete linkage/state is explicit enough for downstream AI without reporting finished plans as outstanding."},
+    {"id":"S10","stage":"correction","criterion":"Append/correction retains original stages and provenance without duplicated sample identities, duplicated facts or fake new weighing."}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "agent_id": "b_query",
+  "version": "1.0.0",
+  "mode": "b_query",
+  "display_name": "B query/report（引用式回答）",
+  "required_capabilities": [
+    "query.events.search",
+    "query.samples.list",
+    "query.sample.timeline",
+    "query.answer.build",
+    "query.answer.render",
+    "query.report.save",
+    "query.report.read",
+    "memory.event.read",
+    "memory.proposal.read",
+    "evidence.page.read",
+    "evidence.pages.list",
+    "task.read"
+  ],
+  "triggers": ["query_answer"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "question": { "type": "string" }
+    },
+    "required": ["question"]
+  },
+  "context_scope": { "project_ids": "auto" },
+  "timeout_s": 900,
+  "tool_call_budget": 30,
+  "max_delegation_depth": 0,
+  "retry": { "max_attempts": 2 },
+  "system_prompt_ref": "prompts/b_query_1.0.0"
+}

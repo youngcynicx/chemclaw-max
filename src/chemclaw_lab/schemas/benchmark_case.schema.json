@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw-lab.local/schemas/benchmark-case-0.4.0.json",
+  "title": "ChemLabOps-Bench Case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "task_type", "fixture", "input", "expected", "tags"],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "task_type": {"enum": ["inventory_qa", "inventory_update"]},
+    "fixture": {"type": "string", "minLength": 1},
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "user_id": {"type": "string"},
+        "project_id": {"type": "string"},
+        "repeat_count": {"type": "integer", "minimum": 1},
+        "replay_text": {"type": "string", "minLength": 1}
+      }
+    },
+    "expected": {"type": "object", "minProperties": 1},
+    "tags": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "annotation_notes": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"task_type": {"const": "inventory_qa"}},
+        "required": ["task_type"]
+      },
+      "then": {
+        "properties": {
+          "expected": {"required": ["answer_type"]}
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {"task_type": {"const": "inventory_update"}},
+        "required": ["task_type"]
+      },
+      "then": {
+        "properties": {
+          "expected": {
+            "required": ["write_count"],
+            "anyOf": [
+              {
+                "required": ["error_type"],
+                "properties": {"write_count": {"const": 0}}
+              },
+              {
+                "required": ["event", "policy_decision", "status", "final_amount"],
+                "not": {"required": ["error_type"]},
+                "properties": {
+                  "event": {
+                    "type": "object",
+                    "required": ["item_id", "amount", "unit", "transaction_type"]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

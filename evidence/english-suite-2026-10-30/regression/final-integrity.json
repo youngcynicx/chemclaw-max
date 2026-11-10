@@ -1,0 +1,214 @@
+{
+  "evaluated_at_utc": "2026-10-30T04:50:25.544893+00:00",
+  "task_wall_sum_seconds": 1694.32,
+  "first_submission_to_last_completion_seconds": 1706.209225,
+  "first_submission_utc": "2026-10-29T15:41:03.062216+00:00",
+  "last_completion_utc": "2026-10-29T16:09:29.271441+00:00",
+  "cleanup_finished_utc": "2026-10-30T04:43:04.543341+00:00",
+  "barrier_wait_excluded": true,
+  "per_task_timing": [
+    {
+      "id": "upload-P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2",
+      "seconds": 180.44,
+      "first_child_start_s": 34.94,
+      "first_event_created_s": 108.94,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "upload-P02_2026-10-13_Washing_and_Batch3_Synthesis",
+      "seconds": 196.28,
+      "first_child_start_s": 46.31,
+      "first_event_created_s": 79.31,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "upload-P03_2026-10-15_Vacuum_Activation_and_FTIR_Check",
+      "seconds": 303.39,
+      "first_child_start_s": 44.69,
+      "first_event_created_s": 207.69,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "upload-P04_2026-10-16_PXRD_SEM_FTIR_Summary",
+      "seconds": 170.06,
+      "first_child_start_s": 41.68,
+      "first_event_created_s": 109.68,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "upload-P05_2026-10-17_77K_N2_BET_and_TGA_Defects",
+      "seconds": 346.48,
+      "first_child_start_s": 40.73,
+      "first_event_created_s": 197.73,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "upload-P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough",
+      "seconds": 336.53,
+      "first_child_start_s": 51.31,
+      "first_event_created_s": 233.31,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "L1",
+      "seconds": 46.44,
+      "first_child_start_s": null,
+      "first_event_created_s": null,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "L2",
+      "seconds": 46.66,
+      "first_child_start_s": null,
+      "first_event_created_s": null,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "H1",
+      "seconds": 32.84,
+      "first_child_start_s": null,
+      "first_event_created_s": null,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    },
+    {
+      "id": "H2",
+      "seconds": 35.2,
+      "first_child_start_s": null,
+      "first_event_created_s": null,
+      "note": "Database timestamps have second precision; intervals include OCR/startup. Sequential job windows; not exact model reasoning time."
+    }
+  ],
+  "budget_traces": [
+    {
+      "root": "run_c857fbe1e3ad",
+      "runs": 2,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_4a7f65567561",
+      "runs": 2,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_461a91194e87",
+      "runs": 2,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_d687fae8eb54",
+      "runs": 2,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_881719257ed5",
+      "runs": 3,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_354aca0f1032",
+      "runs": 2,
+      "decode_complete": false,
+      "shared_deadline_verified": false
+    },
+    {
+      "root": "run_3d665defd8b9",
+      "runs": 1,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_e881d6d1f826",
+      "runs": 1,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_99441963b2a1",
+      "runs": 1,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    },
+    {
+      "root": "run_262c5b8568f8",
+      "runs": 1,
+      "decode_complete": true,
+      "shared_deadline_verified": true
+    }
+  ],
+  "checkpoint_valid_count": 16,
+  "checkpoint_count": 17,
+  "checks": {
+    "ten_terminal_jobs": true,
+    "isolated_no_active": true,
+    "servers_stopped": true,
+    "product_unchanged": true,
+    "runner_unchanged": true,
+    "inputs_unchanged": true,
+    "public_protocol_unchanged": true,
+    "main_business_unchanged": true,
+    "private_config_unchanged": true,
+    "frozen_evaluation_unchanged": true,
+    "score_arithmetic_and_output_hashes": true,
+    "all_checkpoints_decodable": false
+  },
+  "main_active": {
+    "assistant_jobs": 0,
+    "agent_runs": 0
+  },
+  "health_before": {
+    "version": 1,
+    "phase": "before",
+    "captured_at_utc": "2026-10-29T15:40:52.418303+00:00",
+    "method": "GET",
+    "provider_calls": 0,
+    "process_identities": [],
+    "endpoints": {
+      "core": {
+        "url": "http://127.0.0.1:8876/health",
+        "state": "healthy",
+        "http_status": 200,
+        "error_class": null,
+        "duration_ms": 31.0
+      },
+      "frontend": {
+        "url": "http://127.0.0.1:4174/",
+        "state": "healthy",
+        "http_status": 200,
+        "error_class": null,
+        "duration_ms": 16.0
+      }
+    },
+    "completed_at_utc": "2026-10-29T15:40:52.467515+00:00"
+  },
+  "health_after": {
+    "version": 1,
+    "phase": "after",
+    "captured_at_utc": "2026-10-30T04:50:25.252766+00:00",
+    "method": "GET",
+    "provider_calls": 0,
+    "process_identities": [],
+    "endpoints": {
+      "core": {
+        "url": "http://127.0.0.1:8876/health",
+        "state": "healthy",
+        "http_status": 200,
+        "error_class": null,
+        "duration_ms": 282.0
+      },
+      "frontend": {
+        "url": "http://127.0.0.1:4174/",
+        "state": "healthy",
+        "http_status": 200,
+        "error_class": null,
+        "duration_ms": 0.0
+      }
+    },
+    "completed_at_utc": "2026-10-30T04:50:25.533233+00:00"
+  },
+  "limits": "P06 checkpoint decode failure retained; only 9/10 trace budgets fully verified. Health is before/after point observations, not continuous availability."
+}

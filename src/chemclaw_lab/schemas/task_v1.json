@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw.local/schemas/task_v1.json",
+  "title": "Task contract v1",
+  "type": "object",
+  "required": ["task_id", "task_type", "principal_id", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "task_id": { "type": "string", "minLength": 1 },
+    "task_type": { "type": "string", "minLength": 1 },
+    "title": { "type": ["string", "null"] },
+    "principal_id": { "type": "string", "minLength": 1 },
+    "project_id": { "type": ["string", "null"] },
+    "status": {
+      "enum": [
+        "queued",
+        "running",
+        "waiting_input",
+        "succeeded",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "revision": { "type": "integer", "minimum": 0 },
+    "created_at": { "type": ["string", "null"] },
+    "updated_at": { "type": ["string", "null"] }
+  }
+}

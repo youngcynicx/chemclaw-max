@@ -1,0 +1,170 @@
+{
+  "model": null,
+  "base_url": null,
+  "node": "v22.14.0",
+  "scenarios": [
+    {
+      "role": "b_capture",
+      "intent": "capture_page",
+      "run_id": "run_73df5cafe182",
+      "trace_id": "trace_53487bd526e140c3",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 1,
+      "finish_status": "succeeded",
+      "error_code": null,
+      "pi_error": null,
+      "assistant_text": "根据内核回执，本轮操作已完成：[{\"type\":\"text\",\"text\":\"{\\\"ok\\\":false,\\\"status\\\":\\\"GATEWAY_ERROR\\\",\\\"message\\\":\\\"Unknown page ''.\\\",\\\"source\\\":\\\"gateway\\\"}\"}]",
+      "tool_calls": [
+        {
+          "name": "evidence.page.read",
+          "arguments": {
+            "page_id": ""
+          },
+          "gateway_status": "GATEWAY_ERROR",
+          "gateway_ok": false,
+          "gateway_action_status": null,
+          "result_excerpt": "null"
+        }
+      ],
+      "scenario": "D_cross_domain_faults",
+      "proposal_id": null
+    },
+    {
+      "role": "b_capture",
+      "intent": "capture_page",
+      "run_id": "run_4c600d485c18",
+      "trace_id": "trace_168f80d51a114213",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 1,
+      "finish_status": "succeeded",
+      "pi_error": null,
+      "assistant_text": "根据内核回执，本轮操作已完成：[{\"type\":\"text\",\"text\":\"{\\\"ok\\\":false,\\\"status\\\":\\\"GATEWAY_ERROR\\\",\\\"message\\\":\\\"Unknown page ''.\\\",\\\"source\\\":\\\"gateway\\\"}\"}]",
+      "tool_calls": [
+        {
+          "name": "evidence.page.read",
+          "arguments": {
+            "page_id": ""
+          },
+          "gateway_status": "GATEWAY_ERROR",
+          "gateway_ok": false,
+          "gateway_action_status": null,
+          "result_excerpt": "null"
+        }
+      ],
+      "scenario": "E_crash_recovery",
+      "proposals_for_page": 0
+    },
+    {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_cea101189474",
+      "trace_id": "trace_ee8121cae79b4181",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 1,
+      "finish_status": "failed",
+      "error_code": "model_down",
+      "pi_error": null,
+      "assistant_text": "根据内核回执，本轮操作已完成：[{\"type\":\"text\",\"text\":\"{\\\"schema_version\\\":\\\"capability_envelope_v1\\\",\\\"idempotent_replay\\\":false,\\\"object_refs\\\":[],\\\"evidence_refs\\\":[],\\\"unknowns\\\":[],\\\"warnings\\\":[],\\\"error\\\":null,\\\"result\\\":{\\\"snapshot_version\\\":\\\"current\\\",\\\"scope\\\":[\\\"proj_lab\\\"],\\\"candidates\\\":[{\\\"candidate_id\\\":\\\"cnd_6e15ce937726416e8980\\\",\\\"object_type\\\":\\\"experiment_event\\\",\\\"object_id\\\":\\\"evt_b5da7a9897d15c0cb5d8e556",
+      "tool_calls": [
+        {
+          "name": "query.events.search",
+          "arguments": {
+            "project_ids": [],
+            "text": ""
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"candidates\": [{\"candidate_id\": \"cnd_6e15ce937726416e8980\", \"object_type\": \"experiment_event\", \"object_id\": \"evt_b5da7a9897d15c0cb5d8e556b1954135\", \"revision\": 1, \"knowledge_as_of\": \"2026-10-17 16:53:28\", \"chunk\": \"2026-10-12 09:00 于 2 号通风橱称取氯化钠 20 g，溶于 500 mL 去离子水配制生理盐水。\", \"hit_reason\": \"structured_filter\", \"score\": 1, \"page_id\": \"pg_efbac2b6"
+        }
+      ],
+      "scenario": "F_model_outage"
+    },
+    {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_cd20416a0bec",
+      "trace_id": "trace_c753849841354081",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 1,
+      "finish_status": "succeeded",
+      "error_code": null,
+      "pi_error": null,
+      "assistant_text": "根据内核回执，本轮操作已完成：[{\"type\":\"text\",\"text\":\"{\\\"schema_version\\\":\\\"capability_envelope_v1\\\",\\\"idempotent_replay\\\":false,\\\"object_refs\\\":[],\\\"evidence_refs\\\":[],\\\"unknowns\\\":[],\\\"warnings\\\":[],\\\"error\\\":null,\\\"result\\\":{\\\"snapshot_version\\\":\\\"current\\\",\\\"scope\\\":[\\\"proj_lab\\\"],\\\"candidates\\\":[{\\\"candidate_id\\\":\\\"cnd_b859423b395c478e8195\\\",\\\"object_type\\\":\\\"experiment_event\\\",\\\"object_id\\\":\\\"evt_b5da7a9897d15c0cb5d8e556",
+      "tool_calls": [
+        {
+          "name": "query.events.search",
+          "arguments": {
+            "project_ids": [],
+            "text": ""
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"candidates\": [{\"candidate_id\": \"cnd_b859423b395c478e8195\", \"object_type\": \"experiment_event\", \"object_id\": \"evt_b5da7a9897d15c0cb5d8e556b1954135\", \"revision\": 1, \"knowledge_as_of\": \"2026-10-17 16:53:28\", \"chunk\": \"2026-10-12 09:00 于 2 号通风橱称取氯化钠 20 g，溶于 500 mL 去离子水配制生理盐水。\", \"hit_reason\": \"structured_filter\", \"score\": 1, \"page_id\": \"pg_efbac2b6"
+        }
+      ],
+      "scenario": "F_model_outage"
+    }
+  ],
+  "timings": {
+    "D_cross_domain_s": 3.5,
+    "E_crash_recovery_s": 1.5,
+    "F_model_outage_s": 1.5
+  },
+  "db_digest": "d8154ed67ff4c963",
+  "F_model_outage": {
+    "failed_run": {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_cea101189474",
+      "trace_id": "trace_ee8121cae79b4181",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 1,
+      "finish_status": "failed",
+      "error_code": "model_down",
+      "pi_error": null,
+      "assistant_text": "根据内核回执，本轮操作已完成：[{\"type\":\"text\",\"text\":\"{\\\"schema_version\\\":\\\"capability_envelope_v1\\\",\\\"idempotent_replay\\\":false,\\\"object_refs\\\":[],\\\"evidence_refs\\\":[],\\\"unknowns\\\":[],\\\"warnings\\\":[],\\\"error\\\":null,\\\"result\\\":{\\\"snapshot_version\\\":\\\"current\\\",\\\"scope\\\":[\\\"proj_lab\\\"],\\\"candidates\\\":[{\\\"candidate_id\\\":\\\"cnd_6e15ce937726416e8980\\\",\\\"object_type\\\":\\\"experiment_event\\\",\\\"object_id\\\":\\\"evt_b5da7a9897d15c0cb5d8e556",
+      "tool_calls": [
+        {
+          "name": "query.events.search",
+          "arguments": {
+            "project_ids": [],
+            "text": ""
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"candidates\": [{\"candidate_id\": \"cnd_6e15ce937726416e8980\", \"object_type\": \"experiment_event\", \"object_id\": \"evt_b5da7a9897d15c0cb5d8e556b1954135\", \"revision\": 1, \"knowledge_as_of\": \"2026-10-17 16:53:28\", \"chunk\": \"2026-10-12 09:00 于 2 号通风橱称取氯化钠 20 g，溶于 500 mL 去离子水配制生理盐水。\", \"hit_reason\": \"structured_filter\", \"score\": 1, \"page_id\": \"pg_efbac2b6"
+        }
+      ],
+      "scenario": "F_model_outage"
+    },
+    "retried_run": {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_cd20416a0bec",
+      "trace_id": "trace_c753849841354081",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 1,
+      "finish_status": "succeeded",
+      "error_code": null,
+      "pi_error": null,
+      "assistant_text": "根据内核回执，本轮操作已完成：[{\"type\":\"text\",\"text\":\"{\\\"schema_version\\\":\\\"capability_envelope_v1\\\",\\\"idempotent_replay\\\":false,\\\"object_refs\\\":[],\\\"evidence_refs\\\":[],\\\"unknowns\\\":[],\\\"warnings\\\":[],\\\"error\\\":null,\\\"result\\\":{\\\"snapshot_version\\\":\\\"current\\\",\\\"scope\\\":[\\\"proj_lab\\\"],\\\"candidates\\\":[{\\\"candidate_id\\\":\\\"cnd_b859423b395c478e8195\\\",\\\"object_type\\\":\\\"experiment_event\\\",\\\"object_id\\\":\\\"evt_b5da7a9897d15c0cb5d8e556",
+      "tool_calls": [
+        {
+          "name": "query.events.search",
+          "arguments": {
+            "project_ids": [],
+            "text": ""
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"candidates\": [{\"candidate_id\": \"cnd_b859423b395c478e8195\", \"object_type\": \"experiment_event\", \"object_id\": \"evt_b5da7a9897d15c0cb5d8e556b1954135\", \"revision\": 1, \"knowledge_as_of\": \"2026-10-17 16:53:28\", \"chunk\": \"2026-10-12 09:00 于 2 号通风橱称取氯化钠 20 g，溶于 500 mL 去离子水配制生理盐水。\", \"hit_reason\": \"structured_filter\", \"score\": 1, \"page_id\": \"pg_efbac2b6"
+        }
+      ],
+      "scenario": "F_model_outage"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw.local/schemas/transcript_block_v1.json",
+  "title": "Frozen transcript block schema v1 (plan S03 §3)",
+  "type": "object",
+  "required": [
+    "block_id",
+    "block_kind",
+    "reading_order",
+    "text",
+    "coordinate_system",
+    "source_page",
+    "extractor"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "block_id": { "type": "string", "minLength": 1 },
+    "block_kind": {
+      "enum": ["paragraph", "heading", "table", "table_cell", "handwriting", "stamp", "annotation"]
+    },
+    "reading_order": { "type": "integer", "minimum": 0 },
+    "text": { "type": ["string", "null"] },
+    "table_cell": {
+      "type": ["object", "null"],
+      "required": ["row", "column"],
+      "properties": {
+        "row": { "type": "integer", "minimum": 0 },
+        "column": { "type": "integer", "minimum": 0 },
+        "table_ref": { "type": ["string", "null"] }
+      }
+    },
+    "geometry": {
+      "type": ["object", "null"],
+      "required": ["x", "y", "width", "height"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "width": { "type": "number", "minimum": 0 },
+        "height": { "type": "number", "minimum": 0 }
+      }
+    },
+    "coordinate_system": {
+      "type": ["object", "null"],
+      "required": ["origin", "units", "image_ref", "frame_width", "frame_height"],
+      "properties": {
+        "origin": { "enum": ["TOPLEFT", "BOTTOMLEFT"] },
+        "units": { "enum": ["pixel", "normalized"] },
+        "image_ref": { "type": "string", "minLength": 1 },
+        "frame_width": { "type": "number", "minimum": 0 },
+        "frame_height": { "type": "number", "minimum": 0 },
+        "dpi": { "type": ["number", "null"], "minimum": 0 },
+        "transform": { "type": ["object", "null"] }
+      }
+    },
+    "source_page": { "type": ["integer", "null"], "minimum": 1 },
+    "extractor": {
+      "type": "object",
+      "required": ["provider", "model", "version"],
+      "properties": {
+        "provider": { "type": "string", "minLength": 1 },
+        "model": { "type": ["string", "null"] },
+        "version": { "type": ["string", "null"] },
+        "config": { "type": ["object", "null"] }
+      }
+    },
+    "quality_flags": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "low_confidence",
+          "unclear_number",
+          "unclear_unit",
+          "competing_readings",
+          "struck_through",
+          "insertion_arrow",
+          "unreadable",
+          "geometry_untrusted"
+        ]
+      }
+    },
+    "competing_readings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["candidate_text"],
+        "additionalProperties": false,
+        "properties": {
+          "candidate_text": { "type": "string", "minLength": 1 },
+          "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 }
+        }
+      }
+    }
+  }
+}

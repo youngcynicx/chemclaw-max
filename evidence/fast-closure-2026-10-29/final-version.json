@@ -1,0 +1,9 @@
+{
+  "version_label": "fast-closure-2026-10-29-candidate1",
+  "sha256": {
+    "runtime/pi/prompts/orchestrator.md": "0b601e2f42ce7c04efa5519c9bb47429c662ca68fda42e03238d8d9c6de8f35e",
+    "runtime/pi/prompts/b_capture.md": "9eac6535b25d61b03ddee6e236e5178ceef5c4448ec26c6c03c9f108997357dc",
+    "scripts/benchmark_fast_capture.py": "4b8dfb9f6c15da9bcebbf67c297a0a944d67805fbe4c8de75ad531fb543c3863"
+  },
+  "next_prompt_tuning_round": false
+}

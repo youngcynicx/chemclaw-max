@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1120" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+  <title id="title">合成示例实验笔记：MOF-026 薄膜生长</title>
+  <desc id="desc">带横线的纸页，计划用量 0.8 g、待核对的手写 0.5 g，以及保温温度和时间。所有内容为界面演示合成数据。</desc>
+  <defs>
+    <pattern id="lines" width="900" height="48" patternUnits="userSpaceOnUse"><path d="M0 47.5H900" stroke="#c5d7dd" stroke-width="1"/></pattern>
+    <pattern id="grain" width="39" height="37" patternUnits="userSpaceOnUse"><circle cx="3" cy="6" r=".5" fill="#b3a68e" opacity=".15"/><circle cx="22" cy="27" r=".6" fill="#b3a68e" opacity=".12"/></pattern>
+  </defs>
+  <rect width="900" height="1120" fill="#f7f4e9"/>
+  <rect width="900" height="1120" fill="url(#grain)"/>
+  <rect x="0" y="145" width="900" height="863" fill="url(#lines)"/>
+  <path d="M105 0V1050" stroke="#d8aba0" stroke-width="1.4"/>
+  <g fill="#bdb8a9"><circle cx="42" cy="190" r="13"/><circle cx="42" cy="565" r="13"/><circle cx="42" cy="940" r="13"/></g>
+  <g fill="#2c4a70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="27" transform="rotate(-.6 450 450)">
+    <text x="135" y="84" font-size="18" fill="#7c8579" font-family="Arial,sans-serif" letter-spacing="3">LABORATORY NOTEBOOK / 026</text>
+    <text x="132" y="137" font-size="37">Film growth — batch 026</text>
+    <text x="135" y="186" font-size="22">15 OCT 2026</text><text x="633" y="186" font-size="22">MOF-026</text>
+    <text x="135" y="279">Plan: precursor 0.8 g</text>
+    <text x="135" y="327">Working solution: 20 mL</text>
+    <text x="135" y="423">Actual note: precursor 0.5 g [?]</text>
+    <text x="135" y="471">Measured: 79–81 °C, 118 min</text>
+    <text x="135" y="567">Obs. thin white film;</text>
+    <text x="166" y="615">edges uneven.</text>
+    <text x="135" y="903" font-size="23">Keep plan and observation separate.</text>
+    <text x="135" y="951" font-size="23">Check original before confirming.</text>
+  </g>
+  <g fill="none" stroke="#b6523e" stroke-width="2.5" stroke-linecap="round" transform="rotate(-2 600 420)">
+    <ellipse cx="588" cy="414" rx="83" ry="30"/><path d="M654 441c30 21 65 29 108 27m-14-10 14 10-16 6"/>
+  </g>
+  <text x="647" y="505" fill="#b6523e" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" transform="rotate(2 647 505)">verify mass</text>
+  <g transform="translate(199 690) rotate(-3)" stroke="#2c4a70" fill="none" stroke-width="2.1" stroke-linecap="round">
+    <path d="m0 34 99-26 63 26-98 29L0 34Zm0 0v14l63 30 99-29V34M63 63v15"/>
+    <path d="m12 29 90-23 46 19-88 25-48-21" fill="#bed1cf" fill-opacity=".42"/>
+    <path d="M181 52h65m-10-7 10 7-10 7"/>
+  </g>
+  <text x="481" y="745" fill="#2c4a70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="23">glass substrate</text>
+  <text x="481" y="778" fill="#2c4a70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="23">4 pieces</text>
+  <path d="M135 1001H810" stroke="#bdb8a9"/>
+  <text x="135" y="1041" fill="#777d72" font-size="15" font-family="Arial,'Microsoft YaHei',sans-serif" letter-spacing="1.5">SYNTHETIC DEMO · 合成示例 · NOT A REAL EXPERIMENT</text>
+  <text x="794" y="1082" fill="#9c9e8e" font-size="18" font-family="Arial,sans-serif">026</text>
+</svg>

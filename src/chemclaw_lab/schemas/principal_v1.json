@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw.local/schemas/principal_v1.json",
+  "title": "Principal and membership contract v1",
+  "type": "object",
+  "required": ["principal_id", "kind", "memberships"],
+  "additionalProperties": false,
+  "properties": {
+    "principal_id": { "type": "string", "minLength": 1 },
+    "kind": { "enum": ["human", "agent", "service"] },
+    "display_name": { "type": ["string", "null"] },
+    "memberships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["project_id", "role"],
+        "additionalProperties": false,
+        "properties": {
+          "project_id": { "type": "string", "minLength": 1 },
+          "role": { "enum": ["viewer", "member", "owner"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "SIMULATED-FILM-LONGITUDINAL-HANDOFF-V2-2026-10-24",
+  "audience": "DEVELOPER EVALUATION ONLY. Never upload to ChemClaw or external research agents.",
+  "status": "Frozen before any model run; one retained run per condition, no best-of selection.",
+  "scoring": "Each answer item is 0/1/2: absent or wrong / materially partial / complete and grounded. 8 per stage, total 24. Persistence items 0/1/2, total 10, apply only to single and multi and require actual saved readback rather than the model's claim. Record failures and any extra continuation separately; do not replace original scores.",
+  "answer_items": [
+    {"id":"A1","stage":"arrival","max":2,"sources":[41],"expectation":"石榴-07初始进炉前12.4 mg、岩鹭-12为14.8 mg，不能混淆。"},
+    {"id":"A2","stage":"arrival","max":2,"sources":[41,42],"expectation":"一次共同氮气250 ℃保温60 min并自然冷却，两片同炉；升温速率与流量未知。"},
+    {"id":"A3","stage":"arrival","max":2,"sources":[42],"expectation":"石榴边缘细裂纹、中央完整；岩鹭平整无明显裂纹，观察不能互换。"},
+    {"id":"A4","stage":"arrival","max":2,"sources":[41,42],"expectation":"方阻和胶带剥离两项均为两片待执行计划；无方阻实测、膜厚或产率，批次重复和误差未知。"},
+    {"id":"B1","stage":"bench_update","max":2,"sources":[43],"expectation":"仅石榴方阻86 Ω/□，四探针，23 ℃和45% RH；只有一个读数，不编造重复统计。"},
+    {"id":"B2","stage":"bench_update","max":2,"sources":[41,43,44],"expectation":"共享方阻计划：石榴completed、岩鹭pending；共同剥离仍pending，不能把共享计划整体关闭。"},
+    {"id":"B3","stage":"bench_update","max":2,"sources":[43,44],"expectation":"比较中提及的岩鹭不能拥有石榴86读数，比较中提及的石榴不发生新测量或纠错；外观不等于导电性。"},
+    {"id":"B4","stage":"bench_update","max":2,"sources":[41,44],"expectation":"保留原进炉前质量，出炉后质量/膜厚/产率/独立批次重复/误差均未知，能按页追溯。"},
+    {"id":"C1","stage":"notebook_close","max":2,"sources":[41,46],"expectation":"石榴当前进炉前13.4 mg，历史12.4作废；录入纠错而非新称量；岩鹭14.8不变。"},
+    {"id":"C2","stage":"notebook_close","max":2,"sources":[43,45],"expectation":"石榴86 Ω/□、23 ℃/45% RH；岩鹭112 Ω/□、24 ℃/47% RH，均四探针各一个读数，不互换或强行统一环境。"},
+    {"id":"C3","stage":"notebook_close","max":2,"sources":[41,44,45,46],"expectation":"方阻计划两片completed，第44页岩鹭排队已被取代；剥离计划两片cancelled且没有剥离结果。"},
+    {"id":"C4","stage":"notebook_close","max":2,"sources":[41,42,43,44,45,46],"expectation":"真实未知保持；JSON及文字一致，环境不同仅并列读数；不能断言本征导电性显著差异、剥离性能差或统计显著性。"}
+  ],
+  "persistence_items": [
+    {"id":"P1","max":2,"stages":["arrival","bench_update","notebook_close"],"sources":[41,42,43,44,45,46],"actual_readback":"两片样品稳定身份；热处理与共同计划保持共同主体，专属质量/观察/方阻按真实主体独立保存；提及对象不能扩张测量主体。查看实际fields.subject_sample_labels、subject_sample_ids、event_id/revision/evidence_refs。"},
+    {"id":"P2","max":2,"stages":["bench_update","notebook_close"],"sources":[43,45],"actual_readback":"bench_update实际fields读回石榴86及单位/方法/环境，岩鹭无该实测值；notebook_close两片各自方阻值/单位/方法/环境均在fields中。列出真实字段路径、值、主体、事件版本和来源。raw_text或最终答复不替代结构化字段。"},
+    {"id":"P3","max":2,"stages":["arrival","bench_update","notebook_close"],"sources":[41,43,44,45,46],"actual_readback":"current_state和事件lifecycle_state实际读回：arrival两片两计划pending；bench_update仅石榴方阻completed、岩鹭pending且剥离两片pending；notebook_close方阻两片completed、旧岩鹭排队superseded、剥离两片cancelled。状态依据指向实际存在事件/当前版本/原文，不允许一个主体状态覆盖另一个。"},
+    {"id":"P4","max":2,"stages":["notebook_close"],"sources":[41,46],"actual_readback":"当前结构化质量石榴13.4 mg，岩鹭14.8 mg；石榴12.4历史保留可追溯且不再当前有效。可原事件纠错或模型基于来源补充并明确取代旧记录，不要求特定写API；不允许宿主按数值硬编码改写，不应伪造重新称量。"},
+    {"id":"P5","max":2,"stages":["arrival","bench_update","notebook_close"],"sources":[41,42,43,44,45,46],"actual_readback":"实际卡片与外部context的事件/fields/主体/状态/证据一致，context完整性和遗漏检查；未知不被补造。来源page_id/块/转写版本及事件版本可解析，使用当阶段只读快照；附完整检查证据。"}
+  ],
+  "observability": "Actual full model calls and provider tokens remain null unless completely observed, including all delegated calls. Stage durations include harness/tool work. Tool trace and database snapshots are retained through existing Pi/Core paths. Direct has no persistence score.",
+  "limitations": ["Text-only synthetic notes, no OCR or real laboratory evidence.", "One held-out development case, not independent human blind evaluation or proof of generalization.", "No automatic retry or answer-based repair; report original failures and any later explicitly requested runs separately."]
+}

@@ -1,0 +1,15 @@
+PASS submit creates durable job and polling merges progress into final result
+PASS ambiguous submission retry retains request ID and payload; double submit is fenced
+PASS reload restores server-owned jobs and followup uses same session
+PASS cleared model retains job history, restores running task, and continues polling
+PASS cancel returns terminal state and clears busy control
+PASS incremental events deduplicate by sequence and polling recovers after disconnect
+PASS updating older jobs preserves session message order and escapes untrusted text
+PASS late list/poll/submission responses cannot populate another principal context
+PASS no-model mode retains legacy task route
+PASS explicit continuation reuses server sources and keeps one identity after a lost acknowledgement
+PASS continuation is unavailable for running tasks or missing models and never infers free-text intent
+PASS a late continuation response cannot populate another principal context
+PASS server history reconciles a lost continuation response without a second submission
+PASS a confirmed review boundary leaves no ambiguous continuation pending
+14 UI job behavior tests passed.

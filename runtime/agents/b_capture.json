@@ -1,0 +1,32 @@
+{
+  "agent_id": "b_capture",
+  "version": "1.0.0",
+  "mode": "b_capture",
+  "display_name": "B capture（纸页整理）",
+  "required_capabilities": [
+    "evidence.page.read",
+    "evidence.pages.list",
+    "evidence.provider.list",
+    "memory.proposal.create",
+    "memory.proposal.read",
+    "memory.sample.search",
+    "query.samples.list",
+    "memory.clarification.open",
+    "memory.event.read",
+    "task.read"
+  ],
+  "triggers": ["capture_page"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "page_id": { "type": "string" }
+    },
+    "required": ["page_id"]
+  },
+  "context_scope": { "project_ids": "auto" },
+  "timeout_s": 900,
+  "tool_call_budget": 40,
+  "max_delegation_depth": 0,
+  "retry": { "max_attempts": 2 },
+  "system_prompt_ref": "prompts/b_capture_1.0.0"
+}

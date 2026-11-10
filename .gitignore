@@ -1,0 +1,35 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.db
+*.sqlite
+*.sqlite3
+*.egg-info/
+.pytest_cache/
+.coverage
+build/
+dist/
+outputs/
+
+# Local dependencies, credentials, model sessions and lab state
+node_modules/
+work/
+data/
+.env
+.env.*
+!.env.example
+*private*.json
+ui-config*.json
+*.pem
+*.key
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+.openai/
+test-results/
+
+# The frontend is shipped as static source; this directory is required.
+!frontend/dist/
+!frontend/dist/**

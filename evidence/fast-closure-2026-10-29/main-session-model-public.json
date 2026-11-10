@@ -1,0 +1,9 @@
+{
+  "model": "glm-5.3-flash",
+  "reasoningEffort": "auto",
+  "reasoningFormat": "auto",
+  "effectiveReasoningEffort": "low",
+  "effectiveReasoningFormat": "zai",
+  "maxTokens": 16384,
+  "contextWindow": 128000
+}

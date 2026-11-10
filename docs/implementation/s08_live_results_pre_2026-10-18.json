@@ -1,0 +1,362 @@
+{
+  "model": "glm-5.3-flash",
+  "base_url": "https://open.bigmodel.cn/api/paas/v4",
+  "node": "v22.20.0",
+  "scenarios": [
+    {
+      "role": "b_capture",
+      "intent": "capture_page",
+      "run_id": "run_278490cd29fe",
+      "trace_id": "trace_94b5e723ac084d47",
+      "elapsed_s": 76.8,
+      "tool_calls_used": 3,
+      "finish_status": "succeeded",
+      "error_code": null,
+      "pi_error": null,
+      "assistant_text": "提案已创建，结果如下：\n\n**提案 ID**：`prop_55f2c8f2cb7c4f5a894e63db86523cd7`（revision 0）\n- 项目：`proj_lab`｜页面：`pg_ebea5fcb69e3_0001`（转写 active revision 1）｜profile：`chemistry_notebook` 1.0\n- 状态：`awaiting_confirmation` —— 目前只是**提案**，尚未写入生效记忆，需人工确认与应用。\n\n**整理出的 3 个 item**（所有字段值均逐字取自转写块）：\n\n| item_key | 类型 | 引用块 | 结构化字段 | 样品匹配 |\n|---|---|---|---|---|\n| `op-nacl-add-s002` | operation | b-op-cap-0 | amount = 8 g；sample_label = SAMPLE-002 | link → `smp_sample002`（唯一匹配） |\n| `op-stir-30min` | operation | b-op-cap-1 | amount = 30 分钟 | 无（文中未指名样品） |\n| `obs-solution-clear` | observation | b-op-cap-1 | — | 无 |\n\n**说明**：\n- 块 b-op-cap-1 同时含操作（磁力搅拌 30 分钟）与观察（溶液澄清无沉淀），拆分为两条 item，但 raw_text 均为该块完整原文，保持逐字引用。\n- 样品名 SAMPLE-002 经 `memory.sample.search` 查得唯一候选 `smp_sample002`，故标记为 link 而非澄清。\n- 日期「2026-10-12 15:20」保留在 raw_text 中（schema 无日期字段），未做任何改写。\n- 无需开启 clarification：所有出现的数量、单位、样品名均在转写文本中明确无歧义。\n\n页面文本中未发现需要忽略的内嵌指令。下一步请由人工对提案进行确认与应用。",
+      "tool_calls": [
+        {
+          "name": "evidence.page.read",
+          "arguments": {
+            "page_id": "pg_ebea5fcb69e3_0001"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"page\": {\"page_id\": \"pg_ebea5fcb69e3_0001\", \"document_id\": \"doc_4c0a38fce22b505a\", \"notebook_code\": \"NB-CAP\", \"project_id\": \"proj_lab\", \"evidence_id\": \"ev_ebea5fcb69e3ad91\", \"page_order\": 1, \"paper_page_number\": null, \"status\": \"transcribed\", \"prev_page_id\": null, \"next_page_id\": null, \"sha256\": \"ebea5fcb69e3ad91a5d643e89d833698229b7c53c20f1440d9051c2982b95bfc\", \"mime\": \"image/png\", \"storage_path"
+        },
+        {
+          "name": "memory.sample.search",
+          "arguments": {
+            "label": "SAMPLE-002",
+            "project_id": "proj_lab"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"action\": \"link\", \"candidates\": [{\"sample_id\": \"smp_sample002\", \"label\": \"SAMPLE-002\"}]}"
+        },
+        {
+          "name": "memory.proposal.create",
+          "arguments": {
+            "items": [
+              {
+                "evidence_refs": [
+                  {
+                    "block_id": "b-op-cap-0",
+                    "page_id": "pg_ebea5fcb69e3_0001",
+                    "transcript_revision": 1
+                  }
+                ],
+                "event_kind": "operation",
+                "fields": {
+                  "amount": {
+                    "normalized": 8,
+                    "unit": "g"
+                  },
+                  "sample_label": {
+                    "normalized": "SAMPLE-002"
+                  }
+                },
+                "item_key": "op-nacl-add-s002",
+                "raw_text": "2026-10-12 15:20 取用氯化钠 8 g 加入 SAMPLE-002 缓冲液。",
+                "sample_match": {
+                  "action": "link",
+                  "candidates": [
+                    {
+                      "label": "SAMPLE-002",
+                      "sample_id": "smp_sample002"
+                    }
+                  ]
+                }
+              },
+              {
+                "evidence_refs": [
+                  {
+                    "block_id": "b-op-cap-1",
+                    "page_id": "pg_ebea5fcb69e3_0001",
+                    "transcript_revision": 1
+                  }
+                ],
+                "event_kind": "operation",
+                "fields": {
+                  "amount": {
+                    "normalized": 30,
+                    "unit": "分钟"
+                  }
+                },
+                "item_key": "op-stir-30min",
+                "raw_text": "磁力搅拌 30 分钟，溶液澄清无沉淀。"
+              },
+              {
+                "evidence_refs": [
+                  {
+                    "block_id": "b-op-cap-1",
+                    "page_id": "pg_ebea5fcb69e3_0001",
+                    "transcript_revision": 1
+                  }
+                ],
+                "event_kind": "observation",
+                "item_key": "obs-solution-clear",
+                "raw_text": "磁力搅拌 30 分钟，溶液澄清无沉淀。"
+              }
+            ],
+            "page_id": "pg_ebea5fcb69e3_0001",
+            "profile_id": "chemistry_notebook",
+            "profile_version": "1.0",
+            "project_id": "proj_lab",
+            "transcript_revision": 1
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"proposal\": {\"proposal_id\": \"prop_55f2c8f2cb7c4f5a894e63db86523cd7\", \"project_id\": \"proj_lab\", \"task_id\": null, \"page_id\": \"pg_ebea5fcb69e3_0001\", \"source_transcript_revision\": 1, \"profile_id\": \"chemistry_notebook\", \"profile_version\": \"1.0\", \"items_json\": \"[{\\\"event_kind\\\": \\\"operation\\\", \\\"evidence_refs\\\": [{\\\"block_id\\\": \\\"b-op-cap-0\\\", \\\"page_id\\\": \\\"pg_ebea5fcb69e3_0001\\\", \\\"transcript_revisi"
+        }
+      ],
+      "proposal_id": "prop_55f2c8f2cb7c4f5a894e63db86523cd7",
+      "scenario": "D_cross_domain_faults",
+      "stock_after": 492.0,
+      "transactions": 1,
+      "subtasks": 1,
+      "delivery_history": [
+        {
+          "attempted": 5,
+          "delivered": 0,
+          "failed": 5,
+          "skipped_retrying": 0
+        },
+        {
+          "attempted": 5,
+          "delivered": 5,
+          "failed": 0,
+          "skipped_retrying": 0
+        },
+        {
+          "attempted": 0,
+          "delivered": 0,
+          "failed": 0,
+          "skipped_retrying": 0
+        }
+      ]
+    },
+    {
+      "role": "b_capture",
+      "intent": "capture_page",
+      "run_id": "run_01d8db02e8e7",
+      "trace_id": "trace_c0d465d9407a4a72",
+      "elapsed_s": 69.5,
+      "tool_calls_used": 2,
+      "finish_status": "succeeded",
+      "pi_error": null,
+      "assistant_text": "提案已创建成功，尚未写入生效记忆（状态为 `awaiting_confirmation`，需人工确认后应用）。\n\n**提案摘要**\n- **Proposal ID**: `prop_4f6234dcd4d0485ab1e53144bc7cebd0`（revision 0）\n- **页面**: `pg_d81ffd9cf8bd_0001`（NB-CRASH，项目 `proj_lab`），转写版本 revision 1\n- **Profile**: chemistry_notebook / 1.0\n\n**包含的 2 个 item（均逐字引用转写块）**\n\n| item_key | 类型 | 原文 | 结构化字段 |\n|---|---|---|---|\n| `op-take-nacl-3g` | operation | “2026-10-12 16:40 取用氯化钠 3 g 配制 100 mL 洗涤液。” | amount = {3, g}；100 mL 保留在原文中 |\n| `obs-filtrate-clear` | observation | “过滤后滤液透明。” | 无（原文无数量/样品信息，字段按规则省略） |\n\n**说明**\n- 两个 item 均标记 `needs_confirmation: true`，等待人工确认。\n- 页面未出现样品标签（“氯化钠”是试剂名，非样品），故未做样品搜索与关联。\n- 文本清晰，无歧义字段，因此未开启 clarification。\n\n如需查看提案详情可随时让我读取 `prop_4f6234dcd4d0485ab1e53144bc7cebd0`；确认与应用由人工完成。",
+      "tool_calls": [
+        {
+          "name": "evidence.page.read",
+          "arguments": {
+            "page_id": "pg_d81ffd9cf8bd_0001"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"page\": {\"page_id\": \"pg_d81ffd9cf8bd_0001\", \"document_id\": \"doc_09fc522f989ffb63\", \"notebook_code\": \"NB-CRASH\", \"project_id\": \"proj_lab\", \"evidence_id\": \"ev_d81ffd9cf8bd5c86\", \"page_order\": 1, \"paper_page_number\": null, \"status\": \"transcribed\", \"prev_page_id\": null, \"next_page_id\": null, \"sha256\": \"d81ffd9cf8bd5c86ef8573687d8cecefac5f3cbc4574747b56a1a2bf27c23e11\", \"mime\": \"image/png\", \"storage_pa"
+        },
+        {
+          "name": "memory.proposal.create",
+          "arguments": {
+            "items": [
+              {
+                "amount": {
+                  "normalized": 3,
+                  "unit": "g"
+                },
+                "evidence_refs": [
+                  {
+                    "block_id": "b-op-crash-0",
+                    "page_id": "pg_d81ffd9cf8bd_0001",
+                    "transcript_revision": 1
+                  }
+                ],
+                "event_kind": "operation",
+                "item_key": "op-take-nacl-3g",
+                "raw_text": "2026-10-12 16:40 取用氯化钠 3 g 配制 100 mL 洗涤液。"
+              },
+              {
+                "evidence_refs": [
+                  {
+                    "block_id": "b-op-crash-1",
+                    "page_id": "pg_d81ffd9cf8bd_0001",
+                    "transcript_revision": 1
+                  }
+                ],
+                "event_kind": "observation",
+                "item_key": "obs-filtrate-clear",
+                "raw_text": "过滤后滤液透明。"
+              }
+            ],
+            "page_id": "pg_d81ffd9cf8bd_0001",
+            "profile_id": "chemistry_notebook",
+            "profile_version": "1.0",
+            "project_id": "proj_lab",
+            "transcript_revision": 1
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"proposal\": {\"proposal_id\": \"prop_4f6234dcd4d0485ab1e53144bc7cebd0\", \"project_id\": \"proj_lab\", \"task_id\": null, \"page_id\": \"pg_d81ffd9cf8bd_0001\", \"source_transcript_revision\": 1, \"profile_id\": \"chemistry_notebook\", \"profile_version\": \"1.0\", \"items_json\": \"[{\\\"amount\\\": {\\\"normalized\\\": 3, \\\"unit\\\": \\\"g\\\"}, \\\"event_kind\\\": \\\"operation\\\", \\\"evidence_refs\\\": [{\\\"block_id\\\": \\\"b-op-crash-0\\\", \\\"page"
+        }
+      ],
+      "scenario": "E_crash_recovery",
+      "proposals_for_page": 1
+    },
+    {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_d56a3de31f63",
+      "trace_id": "trace_1459854e48754cf1",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 0,
+      "finish_status": "failed",
+      "error_code": "model_down",
+      "pi_error": "Connection error.",
+      "assistant_text": "",
+      "tool_calls": [],
+      "scenario": "F_model_outage"
+    },
+    {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_c946433b0e32",
+      "trace_id": "trace_4857f8c3e2f24cb1",
+      "elapsed_s": 64.2,
+      "tool_calls_used": 4,
+      "finish_status": "succeeded",
+      "error_code": null,
+      "pi_error": null,
+      "assistant_text": "**答案：20 g 氯化钠**（溶于 500 mL 去离子水配制生理盐水）。\n\n依据（均来自检索，非凭记忆）：\n\n- 笔记本页 `pg_efbac2b60c9e_0001`（NB-SEED，evidence `ev_efbac2b60c9e3d97`）手写块 `b-op-seed-0` 记录：**\"2026-10-12 09:00 于 2 号通风橱称取氯化钠 20 g，溶于 500 mL 去离子水配制生理盐水。\"**，紧接着的 `b-op-seed-1` 写明 **\"样品编号 SAMPLE-001，电导率仪读数 12.5 mS/cm\"**，两者在同一页相邻块，将该配制操作归属于 SAMPLE-001。\n- 结构化快照中对应的事件为 `evt_099b92347ba65ac5a994e300155547fc`（用量 20.0，测量值），claim 引用：`clm_931dcdb610f84f829b2f`。\n\n需要排除的干扰项（同样出现在\"氯化钠\"全文检索中，但与本问题无关）：\n\n- **8 g**：2026-10-12 15:20 加入 **SAMPLE-002** 缓冲液（claim `clm_9320c894a3a14cbfaa26`，块 `b-op-cap-0`）。\n- **3 g**：2026-10-12 16:40 用于配制 **100 mL 洗涤液**，并非生理盐水（检索候选 `cnd_f6f337f3646b4a888c6c`，块 `b-op-crash-0`）。\n- 快照另返回一条用量 30 的 claim（`clm_59047fd37af845f3ae45`），其证据位于 SAMPLE-002 相关页 `pg_ebea5fcb69e3_0001`，与 SAMPLE-001 的生理盐水无关。\n\n说明：`query.sample.timeline` 对 \"SAMPLE-001\" 返回网关错误，未能给出时间线视图；但上述页面证据（编号块与配制块同页）已足以确立归属。",
+      "tool_calls": [
+        {
+          "name": "query.events.search",
+          "arguments": {
+            "limit": 20,
+            "sample_label": "SAMPLE-001",
+            "text": "氯化钠"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"candidates\": [{\"candidate_id\": \"cnd_f6f337f3646b4a888c6c\", \"object_type\": \"transcript_block\", \"object_id\": \"b-op-crash-0\", \"revision\": 1, \"knowledge_as_of\": null, \"chunk\": \"2026-10-12 16:40 取用氯化钠 3 g 配制 100 mL 洗涤液。\", \"hit_reason\": \"fulltext:氯化钠\", \"score\": 1, \"page_id\": \"pg_d81ffd9cf8bd_0001\", \"block_id\": \"b-op-crash-0\", \"page_region\": {\"frame"
+        },
+        {
+          "name": "query.sample.timeline",
+          "arguments": {
+            "sample_id": "SAMPLE-001"
+          },
+          "gateway_status": "GATEWAY_ERROR",
+          "gateway_ok": false,
+          "gateway_action_status": null,
+          "result_excerpt": "null"
+        },
+        {
+          "name": "evidence.page.read",
+          "arguments": {
+            "page_id": "pg_efbac2b60c9e_0001"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"page\": {\"page_id\": \"pg_efbac2b60c9e_0001\", \"document_id\": \"doc_9abf76d30b0b3ba7\", \"notebook_code\": \"NB-SEED\", \"project_id\": \"proj_lab\", \"evidence_id\": \"ev_efbac2b60c9e3d97\", \"page_order\": 1, \"paper_page_number\": null, \"status\": \"transcribed\", \"prev_page_id\": null, \"next_page_id\": null, \"sha256\": \"efbac2b60c9e3d97ea91894db6cb5f29826594d9edecabcff462a89bdeddb885\", \"mime\": \"image/png\", \"storage_pat"
+        },
+        {
+          "name": "query.answer.build",
+          "arguments": {
+            "question": "SAMPLE-001 的生理盐水用了多少克氯化钠？"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"question\": \"SAMPLE-001 的生理盐水用了多少克氯化钠？\", \"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"status\": \"answered\", \"claims\": [{\"claim_id\": \"clm_59047fd37af845f3ae45\", \"kind\": \"reported_fact\", \"object_type\": \"experiment_event\", \"object_id\": \"evt_1a8b56382253580087dce82028e1115b\", \"revision\": 1, \"field_pointer\": \"fields.amount\", \"value\": 30, \"unit\": null, \"modality\": \"operation\", \"usage_semantics"
+        }
+      ],
+      "scenario": "F_model_outage"
+    }
+  ],
+  "timings": {
+    "D_cross_domain_s": 77.5,
+    "E_crash_recovery_s": 70.8,
+    "F_model_outage_s": 65.6
+  },
+  "db_digest": "e64cf5b2dfb50bec",
+  "F_model_outage": {
+    "failed_run": {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_d56a3de31f63",
+      "trace_id": "trace_1459854e48754cf1",
+      "elapsed_s": 0.1,
+      "tool_calls_used": 0,
+      "finish_status": "failed",
+      "error_code": "model_down",
+      "pi_error": "Connection error.",
+      "assistant_text": "",
+      "tool_calls": [],
+      "scenario": "F_model_outage"
+    },
+    "retried_run": {
+      "role": "b_query",
+      "intent": "query_answer",
+      "run_id": "run_c946433b0e32",
+      "trace_id": "trace_4857f8c3e2f24cb1",
+      "elapsed_s": 64.2,
+      "tool_calls_used": 4,
+      "finish_status": "succeeded",
+      "error_code": null,
+      "pi_error": null,
+      "assistant_text": "**答案：20 g 氯化钠**（溶于 500 mL 去离子水配制生理盐水）。\n\n依据（均来自检索，非凭记忆）：\n\n- 笔记本页 `pg_efbac2b60c9e_0001`（NB-SEED，evidence `ev_efbac2b60c9e3d97`）手写块 `b-op-seed-0` 记录：**\"2026-10-12 09:00 于 2 号通风橱称取氯化钠 20 g，溶于 500 mL 去离子水配制生理盐水。\"**，紧接着的 `b-op-seed-1` 写明 **\"样品编号 SAMPLE-001，电导率仪读数 12.5 mS/cm\"**，两者在同一页相邻块，将该配制操作归属于 SAMPLE-001。\n- 结构化快照中对应的事件为 `evt_099b92347ba65ac5a994e300155547fc`（用量 20.0，测量值），claim 引用：`clm_931dcdb610f84f829b2f`。\n\n需要排除的干扰项（同样出现在\"氯化钠\"全文检索中，但与本问题无关）：\n\n- **8 g**：2026-10-12 15:20 加入 **SAMPLE-002** 缓冲液（claim `clm_9320c894a3a14cbfaa26`，块 `b-op-cap-0`）。\n- **3 g**：2026-10-12 16:40 用于配制 **100 mL 洗涤液**，并非生理盐水（检索候选 `cnd_f6f337f3646b4a888c6c`，块 `b-op-crash-0`）。\n- 快照另返回一条用量 30 的 claim（`clm_59047fd37af845f3ae45`），其证据位于 SAMPLE-002 相关页 `pg_ebea5fcb69e3_0001`，与 SAMPLE-001 的生理盐水无关。\n\n说明：`query.sample.timeline` 对 \"SAMPLE-001\" 返回网关错误，未能给出时间线视图；但上述页面证据（编号块与配制块同页）已足以确立归属。",
+      "tool_calls": [
+        {
+          "name": "query.events.search",
+          "arguments": {
+            "limit": 20,
+            "sample_label": "SAMPLE-001",
+            "text": "氯化钠"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"candidates\": [{\"candidate_id\": \"cnd_f6f337f3646b4a888c6c\", \"object_type\": \"transcript_block\", \"object_id\": \"b-op-crash-0\", \"revision\": 1, \"knowledge_as_of\": null, \"chunk\": \"2026-10-12 16:40 取用氯化钠 3 g 配制 100 mL 洗涤液。\", \"hit_reason\": \"fulltext:氯化钠\", \"score\": 1, \"page_id\": \"pg_d81ffd9cf8bd_0001\", \"block_id\": \"b-op-crash-0\", \"page_region\": {\"frame"
+        },
+        {
+          "name": "query.sample.timeline",
+          "arguments": {
+            "sample_id": "SAMPLE-001"
+          },
+          "gateway_status": "GATEWAY_ERROR",
+          "gateway_ok": false,
+          "gateway_action_status": null,
+          "result_excerpt": "null"
+        },
+        {
+          "name": "evidence.page.read",
+          "arguments": {
+            "page_id": "pg_efbac2b60c9e_0001"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"page\": {\"page_id\": \"pg_efbac2b60c9e_0001\", \"document_id\": \"doc_9abf76d30b0b3ba7\", \"notebook_code\": \"NB-SEED\", \"project_id\": \"proj_lab\", \"evidence_id\": \"ev_efbac2b60c9e3d97\", \"page_order\": 1, \"paper_page_number\": null, \"status\": \"transcribed\", \"prev_page_id\": null, \"next_page_id\": null, \"sha256\": \"efbac2b60c9e3d97ea91894db6cb5f29826594d9edecabcff462a89bdeddb885\", \"mime\": \"image/png\", \"storage_pat"
+        },
+        {
+          "name": "query.answer.build",
+          "arguments": {
+            "question": "SAMPLE-001 的生理盐水用了多少克氯化钠？"
+          },
+          "gateway_status": null,
+          "gateway_ok": null,
+          "gateway_action_status": "applied",
+          "result_excerpt": "{\"question\": \"SAMPLE-001 的生理盐水用了多少克氯化钠？\", \"snapshot_version\": \"current\", \"scope\": [\"proj_lab\"], \"status\": \"answered\", \"claims\": [{\"claim_id\": \"clm_59047fd37af845f3ae45\", \"kind\": \"reported_fact\", \"object_type\": \"experiment_event\", \"object_id\": \"evt_1a8b56382253580087dce82028e1115b\", \"revision\": 1, \"field_pointer\": \"fields.amount\", \"value\": 30, \"unit\": null, \"modality\": \"operation\", \"usage_semantics"
+        }
+      ],
+      "scenario": "F_model_outage"
+    }
+  }
+}

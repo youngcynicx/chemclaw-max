@@ -1,0 +1,9 @@
+{
+  "main_business_unchanged": true,
+  "private_config_unchanged": true,
+  "main_active": {
+    "agent_runs": 0,
+    "assistant_jobs": 0
+  },
+  "isolated_all_inactive": true
+}

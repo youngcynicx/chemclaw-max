@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw.local/schemas/typed_message_v1.json",
+  "title": "Typed agent message v1 (command | domain_event | task_result)",
+  "type": "object",
+  "required": ["message_kind", "message_type", "payload", "schema_version"],
+  "additionalProperties": false,
+  "properties": {
+    "message_kind": { "enum": ["command", "domain_event", "task_result"] },
+    "message_type": { "type": "string", "minLength": 1 },
+    "schema_version": { "type": "string", "minLength": 1 },
+    "payload": { "type": "object" },
+    "causation_id": { "type": ["string", "null"] },
+    "correlation_id": { "type": ["string", "null"] }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "message_kind": { "const": "command" } } },
+      "then": {
+        "properties": {
+          "payload": {
+            "required": ["intent"],
+            "properties": {
+              "intent": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "message_kind": { "const": "domain_event" } } },
+      "then": {
+        "properties": {
+          "payload": {
+            "required": ["occurred_ref"],
+            "properties": {
+              "occurred_ref": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "message_kind": { "const": "task_result" } } },
+      "then": {
+        "properties": {
+          "payload": {
+            "required": ["task_id", "outcome"],
+            "properties": {
+              "task_id": { "type": "string", "minLength": 1 },
+              "outcome": {
+                "enum": ["succeeded", "failed", "cancelled", "needs_input"]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

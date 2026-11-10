@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw.local/schemas/capability_envelope_v1.json",
+  "title": "Capability invocation envelope v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "capability_id",
+    "operation_id",
+    "action_status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "capability_envelope_v1" },
+    "capability_id": { "type": "string", "minLength": 1 },
+    "operation_id": { "type": "string", "minLength": 1 },
+    "namespace": { "type": "string", "minLength": 1 },
+    "idempotent_replay": { "type": "boolean" },
+    "action_status": {
+      "enum": [
+        "applied",
+        "proposed",
+        "clarification_needed",
+        "rejected",
+        "failed",
+        "unknown"
+      ]
+    },
+    "principal_id": { "type": ["string", "null"] },
+    "project_id": { "type": ["string", "null"] },
+    "object_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "id"],
+        "properties": {
+          "kind": { "type": "string" },
+          "id": { "type": "string" },
+          "revision": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["evidence_id", "revision"],
+        "properties": {
+          "evidence_id": { "type": "string" },
+          "revision": { "type": "integer" }
+        }
+      }
+    },
+    "unknowns": { "type": "array", "items": { "type": "string" } },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "error": {
+      "type": ["object", "null"],
+      "required": ["code", "message"],
+      "properties": {
+        "code": {
+          "enum": [
+            "unauthorized",
+            "forbidden_scope",
+            "forbidden_capability",
+            "ambiguous_entity",
+            "revision_conflict",
+            "idempotency_conflict",
+            "unreadable_evidence",
+            "dependency_failed",
+            "schema_violation",
+            "invalid_state",
+            "not_found",
+            "budget_too_small",
+            "snapshot_changed",
+            "transcript_revision_unavailable",
+            "transcript_revision_not_found",
+            "source_block_not_found",
+            "event_revision_not_found",
+            "invalid_state_fields",
+            "state_target_not_found",
+            "state_target_changed",
+            "state_subject_unresolved",
+            "invalid_state_subject"
+          ]
+        },
+        "message": { "type": "string" },
+        "retryable": { "type": "boolean" }
+      }
+    },
+    "result": { "type": ["object", "null"] }
+  }
+}

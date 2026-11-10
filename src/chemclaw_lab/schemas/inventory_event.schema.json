@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw-lab.local/schemas/inventory-event-0.3.0.json",
+  "title": "ChemClaw-Lab Inventory Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_type",
+    "event_subtype",
+    "item_type",
+    "item_id",
+    "item_name",
+    "amount",
+    "unit",
+    "transaction_type",
+    "confidence",
+    "requires_confirmation",
+    "raw_text",
+    "project_id",
+    "user_id"
+  ],
+  "properties": {
+    "event_type": {"const": "inventory_update"},
+    "event_subtype": {"enum": ["use", "add", "adjust", "opening_balance", "unknown"]},
+    "item_type": {"const": "chemical"},
+    "item_id": {"type": ["string", "null"]},
+    "item_name": {"type": ["string", "null"]},
+    "amount": {"type": ["number", "null"]},
+    "unit": {
+      "type": ["string", "null"],
+      "enum": ["ug", "mg", "g", "kg", "ul", "ml", "l", null]
+    },
+    "transaction_type": {"enum": ["use", "add", "adjust", "opening_balance", "unknown"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "requires_confirmation": {"type": "boolean"},
+    "raw_text": {"type": "string", "minLength": 1},
+    "project_id": {"type": ["string", "null"]},
+    "user_id": {"type": ["string", "null"]}
+  }
+}

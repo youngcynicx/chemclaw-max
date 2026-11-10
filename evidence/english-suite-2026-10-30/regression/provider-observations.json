@@ -1,0 +1,5133 @@
+{
+  "created_at_utc": "2026-10-30T04:45:14.397946+00:00",
+  "case": "D:\\Chem\\ChemClaw-Lab-S10-Repair\\work\\english-suite-fast-2026-10-29\\regression",
+  "manifest_status": "completed",
+  "servers_stopped": true,
+  "product_unchanged": true,
+  "complete_workflow_observed": true,
+  "provider": {
+    "request_intent_count": 67,
+    "request_count": 67,
+    "finished_request_count": 67,
+    "unfinished_request_intents": 0,
+    "not_sent_requests": 0,
+    "retry_count": 0,
+    "quota_exhausted_requests": 0,
+    "usage_observed_requests": 66,
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null,
+      "total_tokens": null,
+      "cache_read_tokens": null,
+      "cache_write_tokens": null,
+      "reasoning_tokens": null
+    },
+    "known_usage_subtotals_only": {
+      "input_tokens": 2631829,
+      "output_tokens": 89348,
+      "total_tokens": 2721177,
+      "cache_read_tokens": 94656,
+      "cache_write_tokens": null,
+      "reasoning_tokens": 6885
+    },
+    "usage_missing_requests": {
+      "input_tokens": 1,
+      "output_tokens": 1,
+      "total_tokens": 1,
+      "cache_read_tokens": 1,
+      "cache_write_tokens": 67,
+      "reasoning_tokens": 1
+    },
+    "cost": null,
+    "cost_currency": null,
+    "known_http_duration_ms_only": 1649339.0,
+    "missing_http_duration_count": 0,
+    "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+  },
+  "provider_rows": [
+    {
+      "schema_version": 1,
+      "request_id": "326e19d5-218c-47be-96ac-bfa057162476",
+      "call_id": "4215a403-f269-4e8e-ab80-a59b20970615",
+      "run_id": "run_c857fbe1e3ad",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:41:15.774Z",
+      "duration_ms": 22699,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 9491,
+        "output_tokens": 896,
+        "total_tokens": 10387,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 40
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "47c778b7-b37c-419f-a6f7-f097c913fe59",
+      "call_id": "606caa31-bba6-4a5f-b339-24955e8c23f5",
+      "run_id": "run_c857fbe1e3ad",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:43:26.499Z",
+      "duration_ms": 5159,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 14127,
+        "output_tokens": 54,
+        "total_tokens": 14181,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 10
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "8a40447e-6fdb-4e04-9f57-850635835ca7",
+      "call_id": "7993fe21-89a8-4dea-a3fb-6839c07ccfd4",
+      "run_id": "run_c857fbe1e3ad",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:43:31.793Z",
+      "duration_ms": 30249,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 24599,
+        "output_tokens": 1817,
+        "total_tokens": 26416,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 6
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "9bf28427-9e54-4ec6-86aa-1e95f8c86c3a",
+      "call_id": "c231ac23-73ea-4ba8-96e2-e4088e88e1f8",
+      "run_id": "run_12fc9c395cf3",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:41:38.586Z",
+      "duration_ms": 5316,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 11244,
+        "output_tokens": 75,
+        "total_tokens": 11319,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 5
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "4a4ef4dd-1d83-4b52-b1b4-54eaeec93a1f",
+      "call_id": "1b80bd60-ff5a-46a8-9dee-ec371b9450f9",
+      "run_id": "run_12fc9c395cf3",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:41:44.054Z",
+      "duration_ms": 68736,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 11705,
+        "output_tokens": 4673,
+        "total_tokens": 16378,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 716
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "e2f768e2-4acb-45e6-92dd-592090ab6d27",
+      "call_id": "c895cf44-1a93-4136-acbe-3c11928e30e6",
+      "run_id": "run_12fc9c395cf3",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:42:52.927Z",
+      "duration_ms": 7728,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 31393,
+        "output_tokens": 141,
+        "total_tokens": 31534,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 84
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "413369e2-c927-46c4-b81e-816293cc7fd0",
+      "call_id": "654442e9-f99f-43a9-9c55-a98c7d1d66c0",
+      "run_id": "run_12fc9c395cf3",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:43:00.813Z",
+      "duration_ms": 25388,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 41949,
+        "output_tokens": 1262,
+        "total_tokens": 43211,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "6718de1b-8191-437a-a161-857007bacc8a",
+      "call_id": "719bb805-a5a4-432b-ab62-3e8bb9ced08f",
+      "run_id": "run_4a7f65567561",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:44:12.901Z",
+      "duration_ms": 8665,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 12624,
+        "output_tokens": 179,
+        "total_tokens": 12803,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 77
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "56cd19d7-0cb5-47a7-8240-6f22a369d13c",
+      "call_id": "500016e9-6482-40c5-bc21-d431b299824a",
+      "run_id": "run_4a7f65567561",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:44:21.676Z",
+      "duration_ms": 28453,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 23219,
+        "output_tokens": 1253,
+        "total_tokens": 24472,
+        "cache_read_tokens": 2816,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 37
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "d7228c3c-8e34-4bc4-8a55-d37806b02d98",
+      "call_id": "f97fcd35-b796-42e5-9220-f721b6922df3",
+      "run_id": "run_4a7f65567561",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:46:50.050Z",
+      "duration_ms": 6609,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 27955,
+        "output_tokens": 85,
+        "total_tokens": 28040,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 28
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "a608ec4e-ddf1-4ff1-869c-273876930ef9",
+      "call_id": "e14a647e-2b2f-4ac9-84ff-b4bf50d8158f",
+      "run_id": "run_4a7f65567561",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:46:56.868Z",
+      "duration_ms": 22406,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 50030,
+        "output_tokens": 1123,
+        "total_tokens": 51153,
+        "cache_read_tokens": 2816,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "977bdfca-1b66-4659-8f87-ddf1bf8b9fa3",
+      "call_id": "078dd7be-5ea5-439b-91fc-df038575e907",
+      "run_id": "run_dcb3ceb4a6f1",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:44:50.263Z",
+      "duration_ms": 7372,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 12910,
+        "output_tokens": 176,
+        "total_tokens": 13086,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 106
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "1e4e7d58-8c4a-47b6-801d-0501cc67b228",
+      "call_id": "ac74babf-7d41-44a4-b3d1-75a51e59e42a",
+      "run_id": "run_dcb3ceb4a6f1",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:44:57.779Z",
+      "duration_ms": 26127,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 13502,
+        "output_tokens": 1770,
+        "total_tokens": 15272,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "c22e80cb-2e64-4d3d-92a8-ae5e9beb5628",
+      "call_id": "d6162949-f8d9-4e6e-8a39-594cbbbacccf",
+      "run_id": "run_dcb3ceb4a6f1",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:45:24.028Z",
+      "duration_ms": 30311,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 21813,
+        "output_tokens": 1989,
+        "total_tokens": 23802,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "43c8852e-a8d4-4087-85b5-5b5119cedf30",
+      "call_id": "ee32545f-a34d-4aa9-8018-7b844191b63f",
+      "run_id": "run_dcb3ceb4a6f1",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:45:54.478Z",
+      "duration_ms": 7199,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 30275,
+        "output_tokens": 193,
+        "total_tokens": 30468,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 93
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "f1475d78-de71-446c-b738-8506e7af7a98",
+      "call_id": "46edb9d4-aa1a-406e-9d22-c3694e1c7d9b",
+      "run_id": "run_dcb3ceb4a6f1",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:46:01.889Z",
+      "duration_ms": 7545,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 31932,
+        "output_tokens": 143,
+        "total_tokens": 32075,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 81
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "0512a768-3b8b-4ec1-ac61-acdc6caddc40",
+      "call_id": "d0aba46b-aa3c-4da9-8b07-ea62bf35f74c",
+      "run_id": "run_dcb3ceb4a6f1",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:46:09.611Z",
+      "duration_ms": 40068,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 54064,
+        "output_tokens": 2226,
+        "total_tokens": 56290,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 84
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "83559774-1411-4b1a-ab71-719845daa9d4",
+      "call_id": "6be0a4aa-ca6c-43ec-a3ae-40619818ab7e",
+      "run_id": "run_461a91194e87",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:47:30.448Z",
+      "duration_ms": 34929,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 16270,
+        "output_tokens": 1368,
+        "total_tokens": 17638,
+        "cache_read_tokens": 2816,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 120
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "566cdcc6-719f-432b-ab3f-4851b9c70c80",
+      "call_id": "935dfbe5-91cb-492b-a4b4-e3e938553dab",
+      "run_id": "run_461a91194e87",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:51:27.201Z",
+      "duration_ms": 39358,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 22071,
+        "output_tokens": 96,
+        "total_tokens": 22167,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 58
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "6c5ed15c-48c6-4797-abd1-ca1712c95f31",
+      "call_id": "38e82694-b6c6-4086-8086-9f34b95ec1f5",
+      "run_id": "run_461a91194e87",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:52:06.771Z",
+      "duration_ms": 15571,
+      "http_status": 200,
+      "stop_reason": "transport_error",
+      "error_class": "provider_transport_error",
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "total_tokens": null,
+        "cache_read_tokens": null,
+        "cache_write_tokens": null,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "5da3f1fe-91f3-4467-a56b-dbaa01745a65",
+      "call_id": "5748bfef-2101-4c6b-a98a-ae14e200727a",
+      "run_id": "run_819efd33a2ca",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:48:05.495Z",
+      "duration_ms": 4678,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 14638,
+        "output_tokens": 45,
+        "total_tokens": 14683,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 12
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "c6b0aadf-e111-4fbd-ba2e-1070de452ef0",
+      "call_id": "7978e795-46da-4582-a190-88d60774d479",
+      "run_id": "run_819efd33a2ca",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:48:10.267Z",
+      "duration_ms": 75779,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 16963,
+        "output_tokens": 5130,
+        "total_tokens": 22093,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 824
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "74f45780-011c-42ed-beb2-8409add5352e",
+      "call_id": "0f516b76-01fb-479c-ae85-44678614fe38",
+      "run_id": "run_819efd33a2ca",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:49:26.161Z",
+      "duration_ms": 5870,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 26779,
+        "output_tokens": 189,
+        "total_tokens": 26968,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 101
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "a3c981a0-ec01-46b1-9d9a-dcb53c135b7d",
+      "call_id": "35ac60b7-79a1-493a-b21b-729d6d45c718",
+      "run_id": "run_819efd33a2ca",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:49:32.225Z",
+      "duration_ms": 76140,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 30118,
+        "output_tokens": 5396,
+        "total_tokens": 35514,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 708
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "5e5082f0-1cce-4202-bd3d-523022fdb023",
+      "call_id": "65e0e259-853c-4c62-b2d1-a6d68464e10e",
+      "run_id": "run_819efd33a2ca",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:50:48.536Z",
+      "duration_ms": 6800,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 51238,
+        "output_tokens": 152,
+        "total_tokens": 51390,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 26
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "b45ee0bd-d5ea-4687-944d-c1d4fef39c93",
+      "call_id": "f1862004-8e65-4e8b-b9b2-8f3fdf861e01",
+      "run_id": "run_819efd33a2ca",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:50:55.726Z",
+      "duration_ms": 30998,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 90576,
+        "output_tokens": 1447,
+        "total_tokens": 92023,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 50
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "0cd9d8c4-f4d1-40e4-8191-477967e40de5",
+      "call_id": "53ffb17c-0c39-436f-a1dd-ebef35d2296c",
+      "run_id": "run_d687fae8eb54",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:52:36.544Z",
+      "duration_ms": 29579,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 19660,
+        "output_tokens": 1294,
+        "total_tokens": 20954,
+        "cache_read_tokens": 832,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 237
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "ca6191fc-ae0e-4d65-97c4-3c8967ccff11",
+      "call_id": "566f2dea-42b7-4c76-bf4a-98f09a341fec",
+      "run_id": "run_d687fae8eb54",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:54:54.467Z",
+      "duration_ms": 18880,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 25561,
+        "output_tokens": 1218,
+        "total_tokens": 26779,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "a7cc9fd3-20b1-45c4-89de-7bf0f18aabec",
+      "call_id": "fd547d4b-fbb3-43cd-9d16-64e6aa21d148",
+      "run_id": "run_302a2135fdc4",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:53:06.242Z",
+      "duration_ms": 5559,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 16320,
+        "output_tokens": 78,
+        "total_tokens": 16398,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 17
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "6f877431-103f-4279-851b-c364a8b0c7a8",
+      "call_id": "2e6f84bf-7e2b-4d4b-b171-c22dec5acf57",
+      "run_id": "run_302a2135fdc4",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:53:11.967Z",
+      "duration_ms": 62577,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 33628,
+        "output_tokens": 4933,
+        "total_tokens": 38561,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 179
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "0d209e65-5637-456a-b7b7-f7c43cc7f53f",
+      "call_id": "a1a0dbf9-f06c-43bc-9620-c1745ffd4263",
+      "run_id": "run_302a2135fdc4",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:54:14.721Z",
+      "duration_ms": 6267,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 53475,
+        "output_tokens": 140,
+        "total_tokens": 53615,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 50
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "5f1cd6b2-1ba9-40a3-b274-0d5354379fe5",
+      "call_id": "50f68561-bd9f-48ae-a676-87c7e48650fe",
+      "run_id": "run_302a2135fdc4",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:54:21.309Z",
+      "duration_ms": 32613,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 106018,
+        "output_tokens": 1599,
+        "total_tokens": 107617,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "ae222b98-cee5-4c71-8e7b-0b7cd0fa1c71",
+      "call_id": "6f9e19eb-ed41-4f0b-87db-0a8f736b2772",
+      "run_id": "run_881719257ed5",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:55:27.287Z",
+      "duration_ms": 28738,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 23792,
+        "output_tokens": 1381,
+        "total_tokens": 25173,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 20
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "e90b3dee-1a6e-4db3-8ac2-8cca01616f72",
+      "call_id": "51b8a62c-dbab-4044-bc0f-153fd7a06382",
+      "run_id": "run_881719257ed5",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:59:21.639Z",
+      "duration_ms": 6888,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 29438,
+        "output_tokens": 100,
+        "total_tokens": 29538,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 59
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "086f0c37-8266-410a-a1fd-cebc39559ddc",
+      "call_id": "2a73b036-e422-4c79-8d35-622e82cdf6b5",
+      "run_id": "run_881719257ed5",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:59:28.774Z",
+      "duration_ms": 20076,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 91819,
+        "output_tokens": 642,
+        "total_tokens": 92461,
+        "cache_read_tokens": 2816,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 283
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "2ba84d24-f60f-4f6c-bc52-869fd34b26b4",
+      "call_id": "9e660017-4e1c-42eb-98be-700ce9909935",
+      "run_id": "run_881719257ed5",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:00:21.061Z",
+      "duration_ms": 38054,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 93704,
+        "output_tokens": 2432,
+        "total_tokens": 96136,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "88f6ed40-4c8e-48b8-8dfd-193136cefb9c",
+      "call_id": "96cea1d1-795c-46a9-9532-4b365676ffb0",
+      "run_id": "run_12f8f0d98dfd",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:55:56.146Z",
+      "duration_ms": 83469,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 18675,
+        "output_tokens": 5409,
+        "total_tokens": 24084,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 632
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "76347a9f-563b-4962-a052-a9ba5c263c26",
+      "call_id": "7cab8473-8adc-46ba-9d9f-a6529cf0a62e",
+      "run_id": "run_12f8f0d98dfd",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:57:19.721Z",
+      "duration_ms": 14999,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 29277,
+        "output_tokens": 610,
+        "total_tokens": 29887,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 556
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "a01bfe4b-0699-41d6-9ab8-fd32f98963a9",
+      "call_id": "7950b18d-90c8-485d-8ebd-2a9e02da6747",
+      "run_id": "run_12f8f0d98dfd",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:57:34.832Z",
+      "duration_ms": 58243,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 32537,
+        "output_tokens": 4911,
+        "total_tokens": 37448,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 51
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "b6a92819-df83-4e7e-a508-a6c8e02bf16e",
+      "call_id": "163339da-56c3-4220-bf5b-0ba78e06f3e5",
+      "run_id": "run_12f8f0d98dfd",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:58:33.237Z",
+      "duration_ms": 6755,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 52817,
+        "output_tokens": 101,
+        "total_tokens": 52918,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 57
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "b7028604-7d99-4bac-a313-552911a5d75e",
+      "call_id": "00bdec1c-a680-488f-9181-25e0e7b3a22e",
+      "run_id": "run_12f8f0d98dfd",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:58:40.209Z",
+      "duration_ms": 40875,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 115197,
+        "output_tokens": 2071,
+        "total_tokens": 117268,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 11
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "1aea6612-cd62-4ed3-bb14-5e79721476ed",
+      "call_id": "257a7955-ff10-490a-9945-4d630d2e4f10",
+      "run_id": "run_6449b55ef9cc",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:59:49.161Z",
+      "duration_ms": 6403,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 17636,
+        "output_tokens": 98,
+        "total_tokens": 17734,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 62
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "f3bee0ce-6941-439e-b165-da5cbd7ff679",
+      "call_id": "8a3de5cf-6acd-4397-9d04-ba75f99c91ed",
+      "run_id": "run_6449b55ef9cc",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:59:55.651Z",
+      "duration_ms": 9145,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 18988,
+        "output_tokens": 367,
+        "total_tokens": 19355,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 36
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "7623dda1-8434-4096-ab65-09aaef08d979",
+      "call_id": "f6253307-64e1-4a75-b43a-e3a4c16ed009",
+      "run_id": "run_6449b55ef9cc",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:00:04.908Z",
+      "duration_ms": 4598,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 20730,
+        "output_tokens": 41,
+        "total_tokens": 20771,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 6
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "3e0d3c2a-6256-4782-88f6-61c08205994d",
+      "call_id": "c31fd0ea-88fe-4819-a598-dafe82092447",
+      "run_id": "run_6449b55ef9cc",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:00:09.600Z",
+      "duration_ms": 11075,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 21710,
+        "output_tokens": 414,
+        "total_tokens": 22124,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "adcd3d00-76d2-490e-a5a5-6564f68b4f83",
+      "call_id": "eb33bcdc-7c8b-4537-88d9-bf1d5e2bbcab",
+      "run_id": "run_3e534525c3d9",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:01:55.113Z",
+      "duration_ms": 4788,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 20657,
+        "output_tokens": 51,
+        "total_tokens": 20708,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 12
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "b3fde18c-3973-453d-b24c-db87343edf68",
+      "call_id": "d468b305-319b-4107-9b6a-d9c477d204e0",
+      "run_id": "run_3e534525c3d9",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:02:00.046Z",
+      "duration_ms": 99140,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 23279,
+        "output_tokens": 7538,
+        "total_tokens": 30817,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 503
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "4d57075b-d2cb-4377-a051-51911021d129",
+      "call_id": "31b8dcf4-d1bc-48c4-8509-005628a3393a",
+      "run_id": "run_3e534525c3d9",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:03:39.352Z",
+      "duration_ms": 78424,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 47279,
+        "output_tokens": 7075,
+        "total_tokens": 54354,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 32
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "ddba8873-9fd3-41ab-b660-ec85e135a8a1",
+      "call_id": "9ab178e0-ad24-403a-b804-09dd4bd00f35",
+      "run_id": "run_3e534525c3d9",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:04:57.981Z",
+      "duration_ms": 6042,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 80169,
+        "output_tokens": 87,
+        "total_tokens": 80256,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 36
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "f24c07a9-bd24-4917-bcbd-7741ac2504f9",
+      "call_id": "347501fc-31bc-46d1-b504-d20bef8ac68b",
+      "run_id": "run_3e534525c3d9",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:05:04.293Z",
+      "duration_ms": 9779,
+      "http_status": 200,
+      "stop_reason": "length",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 161442,
+        "output_tokens": 1,
+        "total_tokens": 161443,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 1
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "950706fb-1d7f-4686-be89-82ffb6806875",
+      "call_id": "bbbe18ff-d0cd-4bbf-89ee-30eb3e663279",
+      "run_id": "run_3e534525c3d9",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:05:14.569Z",
+      "duration_ms": 9471,
+      "http_status": 200,
+      "stop_reason": "length",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 162757,
+        "output_tokens": 1,
+        "total_tokens": 162758,
+        "cache_read_tokens": 3392,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 1
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "50ac4ae2-1f02-48b1-948f-1a42f215c394",
+      "call_id": "15785dda-e54c-44c8-9662-2ca32c557dea",
+      "run_id": "run_3e534525c3d9",
+      "agent_id": "b_capture",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:05:24.628Z",
+      "duration_ms": 11039,
+      "http_status": 200,
+      "stop_reason": "length",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 161455,
+        "output_tokens": 1,
+        "total_tokens": 161456,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 1
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "5a032359-4cbd-4f0f-9e1a-514393b98a06",
+      "call_id": "4f698edd-4584-4f81-9fc0-611a2011a8d3",
+      "run_id": "run_3d665defd8b9",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:06:43.663Z",
+      "duration_ms": 5325,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 30249,
+        "output_tokens": 80,
+        "total_tokens": 30329,
+        "cache_read_tokens": 2816,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 43
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "29565e98-655f-4168-b12b-66ba6f70ca34",
+      "call_id": "1f218a7c-f21c-4996-ab89-a657e8e04e7e",
+      "run_id": "run_3d665defd8b9",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:06:49.147Z",
+      "duration_ms": 37259,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 54267,
+        "output_tokens": 1965,
+        "total_tokens": 56232,
+        "cache_read_tokens": 2816,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "afed5ae7-b89b-44e8-810e-3b9739022037",
+      "call_id": "45196c4f-2eaa-43ab-8245-3b02fb7c3ee3",
+      "run_id": "run_e881d6d1f826",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:07:32.049Z",
+      "duration_ms": 44477,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 32398,
+        "output_tokens": 1757,
+        "total_tokens": 34155,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 23
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "5bdf6c20-7c66-4a6a-b641-4b9c5b425f20",
+      "call_id": "a9d31c80-8f0a-44f4-87c0-9aa3614773a7",
+      "run_id": "run_99441963b2a1",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:08:20.709Z",
+      "duration_ms": 29981,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 34341,
+        "output_tokens": 1720,
+        "total_tokens": 36061,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 162
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "0d665564-a9b6-4189-8c33-d8071feaec3d",
+      "call_id": "c332a407-bb41-4b3e-94b9-262d0b6ba64d",
+      "run_id": "run_262c5b8568f8",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:08:55.441Z",
+      "duration_ms": 32408,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 36061,
+        "output_tokens": 1383,
+        "total_tokens": 37444,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 11
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "249bd73c-5932-437e-bf4c-7206ec8e286c",
+      "call_id": "249bd73c-5932-437e-bf4c-7206ec8e286c",
+      "run_id": "run_c857fbe1e3ad",
+      "agent_id": "vision_ocr",
+      "page_id": "pg_17ae18a80c7f_0001",
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:41:03Z",
+      "duration_ms": 11484.0,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 2145,
+        "output_tokens": 475,
+        "total_tokens": 2620,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "26e5e40d-0772-4882-8088-2f02c15756d5",
+      "call_id": "26e5e40d-0772-4882-8088-2f02c15756d5",
+      "run_id": "run_4a7f65567561",
+      "agent_id": "vision_ocr",
+      "page_id": "pg_951a185c33a5_0001",
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:44:04Z",
+      "duration_ms": 7906.0,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 2145,
+        "output_tokens": 397,
+        "total_tokens": 2542,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "6dbb37ca-334e-4d60-b2a6-63c2f7d99b6b",
+      "call_id": "6dbb37ca-334e-4d60-b2a6-63c2f7d99b6b",
+      "run_id": "run_461a91194e87",
+      "agent_id": "vision_ocr",
+      "page_id": "pg_f01eb65e6d0b_0001",
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:47:20Z",
+      "duration_ms": 8687.0,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 2145,
+        "output_tokens": 503,
+        "total_tokens": 2648,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "c8a65931-b595-4208-9f1c-f4e0a53b3065",
+      "call_id": "c8a65931-b595-4208-9f1c-f4e0a53b3065",
+      "run_id": "run_d687fae8eb54",
+      "agent_id": "vision_ocr",
+      "page_id": "pg_0d89283541d2_0001",
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:52:24Z",
+      "duration_ms": 10672.0,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 2145,
+        "output_tokens": 626,
+        "total_tokens": 2771,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "3206c266-afda-4eca-a6f2-4b0634cb8b9b",
+      "call_id": "3206c266-afda-4eca-a6f2-4b0634cb8b9b",
+      "run_id": "run_881719257ed5",
+      "agent_id": "vision_ocr",
+      "page_id": "pg_c5bb907aed2b_0001",
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T15:55:16Z",
+      "duration_ms": 10407.0,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 2145,
+        "output_tokens": 736,
+        "total_tokens": 2881,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "1f738517-58e3-43ec-bfd6-14e9162e1bb7",
+      "call_id": "1f738517-58e3-43ec-bfd6-14e9162e1bb7",
+      "run_id": "run_354aca0f1032",
+      "agent_id": "vision_ocr",
+      "page_id": "pg_da90659434ce_0001",
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:01:04Z",
+      "duration_ms": 13906.0,
+      "http_status": 200,
+      "stop_reason": "stop",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 2145,
+        "output_tokens": 840,
+        "total_tokens": 2985,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "24154ce5-30df-42c4-be48-544892b7c8f1",
+      "call_id": "413b27a5-8352-4e0c-ae14-3b78cf9ce391",
+      "run_id": "run_354aca0f1032",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:01:24.373Z",
+      "duration_ms": 30618,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 27956,
+        "output_tokens": 1463,
+        "total_tokens": 29419,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 134
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "177806db-e297-4000-a1a7-daf218c73bfc",
+      "call_id": "71a47768-5597-4ff4-abc1-72358e15fd9f",
+      "run_id": "run_354aca0f1032",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:05:36.220Z",
+      "duration_ms": 10159,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 35124,
+        "output_tokens": 225,
+        "total_tokens": 35349,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 185
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "cf26bf18-ffc4-476b-9b72-99e30560425b",
+      "call_id": "dda81ff6-4dba-4a54-a426-5881ca184f80",
+      "run_id": "run_354aca0f1032",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:05:46.637Z",
+      "duration_ms": 8718,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 58853,
+        "output_tokens": 170,
+        "total_tokens": 59023,
+        "cache_read_tokens": 2816,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 137
+      }
+    },
+    {
+      "schema_version": 1,
+      "request_id": "d9fe0567-4d83-44eb-94f0-ddae4af7f944",
+      "call_id": "0761b820-1031-4986-9189-162ae74f28a5",
+      "run_id": "run_354aca0f1032",
+      "agent_id": "orchestrator",
+      "page_id": null,
+      "model": "glm-5.3-flash",
+      "phase": "finished",
+      "retry_index": 0,
+      "started_at": "2026-10-29T16:05:55.704Z",
+      "duration_ms": 43703,
+      "http_status": 200,
+      "stop_reason": "tool_calls",
+      "error_class": null,
+      "provider_error_code": null,
+      "cost": null,
+      "cost_currency": null,
+      "usage": {
+        "input_tokens": 140205,
+        "output_tokens": 2537,
+        "total_tokens": 142742,
+        "cache_read_tokens": 2880,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 82
+      }
+    }
+  ],
+  "provider_observation_sources": {
+    "326e19d5-218c-47be-96ac-bfa057162476": [
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "47c778b7-b37c-419f-a6f7-f097c913fe59": [
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "8a40447e-6fdb-4e04-9f57-850635835ca7": [
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "9bf28427-9e54-4ec6-86aa-1e95f8c86c3a": [
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "4a4ef4dd-1d83-4b52-b1b4-54eaeec93a1f": [
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "e2f768e2-4acb-45e6-92dd-592090ab6d27": [
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "413369e2-c927-46c4-b81e-816293cc7fd0": [
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_c857fbe1e3ad/result/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12fc9c395cf3/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_c857fbe1e3ad/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/child/run_12fc9c395cf3/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "6718de1b-8191-437a-a161-857007bacc8a": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "56cd19d7-0cb5-47a7-8240-6f22a369d13c": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "d7228c3c-8e34-4bc4-8a55-d37806b02d98": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "a608ec4e-ddf1-4ff1-869c-273876930ef9": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "977bdfca-1b66-4659-8f87-ddf1bf8b9fa3": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "1e4e7d58-8c4a-47b6-801d-0501cc67b228": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "c22e80cb-2e64-4d3d-92a8-ae5e9beb5628": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "43c8852e-a8d4-4087-85b5-5b5119cedf30": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "f1475d78-de71-446c-b738-8506e7af7a98": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "0512a768-3b8b-4ec1-ac61-acdc6caddc40": [
+      {
+        "source": "checkpoint/run_4a7f65567561/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_4a7f65567561/result/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_dcb3ceb4a6f1/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_4a7f65567561/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/child/run_dcb3ceb4a6f1/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "83559774-1411-4b1a-ab71-719845daa9d4": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "566cdcc6-719f-432b-ab3f-4851b9c70c80": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "6c5ed15c-48c6-4797-abd1-ca1712c95f31": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "5da3f1fe-91f3-4467-a56b-dbaa01745a65": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "c6b0aadf-e111-4fbd-ba2e-1070de452ef0": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "74f45780-011c-42ed-beb2-8409add5352e": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "a3c981a0-ec01-46b1-9d9a-dcb53c135b7d": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "5e5082f0-1cce-4202-bd3d-523022fdb023": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "b45ee0bd-d5ea-4687-944d-c1d4fef39c93": [
+      {
+        "source": "checkpoint/run_461a91194e87/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_461a91194e87/result/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_819efd33a2ca/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_461a91194e87/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/child/run_819efd33a2ca/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "0cd9d8c4-f4d1-40e4-8191-477967e40de5": [
+      {
+        "source": "checkpoint/run_d687fae8eb54/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "ca6191fc-ae0e-4d65-97c4-3c8967ccff11": [
+      {
+        "source": "checkpoint/run_d687fae8eb54/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "a7cc9fd3-20b1-45c4-89de-7bf0f18aabec": [
+      {
+        "source": "checkpoint/run_d687fae8eb54/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "6f877431-103f-4279-851b-c364a8b0c7a8": [
+      {
+        "source": "checkpoint/run_d687fae8eb54/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "0d209e65-5637-456a-b7b7-f7c43cc7f53f": [
+      {
+        "source": "checkpoint/run_d687fae8eb54/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "5f1cd6b2-1ba9-40a3-b274-0d5354379fe5": [
+      {
+        "source": "checkpoint/run_d687fae8eb54/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_d687fae8eb54/result/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_302a2135fdc4/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_d687fae8eb54/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/child/run_302a2135fdc4/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "ae222b98-cee5-4c71-8e7b-0b7cd0fa1c71": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "e90b3dee-1a6e-4db3-8ac2-8cca01616f72": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "086f0c37-8266-410a-a1fd-cebc39559ddc": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "2ba84d24-f60f-4f6c-bc52-869fd34b26b4": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "88f6ed40-4c8e-48b8-8dfd-193136cefb9c": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "76347a9f-563b-4962-a052-a9ba5c263c26": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "a01bfe4b-0699-41d6-9ab8-fd32f98963a9": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "b6a92819-df83-4e7e-a508-a6c8e02bf16e": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "b7028604-7d99-4bac-a313-552911a5d75e": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_12f8f0d98dfd/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_12f8f0d98dfd/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "1aea6612-cd62-4ed3-bb14-5e79721476ed": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "f3bee0ce-6941-439e-b165-da5cbd7ff679": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "7623dda1-8434-4096-ab65-09aaef08d979": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "3e0d3c2a-6256-4782-88f6-61c08205994d": [
+      {
+        "source": "checkpoint/run_881719257ed5/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_881719257ed5/result/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_6449b55ef9cc/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_881719257ed5/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/child/run_6449b55ef9cc/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "adcd3d00-76d2-490e-a5a5-6564f68b4f83": [
+      {
+        "source": "checkpoint/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3e534525c3d9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "b3fde18c-3973-453d-b24c-db87343edf68": [
+      {
+        "source": "checkpoint/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3e534525c3d9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "4d57075b-d2cb-4377-a051-51911021d129": [
+      {
+        "source": "checkpoint/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3e534525c3d9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "ddba8873-9fd3-41ab-b660-ec85e135a8a1": [
+      {
+        "source": "checkpoint/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3e534525c3d9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "f24c07a9-bd24-4917-bcbd-7741ac2504f9": [
+      {
+        "source": "checkpoint/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3e534525c3d9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "950706fb-1d7f-4686-be89-82ffb6806875": [
+      {
+        "source": "checkpoint/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3e534525c3d9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "50ac4ae2-1f02-48b1-948f-1a42f215c394": [
+      {
+        "source": "checkpoint/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3e534525c3d9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_354aca0f1032/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/child/run_3e534525c3d9/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "5a032359-4cbd-4f0f-9e1a-514393b98a06": [
+      {
+        "source": "checkpoint/run_3d665defd8b9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3d665defd8b9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3d665defd8b9/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_7512c33353124596bd65e530095fc912/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "29565e98-655f-4168-b12b-66ba6f70ca34": [
+      {
+        "source": "checkpoint/run_3d665defd8b9/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_3d665defd8b9/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_3d665defd8b9/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_7512c33353124596bd65e530095fc912/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "afed5ae7-b89b-44e8-810e-3b9739022037": [
+      {
+        "source": "checkpoint/run_e881d6d1f826/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_e881d6d1f826/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_e881d6d1f826/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_2f5a001ac1574427bc54b7cd4ab225cd/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "5bdf6c20-7c66-4a6a-b641-4b9c5b425f20": [
+      {
+        "source": "checkpoint/run_99441963b2a1/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_99441963b2a1/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_99441963b2a1/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_076464347caa471c9da1d1cb5d178aae/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "0d665564-a9b6-4189-8c33-d8071feaec3d": [
+      {
+        "source": "checkpoint/run_262c5b8568f8/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "checkpoint/run_262c5b8568f8/result/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "run-result/run_262c5b8568f8/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_cfac04eea7ca4da782662d7fef4f62de/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "249bd73c-5932-437e-bf4c-7206ec8e286c": [
+      {
+        "source": "run-result/run_c857fbe1e3ad/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_df215dca3a3a474da957effd95dddef1/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "python-ledger/line-1",
+        "phase": "started"
+      },
+      {
+        "source": "python-ledger/line-2",
+        "phase": "finished"
+      }
+    ],
+    "26e5e40d-0772-4882-8088-2f02c15756d5": [
+      {
+        "source": "run-result/run_4a7f65567561/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_d74a075f661f406292fa616863c7f34c/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "python-ledger/line-3",
+        "phase": "started"
+      },
+      {
+        "source": "python-ledger/line-4",
+        "phase": "finished"
+      }
+    ],
+    "6dbb37ca-334e-4d60-b2a6-63c2f7d99b6b": [
+      {
+        "source": "run-result/run_461a91194e87/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_08026587ba81471dab02a9c677183b11/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "python-ledger/line-5",
+        "phase": "started"
+      },
+      {
+        "source": "python-ledger/line-6",
+        "phase": "finished"
+      }
+    ],
+    "c8a65931-b595-4208-9f1c-f4e0a53b3065": [
+      {
+        "source": "run-result/run_d687fae8eb54/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_016edb1e2107496eb0d3b156aac3f21a/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "python-ledger/line-7",
+        "phase": "started"
+      },
+      {
+        "source": "python-ledger/line-8",
+        "phase": "finished"
+      }
+    ],
+    "3206c266-afda-4eca-a6f2-4b0634cb8b9b": [
+      {
+        "source": "run-result/run_881719257ed5/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_e5b98f6b51484fb2b05665ce7280cd5e/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "python-ledger/line-9",
+        "phase": "started"
+      },
+      {
+        "source": "python-ledger/line-10",
+        "phase": "finished"
+      }
+    ],
+    "1f738517-58e3-43ec-bfd6-14e9162e1bb7": [
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "python-ledger/line-11",
+        "phase": "started"
+      },
+      {
+        "source": "python-ledger/line-12",
+        "phase": "finished"
+      }
+    ],
+    "24154ce5-30df-42c4-be48-544892b7c8f1": [
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "177806db-e297-4000-a1a7-daf218c73bfc": [
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "cf26bf18-ffc4-476b-9b72-99e30560425b": [
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      }
+    ],
+    "d9fe0567-4d83-44eb-94f0-ddae4af7f944": [
+      {
+        "source": "run-result/run_354aca0f1032/data/provider_requests",
+        "phase": "finished"
+      },
+      {
+        "source": "job-result/job_8c26d654d3474dd19da8aa244f1ac4be/data/provider_requests",
+        "phase": "finished"
+      }
+    ]
+  },
+  "provider_observation_conflicts": [],
+  "unassigned_provider_request_ids": [],
+  "jobs": [
+    {
+      "job_id": "job_df215dca3a3a474da957effd95dddef1",
+      "request_id": "mof-fast-20261029-upload-P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_c857fbe1e3ad",
+      "created_at": "2026-10-29 15:41:03",
+      "updated_at": "2026-10-29 15:44:02",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "explicit",
+        "stopReason": "toolUse",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_12fc9c395cf3",
+        "run_c857fbe1e3ad"
+      ],
+      "provider": {
+        "request_intent_count": 8,
+        "request_count": 8,
+        "finished_request_count": 8,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 8,
+        "usage": {
+          "input_tokens": 146653,
+          "output_tokens": 9393,
+          "total_tokens": 156046,
+          "cache_read_tokens": 3392,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 861
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 146653,
+          "output_tokens": 9393,
+          "total_tokens": 156046,
+          "cache_read_tokens": 3392,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 861
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 8,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 176759.0,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_d74a075f661f406292fa616863c7f34c",
+      "request_id": "mof-fast-20261029-upload-P02_2026-10-13_Washing_and_Batch3_Synthesis",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_4a7f65567561",
+      "created_at": "2026-10-29 15:44:03",
+      "updated_at": "2026-10-29 15:47:19",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "explicit",
+        "stopReason": "toolUse",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_4a7f65567561",
+        "run_dcb3ceb4a6f1"
+      ],
+      "provider": {
+        "request_intent_count": 11,
+        "request_count": 11,
+        "finished_request_count": 11,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 11,
+        "usage": {
+          "input_tokens": 280469,
+          "output_tokens": 9534,
+          "total_tokens": 290003,
+          "cache_read_tokens": 22592,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 506
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 280469,
+          "output_tokens": 9534,
+          "total_tokens": 290003,
+          "cache_read_tokens": 22592,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 506
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 11,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 192661.0,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_08026587ba81471dab02a9c677183b11",
+      "request_id": "mof-fast-20261029-upload-P03_2026-10-15_Vacuum_Activation_and_FTIR_Check",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "partial",
+      "run_id": "run_461a91194e87",
+      "created_at": "2026-10-29 15:47:20",
+      "updated_at": "2026-10-29 15:52:22",
+      "error_code": "provider_error",
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "incomplete",
+        "stopReason": "error",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_461a91194e87",
+        "run_819efd33a2ca"
+      ],
+      "provider": {
+        "request_intent_count": 10,
+        "request_count": 10,
+        "finished_request_count": 10,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 9,
+        "usage": {
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null,
+          "cache_read_tokens": null,
+          "cache_write_tokens": null,
+          "reasoning_tokens": null
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 270798,
+          "output_tokens": 14326,
+          "total_tokens": 285124,
+          "cache_read_tokens": 16384,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 1899
+        },
+        "usage_missing_requests": {
+          "input_tokens": 1,
+          "output_tokens": 1,
+          "total_tokens": 1,
+          "cache_read_tokens": 1,
+          "cache_write_tokens": 10,
+          "reasoning_tokens": 1
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 298810.0,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_016edb1e2107496eb0d3b156aac3f21a",
+      "request_id": "mof-fast-20261029-upload-P04_2026-10-16_PXRD_SEM_FTIR_Summary",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_d687fae8eb54",
+      "created_at": "2026-10-29 15:52:24",
+      "updated_at": "2026-10-29 15:55:13",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "explicit",
+        "stopReason": "toolUse",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_302a2135fdc4",
+        "run_d687fae8eb54"
+      ],
+      "provider": {
+        "request_intent_count": 7,
+        "request_count": 7,
+        "finished_request_count": 7,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 7,
+        "usage": {
+          "input_tokens": 256807,
+          "output_tokens": 9888,
+          "total_tokens": 266695,
+          "cache_read_tokens": 11008,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 483
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 256807,
+          "output_tokens": 9888,
+          "total_tokens": 266695,
+          "cache_read_tokens": 11008,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 483
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 7,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 166147.0,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_e5b98f6b51484fb2b05665ce7280cd5e",
+      "request_id": "mof-fast-20261029-upload-P05_2026-10-17_77K_N2_BET_and_TGA_Defects",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_881719257ed5",
+      "created_at": "2026-10-29 15:55:15",
+      "updated_at": "2026-10-29 16:00:59",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "explicit",
+        "stopReason": "toolUse",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_12f8f0d98dfd",
+        "run_6449b55ef9cc",
+        "run_881719257ed5"
+      ],
+      "provider": {
+        "request_intent_count": 14,
+        "request_count": 14,
+        "finished_request_count": 14,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 14,
+        "usage": {
+          "input_tokens": 568465,
+          "output_tokens": 19313,
+          "total_tokens": 587778,
+          "cache_read_tokens": 19776,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 1773
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 568465,
+          "output_tokens": 19313,
+          "total_tokens": 587778,
+          "cache_read_tokens": 19776,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 1773
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 14,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 339725.0,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_8c26d654d3474dd19da8aa244f1ac4be",
+      "request_id": "mof-fast-20261029-upload-P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "partial",
+      "run_id": "run_354aca0f1032",
+      "created_at": "2026-10-29 16:01:04",
+      "updated_at": "2026-10-29 16:06:40",
+      "error_code": null,
+      "root_settled_checkpoint": false,
+      "completion": {
+        "mode": null,
+        "stopReason": null,
+        "repair_attempts": null,
+        "task_continuation_attempts": null
+      },
+      "actual_run_ids": [
+        "run_354aca0f1032",
+        "run_3e534525c3d9"
+      ],
+      "provider": {
+        "request_intent_count": 12,
+        "request_count": 12,
+        "finished_request_count": 12,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 12,
+        "usage": {
+          "input_tokens": 921321,
+          "output_tokens": 19989,
+          "total_tokens": 941310,
+          "cache_read_tokens": 15872,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 1124
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 921321,
+          "output_tokens": 19989,
+          "total_tokens": 941310,
+          "cache_read_tokens": 15872,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 1124
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 12,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 325787.0,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_7512c33353124596bd65e530095fc912",
+      "request_id": "mof-fast-20261029-L1",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_3d665defd8b9",
+      "created_at": "2026-10-29 16:06:42",
+      "updated_at": "2026-10-29 16:07:26",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "explicit",
+        "stopReason": "toolUse",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_3d665defd8b9"
+      ],
+      "provider": {
+        "request_intent_count": 2,
+        "request_count": 2,
+        "finished_request_count": 2,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 2,
+        "usage": {
+          "input_tokens": 84516,
+          "output_tokens": 2045,
+          "total_tokens": 86561,
+          "cache_read_tokens": 5632,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 43
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 84516,
+          "output_tokens": 2045,
+          "total_tokens": 86561,
+          "cache_read_tokens": 5632,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 43
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 2,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 42584,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_2f5a001ac1574427bc54b7cd4ab225cd",
+      "request_id": "mof-fast-20261029-L2",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_e881d6d1f826",
+      "created_at": "2026-10-29 16:07:30",
+      "updated_at": "2026-10-29 16:08:16",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "natural",
+        "stopReason": "stop",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_e881d6d1f826"
+      ],
+      "provider": {
+        "request_intent_count": 1,
+        "request_count": 1,
+        "finished_request_count": 1,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 1,
+        "usage": {
+          "input_tokens": 32398,
+          "output_tokens": 1757,
+          "total_tokens": 34155,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 23
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 32398,
+          "output_tokens": 1757,
+          "total_tokens": 34155,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 23
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 1,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 44477,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_076464347caa471c9da1d1cb5d178aae",
+      "request_id": "mof-fast-20261029-H1",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_99441963b2a1",
+      "created_at": "2026-10-29 16:08:19",
+      "updated_at": "2026-10-29 16:08:50",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "natural",
+        "stopReason": "stop",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_99441963b2a1"
+      ],
+      "provider": {
+        "request_intent_count": 1,
+        "request_count": 1,
+        "finished_request_count": 1,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 1,
+        "usage": {
+          "input_tokens": 34341,
+          "output_tokens": 1720,
+          "total_tokens": 36061,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 162
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 34341,
+          "output_tokens": 1720,
+          "total_tokens": 36061,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 162
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 1,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 29981,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    },
+    {
+      "job_id": "job_cfac04eea7ca4da782662d7fef4f62de",
+      "request_id": "mof-fast-20261029-H2",
+      "session_id": "sess_ec37ec2888d14500b8643fc55ec70610",
+      "status": "completed",
+      "run_id": "run_262c5b8568f8",
+      "created_at": "2026-10-29 16:08:54",
+      "updated_at": "2026-10-29 16:09:27",
+      "error_code": null,
+      "root_settled_checkpoint": true,
+      "completion": {
+        "mode": "natural",
+        "stopReason": "stop",
+        "repair_attempts": 0,
+        "task_continuation_attempts": 0
+      },
+      "actual_run_ids": [
+        "run_262c5b8568f8"
+      ],
+      "provider": {
+        "request_intent_count": 1,
+        "request_count": 1,
+        "finished_request_count": 1,
+        "unfinished_request_intents": 0,
+        "not_sent_requests": 0,
+        "retry_count": 0,
+        "quota_exhausted_requests": 0,
+        "usage_observed_requests": 1,
+        "usage": {
+          "input_tokens": 36061,
+          "output_tokens": 1383,
+          "total_tokens": 37444,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 11
+        },
+        "known_usage_subtotals_only": {
+          "input_tokens": 36061,
+          "output_tokens": 1383,
+          "total_tokens": 37444,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": null,
+          "reasoning_tokens": 11
+        },
+        "usage_missing_requests": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 1,
+          "reasoning_tokens": 0
+        },
+        "cost": null,
+        "cost_currency": null,
+        "known_http_duration_ms_only": 32408,
+        "missing_http_duration_count": 0,
+        "request_count_semantics": "transport attempts with recorded intent; unfinished intents do not prove remote acceptance or billing"
+      }
+    }
+  ],
+  "actual_roles": {
+    "b_capture": 7,
+    "orchestrator": 10
+  },
+  "actual_run_statuses": {
+    "failed": 3,
+    "succeeded": 14
+  },
+  "journal_tool_attempts": [
+    {
+      "run_id": "run_c857fbe1e3ad",
+      "name": "agent.delegate",
+      "toolCallId": "call_9982459a050f4b59a7b079fc",
+      "operation_id": "run_c857fbe1e3ad/call_9982459a050f4b59a7b079fc",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_c857fbe1e3ad",
+      "name": "query.samples.list",
+      "toolCallId": "call_13895d4d9316428cbe6c3e57",
+      "operation_id": "run_c857fbe1e3ad/call_13895d4d9316428cbe6c3e57",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_c857fbe1e3ad",
+      "name": "agent.respond",
+      "toolCallId": "call_f92b3a82d8934075b184d233",
+      "operation_id": "run_c857fbe1e3ad/call_f92b3a82d8934075b184d233",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12fc9c395cf3",
+      "name": "memory.sample.search",
+      "toolCallId": "call_855e105719ea495cb77fadb5",
+      "operation_id": "run_12fc9c395cf3/call_855e105719ea495cb77fadb5",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12fc9c395cf3",
+      "name": "memory.sample.search",
+      "toolCallId": "call_7da7584df648446fa7235b03",
+      "operation_id": "run_12fc9c395cf3/call_7da7584df648446fa7235b03",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12fc9c395cf3",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_831a2fb774c24fdf9a73c926",
+      "operation_id": "run_12fc9c395cf3/call_831a2fb774c24fdf9a73c926",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12fc9c395cf3",
+      "name": "query.samples.list",
+      "toolCallId": "call_37ea33b3dfbc4cebb6393df6",
+      "operation_id": "run_12fc9c395cf3/call_37ea33b3dfbc4cebb6393df6",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12fc9c395cf3",
+      "name": "agent.respond",
+      "toolCallId": "call_ae39acf892524b1d9d23d1ca",
+      "operation_id": "run_12fc9c395cf3/call_ae39acf892524b1d9d23d1ca",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_4a7f65567561",
+      "name": "query.samples.list",
+      "toolCallId": "call_55c2d1d51773486b888d3a23",
+      "operation_id": "run_4a7f65567561/call_55c2d1d51773486b888d3a23",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_4a7f65567561",
+      "name": "agent.delegate",
+      "toolCallId": "call_eed10e038dca490f9a182ae6",
+      "operation_id": "run_4a7f65567561/call_eed10e038dca490f9a182ae6",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_4a7f65567561",
+      "name": "query.samples.list",
+      "toolCallId": "call_51287cce41324484b3a85df8",
+      "operation_id": "run_4a7f65567561/call_51287cce41324484b3a85df8",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_4a7f65567561",
+      "name": "agent.respond",
+      "toolCallId": "call_77afc41036914e0c81eb26a4",
+      "operation_id": "run_4a7f65567561/call_77afc41036914e0c81eb26a4",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "memory.sample.search",
+      "toolCallId": "call_6ef2daa074ce4752bab6aac6",
+      "operation_id": "run_dcb3ceb4a6f1/call_6ef2daa074ce4752bab6aac6",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "memory.sample.search",
+      "toolCallId": "call_f48d6af0203a495e86edd611",
+      "operation_id": "run_dcb3ceb4a6f1/call_f48d6af0203a495e86edd611",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_8f4afeb08ae04472b5e98317",
+      "operation_id": "run_dcb3ceb4a6f1/call_8f4afeb08ae04472b5e98317",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_db92333d2eea451190acbd42",
+      "operation_id": "run_dcb3ceb4a6f1/call_db92333d2eea451190acbd42",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "memory.event.read",
+      "toolCallId": "call_20905a78411447b3b7757213",
+      "operation_id": "run_dcb3ceb4a6f1/call_20905a78411447b3b7757213",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "query.samples.list",
+      "toolCallId": "call_3c6b7bf4fde84d28b1a1075f",
+      "operation_id": "run_dcb3ceb4a6f1/call_3c6b7bf4fde84d28b1a1075f",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "query.samples.list",
+      "toolCallId": "call_7a9e447890314d2387b35ad4",
+      "operation_id": "run_dcb3ceb4a6f1/call_7a9e447890314d2387b35ad4",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_dcb3ceb4a6f1",
+      "name": "agent.respond",
+      "toolCallId": "call_79bbd658860f453c9cf0cfbe",
+      "operation_id": "run_dcb3ceb4a6f1/call_79bbd658860f453c9cf0cfbe",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_461a91194e87",
+      "name": "agent.delegate",
+      "toolCallId": "call_9e777764d76248478216e7cf",
+      "operation_id": "run_461a91194e87/call_9e777764d76248478216e7cf",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_461a91194e87",
+      "name": "query.samples.list",
+      "toolCallId": "call_64991f091b0a46aeb9a3d03c",
+      "operation_id": "run_461a91194e87/call_64991f091b0a46aeb9a3d03c",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "evidence.page.read",
+      "toolCallId": "call_31c9966080304c698c803ce8",
+      "operation_id": "run_819efd33a2ca/call_31c9966080304c698c803ce8",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_369cf129d42347a5ac7e9ad5",
+      "operation_id": "run_819efd33a2ca/call_369cf129d42347a5ac7e9ad5",
+      "state": "completed",
+      "isError": true,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "memory.event.read",
+      "toolCallId": "call_84f60f1827ea454db81dd0f4",
+      "operation_id": "run_819efd33a2ca/call_84f60f1827ea454db81dd0f4",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "memory.event.read",
+      "toolCallId": "call_68e3dec9e4ef4d6ea1e6a3c3",
+      "operation_id": "run_819efd33a2ca/call_68e3dec9e4ef4d6ea1e6a3c3",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_ade52bd431f04bab87999377",
+      "operation_id": "run_819efd33a2ca/call_ade52bd431f04bab87999377",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "memory.event.read",
+      "toolCallId": "call_9e6b025d79f048b1a09a5446",
+      "operation_id": "run_819efd33a2ca/call_9e6b025d79f048b1a09a5446",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "memory.event.read",
+      "toolCallId": "call_556108c00039462a86d05106",
+      "operation_id": "run_819efd33a2ca/call_556108c00039462a86d05106",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "query.samples.list",
+      "toolCallId": "call_7afd717f0fdc405cb214059a",
+      "operation_id": "run_819efd33a2ca/call_7afd717f0fdc405cb214059a",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_819efd33a2ca",
+      "name": "agent.respond",
+      "toolCallId": "call_6422a3f3aa1145cab73d2579",
+      "operation_id": "run_819efd33a2ca/call_6422a3f3aa1145cab73d2579",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_d687fae8eb54",
+      "name": "agent.delegate",
+      "toolCallId": "call_2a1a815f69c446059158ab0e",
+      "operation_id": "run_d687fae8eb54/call_2a1a815f69c446059158ab0e",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_d687fae8eb54",
+      "name": "agent.respond",
+      "toolCallId": "call_9b042cd9e5bd45aa84ebccf8",
+      "operation_id": "run_d687fae8eb54/call_9b042cd9e5bd45aa84ebccf8",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_302a2135fdc4",
+      "name": "evidence.page.read",
+      "toolCallId": "call_e2f2014227bc4329ab5bbd62",
+      "operation_id": "run_302a2135fdc4/call_e2f2014227bc4329ab5bbd62",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_302a2135fdc4",
+      "name": "memory.proposal.read",
+      "toolCallId": "call_a34c535ae473480ab686d18f",
+      "operation_id": "run_302a2135fdc4/call_a34c535ae473480ab686d18f",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_302a2135fdc4",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_925f660d1eb54a2f9d6cf52a",
+      "operation_id": "run_302a2135fdc4/call_925f660d1eb54a2f9d6cf52a",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_302a2135fdc4",
+      "name": "memory.event.read",
+      "toolCallId": "call_cd4f2cd9f3f64a46b81e81a2",
+      "operation_id": "run_302a2135fdc4/call_cd4f2cd9f3f64a46b81e81a2",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_302a2135fdc4",
+      "name": "query.samples.list",
+      "toolCallId": "call_15b355dae2c549508af18654",
+      "operation_id": "run_302a2135fdc4/call_15b355dae2c549508af18654",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_302a2135fdc4",
+      "name": "agent.respond",
+      "toolCallId": "call_2cfe0c32cf73485ebef7cbdb",
+      "operation_id": "run_302a2135fdc4/call_2cfe0c32cf73485ebef7cbdb",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_881719257ed5",
+      "name": "agent.delegate",
+      "toolCallId": "call_17deaef6edf741cb87e6f501",
+      "operation_id": "run_881719257ed5/call_17deaef6edf741cb87e6f501",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_881719257ed5",
+      "name": "query.samples.list",
+      "toolCallId": "call_490d1a1904a246bca501d9f2",
+      "operation_id": "run_881719257ed5/call_490d1a1904a246bca501d9f2",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_881719257ed5",
+      "name": "agent.delegate",
+      "toolCallId": "call_174a55a8db25467f8d89fd86",
+      "operation_id": "run_881719257ed5/call_174a55a8db25467f8d89fd86",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_881719257ed5",
+      "name": "agent.respond",
+      "toolCallId": "call_1abdbd00ce2a49b3a9c9e602",
+      "operation_id": "run_881719257ed5/call_1abdbd00ce2a49b3a9c9e602",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12f8f0d98dfd",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_39c0f433185f49adb57ea0bd",
+      "operation_id": "run_12f8f0d98dfd/call_39c0f433185f49adb57ea0bd",
+      "state": "completed",
+      "isError": true,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12f8f0d98dfd",
+      "name": "evidence.page.read",
+      "toolCallId": "call_0b81ed84529045b4bea683ee",
+      "operation_id": "run_12f8f0d98dfd/call_0b81ed84529045b4bea683ee",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12f8f0d98dfd",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_f541a2dcbc4849c0b8031e47",
+      "operation_id": "run_12f8f0d98dfd/call_f541a2dcbc4849c0b8031e47",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12f8f0d98dfd",
+      "name": "query.samples.list",
+      "toolCallId": "call_2ec82b9bb66f408f888a9252",
+      "operation_id": "run_12f8f0d98dfd/call_2ec82b9bb66f408f888a9252",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_12f8f0d98dfd",
+      "name": "agent.respond",
+      "toolCallId": "call_90d429aa7c5d4b0896b3762e",
+      "operation_id": "run_12f8f0d98dfd/call_90d429aa7c5d4b0896b3762e",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_6449b55ef9cc",
+      "name": "memory.event.read",
+      "toolCallId": "call_9f0d93196b394904a90a4d52",
+      "operation_id": "run_6449b55ef9cc/call_9f0d93196b394904a90a4d52",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_6449b55ef9cc",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_d4b973b7300d451ca191051d",
+      "operation_id": "run_6449b55ef9cc/call_d4b973b7300d451ca191051d",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_6449b55ef9cc",
+      "name": "memory.event.read",
+      "toolCallId": "call_43b3a06419494fb09149a797",
+      "operation_id": "run_6449b55ef9cc/call_43b3a06419494fb09149a797",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_6449b55ef9cc",
+      "name": "agent.respond",
+      "toolCallId": "call_10c5ee89c39847208462685f",
+      "operation_id": "run_6449b55ef9cc/call_10c5ee89c39847208462685f",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_3e534525c3d9",
+      "name": "evidence.page.read",
+      "toolCallId": "call_8438b3b5b8624d26bddb9574",
+      "operation_id": "run_3e534525c3d9/call_8438b3b5b8624d26bddb9574",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_3e534525c3d9",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_5a3d4d372608429487c99666",
+      "operation_id": "run_3e534525c3d9/call_5a3d4d372608429487c99666",
+      "state": "completed",
+      "isError": true,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_3e534525c3d9",
+      "name": "memory.proposal.create",
+      "toolCallId": "call_0b72e3675d0046baa1107880",
+      "operation_id": "run_3e534525c3d9/call_0b72e3675d0046baa1107880",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_3e534525c3d9",
+      "name": "query.samples.list",
+      "toolCallId": "call_2b8f7bf7972a4d99bfe210a9",
+      "operation_id": "run_3e534525c3d9/call_2b8f7bf7972a4d99bfe210a9",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_3d665defd8b9",
+      "name": "query.sample.timeline",
+      "toolCallId": "call_e6c4ef1f02c4472caf97c1c1",
+      "operation_id": "run_3d665defd8b9/call_e6c4ef1f02c4472caf97c1c1",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_3d665defd8b9",
+      "name": "agent.respond",
+      "toolCallId": "call_a968fdccbc8842de9addd9bf",
+      "operation_id": "run_3d665defd8b9/call_a968fdccbc8842de9addd9bf",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_354aca0f1032",
+      "name": "agent.delegate",
+      "toolCallId": "call_90ada0bc65e2411e89e3319c",
+      "operation_id": "run_354aca0f1032/call_90ada0bc65e2411e89e3319c",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_354aca0f1032",
+      "name": "memory.proposal.read",
+      "toolCallId": "call_c3f501ef17e24c219fa31ead",
+      "operation_id": "run_354aca0f1032/call_c3f501ef17e24c219fa31ead",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_354aca0f1032",
+      "name": "query.samples.list",
+      "toolCallId": "call_7ceefd66b008412c8e2f4cf3",
+      "operation_id": "run_354aca0f1032/call_7ceefd66b008412c8e2f4cf3",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    },
+    {
+      "run_id": "run_354aca0f1032",
+      "name": "agent.respond",
+      "toolCallId": "call_a2e132169bb04166a0fe38ba",
+      "operation_id": "run_354aca0f1032/call_a2e132169bb04166a0fe38ba",
+      "state": "completed",
+      "isError": false,
+      "continuation_reused_receipt": false
+    }
+  ],
+  "journal_tool_attempt_count": 62,
+  "journal_tool_error_count": 3,
+  "journal_pending_tool_count": 0,
+  "exact_receipt_reuse_count": 0,
+  "distinct_checkpoint_events": {
+    "agent_started": 19,
+    "assistant_message": 19,
+    "completion_repair_finished": 1,
+    "completion_repair_started": 1,
+    "delegation_completed": 7,
+    "delegation_started": 7,
+    "provider_request_started": 61,
+    "run_finished": 16,
+    "task_continuation_finished": 1,
+    "task_continuation_started": 1,
+    "tool_call_requested": 62,
+    "tool_result_received": 62
+  },
+  "scope_notes": [
+    "No raw messages, hidden reasoning, provider error text, images, credentials or gold are exported.",
+    "Python JSONL records OCR/probe requests; Pi requests are reconciled from durable checkpoints and results.",
+    "A started intent without a terminal row does not prove provider acceptance or billing; totals remain unknown when usage is missing.",
+    "Known usage subtotals exclude missing fields and must not be presented as full-run totals.",
+    "Cache token counts are separate fields and are not added again to input_tokens.",
+    "Journal tool attempts are not HTTP requests or guaranteed Core mutations; pending outcomes and receipt reuse are explicit.",
+    "Elapsed job timestamps include interruption/downtime and are not proof of uninterrupted 900-second execution.",
+    "This report scores no chemistry answers and performs no API/model calls.",
+    "One checkpoint is unreadable by the production decoder; no recovery or alteration attempted. Observable provider rows also come from actual run/job results and the OCR ledger. Request counts are observed counts; absence of additional requests in the invalid checkpoint is unverified."
+  ],
+  "checkpoint_decode_failures": [
+    "run_354aca0f1032"
+  ],
+  "checkpoint_decode_complete": false,
+  "observer_source_sha256": "dc9e8b8b3594c0f2fab31c354af845d9f203b62fc50a0fdb725ad39f403f04a1"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chemclaw.local/schemas/transform_v1.json",
+  "title": "Derived-image transform chain v1",
+  "type": "object",
+  "required": ["steps"],
+  "additionalProperties": false,
+  "properties": {
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["op"],
+        "additionalProperties": false,
+        "properties": {
+          "op": { "enum": ["rotate90", "crop", "rescale_dpi", "deform_expand"] },
+          "angle": { "enum": [90, 180, 270] },
+          "x": { "type": "number", "minimum": 0 },
+          "y": { "type": "number", "minimum": 0 },
+          "width": { "type": "number", "minimum": 0 },
+          "height": { "type": "number", "minimum": 0 },
+          "source_dpi": { "type": "number", "minimum": 0 },
+          "target_dpi": { "type": "number", "minimum": 0 },
+          "invertible": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

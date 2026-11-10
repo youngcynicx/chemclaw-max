@@ -1,0 +1,1516 @@
+{
+  "original_readback": "D:\\Chem\\ChemClaw-Lab-S10-Repair\\work\\english-suite-2026-10-29\\regression\\run\\final-live-readback.json",
+  "original_readback_sha256": "82f9369716971ad8cf9f83d0a2ddc9bdde444ba9fbd10d9a9905521d58e8cc03",
+  "page": {
+    "page_id": "pg_17ae18a80c7f_0001",
+    "page_order": 1,
+    "status": "transcribed",
+    "sha256": "17ae18a80c7fc0d66a576cc24217315962f1be1ea60fe469b640c958f7c925fc",
+    "filename": "P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2.jpg",
+    "transcript": {
+      "page_id": "pg_17ae18a80c7f_0001",
+      "active_revision": 1,
+      "active_run_id": "run_f3f5afa8383e_0001",
+      "provider": "vision_model",
+      "status": "transcribed",
+      "blocks": [
+        {
+          "block_id": "b_ocr_c193f340c09b4a3b",
+          "block_kind": "handwriting",
+          "reading_order": 0,
+          "text": "LAB NOTEBOOK P01",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "block_kind": "handwriting",
+          "reading_order": 1,
+          "text": "Date: 2026-10-12 (Mon) | Sunny | Room 23 °C | RH 45%　【红笔下划线：日期】",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_c14db61755bfec3b",
+          "block_kind": "handwriting",
+          "reading_order": 2,
+          "text": "Topic: UiO-66 defect engineering – first synthesis batches",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_e09ee8d6b271c7a4",
+          "block_kind": "handwriting",
+          "reading_order": 3,
+          "text": "(Zr-BDC-01 & Zr-BDC-02)　【红笔下划线：主题】",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_4225b8c98c15affa",
+          "block_kind": "handwriting",
+          "reading_order": 4,
+          "text": "1. Batch EXP-1012-A (label: Zr-BDC-01)",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_5ddf5388bf5bc19d",
+          "block_kind": "handwriting",
+          "reading_order": 5,
+          "text": "- Charge: ZrCl₄ ~~200 mg~~ → 233.2 mg *",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_821cf8922bd7a831",
+          "block_kind": "handwriting",
+          "reading_order": 6,
+          "text": "(1.0 mmol; 【红色波浪下划线】reweighed – balance was not zeroed) + H₂BDC 166.1 mg",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_b40de790aae6c765",
+          "block_kind": "handwriting",
+          "reading_order": 7,
+          "text": "(1.0 mmol), into a 50 mL PTFE liner.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_0a70cc319cbf3ba2",
+          "block_kind": "handwriting",
+          "reading_order": 8,
+          "text": "- Solvent / modulator: 30 mL DMF; sonicate 10 min until mostly clear.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_c61c99b5ec5660d1",
+          "block_kind": "handwriting",
+          "reading_order": 9,
+          "text": "【页边左侧曲线箭头，向下延伸至第2段 —— [unclear:批注归属]】",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_1ba6ebe9b4df39a6",
+          "block_kind": "handwriting",
+          "reading_order": 10,
+          "text": "Add glacial acetic acid (AA) 1.72 mL (30 eq), then DI water 100 μL.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_a64cc5691b2633a3",
+          "block_kind": "handwriting",
+          "reading_order": 11,
+          "text": "- Stir 15 min, seal autoclave → Oven #1, 【红圈】120 °C.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_d1e8fd128e442f9c",
+          "block_kind": "handwriting",
+          "reading_order": 12,
+          "text": "Start 14:00; planned reaction time 【红圈】24 h.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_c46c391c18e1a54f",
+          "block_kind": "handwriting",
+          "reading_order": 13,
+          "text": "2. Batch EXP-1012-B (label: Zr-BDC-02)",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_5042ac868d18fe8b",
+          "block_kind": "handwriting",
+          "reading_order": 14,
+          "text": "- Metal salt, linker, DMF and water: 【红色下划线】SAME AS PREVIOUS BATCH",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_31d04dd1f8a5a3e3",
+          "block_kind": "handwriting",
+          "reading_order": 15,
+          "text": "(Zr-BDC-01).",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_b5ad9512e5e396dd",
+          "block_kind": "handwriting",
+          "reading_order": 16,
+          "text": "Actual weights: ZrCl₄ 233.5 mg; H₂BDC 166.0 mg.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_30a72b2a5cba6079",
+          "block_kind": "handwriting",
+          "reading_order": 17,
+          "text": "- Change: replace AA with stronger 【红字】trifluoroacetic acid (TFA),",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_ce32fa218d891c0b",
+          "block_kind": "handwriting",
+          "reading_order": 18,
+          "text": "still 30 eq.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_0f33bb2f6883f232",
+          "block_kind": "handwriting",
+          "reading_order": 19,
+          "text": "TFA ~~2.0 mL~~ → 2.30 mL 【红字】(volume recalculated from density –",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_029c627365c7e925",
+          "block_kind": "handwriting",
+          "reading_order": 20,
+          "text": "nearly underdosed!).",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_ffcc8dc0f932d044",
+          "block_kind": "handwriting",
+          "reading_order": 21,
+          "text": "- Slight warming on addition; solution stays clear.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_1a768c0bbdfa08d8",
+          "block_kind": "handwriting",
+          "reading_order": 22,
+          "text": "- Together with 01 in Oven #1, 120 °C; start 14:00.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_b2a9d5d889baadb9",
+          "block_kind": "handwriting",
+          "reading_order": 23,
+          "text": "Set alarm for tomorrow 14:00 【红圈】24 h.",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_d033ae9d57f18f65",
+          "block_kind": "handwriting",
+          "reading_order": 24,
+          "text": "【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_382b4cf2bd6a654a",
+          "block_kind": "handwriting",
+          "reading_order": 25,
+          "text": "Autoclave →　（高压釜螺盖草图）",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_0324acd6ec3a5e25",
+          "block_kind": "handwriting",
+          "reading_order": 26,
+          "text": "50 mL PTFE liner →　（衬胆草图）",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_a34c2f9f000bb1c1",
+          "block_kind": "handwriting",
+          "reading_order": 27,
+          "text": "AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_322072f4109db445",
+          "block_kind": "handwriting",
+          "reading_order": 28,
+          "text": "TFA (stronger competition/ more defects?) →【箭头指向簇结构图】",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_9c05f2c2397012b1",
+          "block_kind": "handwriting",
+          "reading_order": 29,
+          "text": "【簇结构草图，内标 Zr、O 等原子记号】",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        },
+        {
+          "block_id": "b_ocr_98f26f7760de89e3",
+          "block_kind": "handwriting",
+          "reading_order": 30,
+          "text": "Zr₆ cluster",
+          "table_cell": null,
+          "geometry": null,
+          "coordinate_system": null,
+          "source_page": 1,
+          "extractor": {
+            "provider": "vision_model",
+            "model": "glm-5.3-flash",
+            "version": "1.0",
+            "config": {
+              "transport": "openai-chat"
+            }
+          },
+          "quality_flags": [
+            "geometry_untrusted"
+          ],
+          "original_geometry": null,
+          "positioning": {
+            "mode": "none",
+            "reason": "block has no raster geometry"
+          }
+        }
+      ],
+      "risk_fragments": [
+        {
+          "fragment_id": "fr_06f81d50b170700e",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_821cf8922bd7a831",
+          "kind": "negation",
+          "value_text": "not",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_07722ffd20b55b0b",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_e09ee8d6b271c7a4",
+          "kind": "number",
+          "value_text": "02",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_07d2d7a802ec41e2",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d1e8fd128e442f9c",
+          "kind": "number",
+          "value_text": "00",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_0c5a520ed50f31ba",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0f33bb2f6883f232",
+          "kind": "unit",
+          "value_text": "mL",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_1416cb1c03fe7ae0",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_c193f340c09b4a3b",
+          "kind": "sample_id",
+          "value_text": "P01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_15807c25868bf741",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_e09ee8d6b271c7a4",
+          "kind": "sample_id",
+          "value_text": "BDC-02",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_180ff231497cd49a",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d033ae9d57f18f65",
+          "kind": "number",
+          "value_text": "01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_1945c7e45a10af9c",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "kind": "number",
+          "value_text": "10",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_19ca1fc390dcc52a",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_c46c391c18e1a54f",
+          "kind": "number",
+          "value_text": "02",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_1a7c28c186be1356",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_4225b8c98c15affa",
+          "kind": "sample_id",
+          "value_text": "BDC-01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_1ad900c32ab2fb44",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b40de790aae6c765",
+          "kind": "number",
+          "value_text": "50",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_1e1f32b34d49f54a",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_5ddf5388bf5bc19d",
+          "kind": "unit",
+          "value_text": "mg",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_20065df4296dd655",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_4225b8c98c15affa",
+          "kind": "number",
+          "value_text": "1",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_218c1a201f8f6e1a",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0324acd6ec3a5e25",
+          "kind": "number",
+          "value_text": "50",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_26d3aaf9491f43c7",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_a64cc5691b2633a3",
+          "kind": "number",
+          "value_text": "15",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_2de372409d42d175",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d1e8fd128e442f9c",
+          "kind": "unit",
+          "value_text": "h",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_2f5931432e29e8aa",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b5ad9512e5e396dd",
+          "kind": "number",
+          "value_text": "166.0",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_31e24387d81637d4",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_5ddf5388bf5bc19d",
+          "kind": "number",
+          "value_text": "200",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_368b5adad5077024",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d033ae9d57f18f65",
+          "kind": "sample_id",
+          "value_text": "BDC-02",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_37d70e84d4c79d8b",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1a768c0bbdfa08d8",
+          "kind": "number",
+          "value_text": "1",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_407e0bb908064cf1",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b2a9d5d889baadb9",
+          "kind": "unit",
+          "value_text": "h",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_42b0d50373bd67a8",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "kind": "number",
+          "value_text": "45",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_4554ec3ffdebe484",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1ba6ebe9b4df39a6",
+          "kind": "number",
+          "value_text": "100",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_47b5bbcfc693c93d",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_5ddf5388bf5bc19d",
+          "kind": "unit",
+          "value_text": "mg",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_48e23c26ed6f866e",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_5ddf5388bf5bc19d",
+          "kind": "number",
+          "value_text": "233.2",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_499bb7df232f0807",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_4225b8c98c15affa",
+          "kind": "sample_id",
+          "value_text": "EXP-1012",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_49ee2db5372f43ac",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b2a9d5d889baadb9",
+          "kind": "number",
+          "value_text": "00",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_4a990b3fca6f4c34",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_c46c391c18e1a54f",
+          "kind": "number",
+          "value_text": "2",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_4b43fe04065da2ed",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "kind": "number",
+          "value_text": "12",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_4c02954d5d16e346",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_e09ee8d6b271c7a4",
+          "kind": "number",
+          "value_text": "01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_4ff3d8fa6758b2ac",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0a70cc319cbf3ba2",
+          "kind": "number",
+          "value_text": "30",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_559ffa77f4f7adeb",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b5ad9512e5e396dd",
+          "kind": "unit",
+          "value_text": "mg",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_5a4e23d9afc3b941",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b2a9d5d889baadb9",
+          "kind": "number",
+          "value_text": "14",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_5cc5668991fd82ca",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "kind": "sample_id",
+          "value_text": "RH 45",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_6bc862c8393a5fad",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_c14db61755bfec3b",
+          "kind": "number",
+          "value_text": "66",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_6c0bd8474e7baeb5",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1a768c0bbdfa08d8",
+          "kind": "number",
+          "value_text": "01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_72ea5a01404d8fda",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_c46c391c18e1a54f",
+          "kind": "number",
+          "value_text": "1012",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_74b681410c653272",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0a70cc319cbf3ba2",
+          "kind": "number",
+          "value_text": "10",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_7ce65b9ce71bd6b6",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d033ae9d57f18f65",
+          "kind": "sample_id",
+          "value_text": "BDC-01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_7d3d736149eb2717",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0f33bb2f6883f232",
+          "kind": "unit",
+          "value_text": "mL",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_82bb58e4aa8adaae",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_31d04dd1f8a5a3e3",
+          "kind": "number",
+          "value_text": "01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_836814a77acd0e16",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0f33bb2f6883f232",
+          "kind": "number",
+          "value_text": "2.0",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_846b8cd8dbbac216",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0324acd6ec3a5e25",
+          "kind": "unit",
+          "value_text": "mL",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_852cd01c3052620c",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_821cf8922bd7a831",
+          "kind": "number",
+          "value_text": "1.0",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_8624cc783f18b190",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_a64cc5691b2633a3",
+          "kind": "unit",
+          "value_text": "min",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_87dde70f85c3e8ff",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1a768c0bbdfa08d8",
+          "kind": "number",
+          "value_text": "00",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_8ac684c28730285e",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b40de790aae6c765",
+          "kind": "number",
+          "value_text": "1.0",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_8ce8155de06a809f",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1a768c0bbdfa08d8",
+          "kind": "number",
+          "value_text": "14",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_8eb667e788bc7065",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_c46c391c18e1a54f",
+          "kind": "sample_id",
+          "value_text": "BDC-02",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_93e9fdb55bf0098b",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b2a9d5d889baadb9",
+          "kind": "number",
+          "value_text": "24",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_9537380c301a9bd6",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_a64cc5691b2633a3",
+          "kind": "number",
+          "value_text": "120",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_982f250669ea4300",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_e09ee8d6b271c7a4",
+          "kind": "sample_id",
+          "value_text": "BDC-01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_a40a4662e04ffcf4",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1ba6ebe9b4df39a6",
+          "kind": "number",
+          "value_text": "1.72",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_a73dedb862d1b133",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "kind": "number",
+          "value_text": "2026",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_a9c2a17deb92cda7",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0a70cc319cbf3ba2",
+          "kind": "unit",
+          "value_text": "min",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_ae3037f0311c8a52",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1ba6ebe9b4df39a6",
+          "kind": "number",
+          "value_text": "30",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_ae65e62ae8dbba0a",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_4225b8c98c15affa",
+          "kind": "number",
+          "value_text": "01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_b677d4b7f90b132f",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_31d04dd1f8a5a3e3",
+          "kind": "sample_id",
+          "value_text": "BDC-01",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_b913b5474f98a1b6",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b5ad9512e5e396dd",
+          "kind": "number",
+          "value_text": "233.5",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_ba10e124b02d5fe4",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_821cf8922bd7a831",
+          "kind": "number",
+          "value_text": "166.1",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_baf8e4b2b03fec2a",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0a70cc319cbf3ba2",
+          "kind": "unit",
+          "value_text": "mL",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_bcba92a42f0e2f73",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_4225b8c98c15affa",
+          "kind": "number",
+          "value_text": "1012",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_c5c197d51694fd33",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ce32fa218d891c0b",
+          "kind": "number",
+          "value_text": "30",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_c6e32918a2b22fa6",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1a768c0bbdfa08d8",
+          "kind": "number",
+          "value_text": "120",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_c862ab77f16a9d52",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "kind": "date",
+          "value_text": "2026-10-12",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_c8ba284d433f8386",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_0f33bb2f6883f232",
+          "kind": "number",
+          "value_text": "2.30",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_d11a6861b1266b70",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d1e8fd128e442f9c",
+          "kind": "number",
+          "value_text": "14",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_d1b7f0b5113f5332",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d1e8fd128e442f9c",
+          "kind": "number",
+          "value_text": "24",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_d42ed06902ef73a4",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_c46c391c18e1a54f",
+          "kind": "sample_id",
+          "value_text": "EXP-1012",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_d82202751e64ea37",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b5ad9512e5e396dd",
+          "kind": "unit",
+          "value_text": "mg",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_dba49ba47227cf98",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_821cf8922bd7a831",
+          "kind": "unit",
+          "value_text": "mg",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_ece3634af0c4a0b9",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_b40de790aae6c765",
+          "kind": "unit",
+          "value_text": "mL",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_f50d7aa23d78c0c2",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_1ba6ebe9b4df39a6",
+          "kind": "unit",
+          "value_text": "mL",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_f864955232b1cd8c",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_ef7aa55f7fe33f77",
+          "kind": "number",
+          "value_text": "23",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_fd36daa579a51579",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_d033ae9d57f18f65",
+          "kind": "number",
+          "value_text": "02",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        },
+        {
+          "fragment_id": "fr_fea009fa9003e29f",
+          "run_id": "run_f3f5afa8383e_0001",
+          "block_id": "b_ocr_a64cc5691b2633a3",
+          "kind": "number",
+          "value_text": "1",
+          "normalized_value": null,
+          "status": "pending_confirm"
+        }
+      ]
+    },
+    "transcript_sha256": "9912aeb9cff2b02b715f3d79101077665045e260b049c2d6043ca5183f81f597"
+  },
+  "mapping": "All original blocks concatenated in order as a text attachment; new page/block IDs.",
+  "new_ocr": false,
+  "development_only": true
+}

@@ -1,0 +1,40 @@
+{
+  "at_utc": "2026-10-29T15:40:52.469084+00:00",
+  "main_business": {
+    "samples": {
+      "count": 12,
+      "sha256": "7af8efa1bc529e61be37b29ff0a4789420c5266623bc1245faaaca790b23b4fb"
+    },
+    "event_revisions": {
+      "count": 617,
+      "sha256": "c65bf91ab16bea749f7d3b3f6a6837cd97fbfafcc7afda542e538e1155fb0e15"
+    },
+    "memory_proposals": {
+      "count": 20,
+      "sha256": "b8962648e8dc7e4de44cd8ab75b0fa45220947e6d7ec2bf69ad0390912cf5102"
+    },
+    "evidence_pages": {
+      "count": 27,
+      "sha256": "31910c500640017f0cb72357c8f4cd5ff5aac89de3e8b772e2589a1b1d520211"
+    },
+    "chemicals": {
+      "count": 6,
+      "sha256": "2097e2d3882492f35de67088fc233e9c39fbbb3a763545cb642d280397888ca5"
+    },
+    "inventory_transactions": {
+      "count": 5,
+      "sha256": "f762029b3ff19392643867127a2c401e9f3054ccbdadb96791bbc4c03ad5507f"
+    }
+  },
+  "main_active": {
+    "agent_runs": 0,
+    "assistant_jobs": 0
+  },
+  "private_config_sha256": "379b11de6cae64a2fd465d6e016bd4f22de79b917fde20f9391832855918d83c",
+  "source_runner_sha256": "fb10644794bad0e3007fddf45de01cb963f9ba77ff51e4e5822e33823bedf0e0",
+  "runner_sha256": "bd39f5918b3bd5fdadf934216c9af9f1ef05fd806a947b2e447edb10532b7d5f",
+  "archive_sha256": "91d68d46b7e5acbc46fc7cdac5a35165140110f1abf1ee4c7a39b01b9ccd5fc8",
+  "settings": "glm-5.3-flash text/OCR; zai/low; 16384 output;128000 context;900s tree;OCR240s;one pass",
+  "evaluation_freeze_sha256": "5cf30801825768230600388b18fccce8da6160ba108b27294de722d3800b2aa5",
+  "preparation_error": "First preparation asserted 5 max literals; actual 4. Fixed before run creation or paid calls."
+}

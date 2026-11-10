@@ -1,0 +1,17 @@
+{
+  "scope": "P01 reused complete real OCR; development only; frozen before model calls",
+  "critical_facts": [
+    "Zr-BDC-01 ZrCl4 corrected 233.2 mg; old 200 mg retained as invalid/corrected, not current charge",
+    "Zr-BDC-01 H2BDC 166.1 mg",
+    "Zr-BDC-02 ZrCl4 233.5 mg and H2BDC 166.0 mg; no overwrite by inherited batch-01 values",
+    "Zr-BDC-01 AA 1.72 mL / 30 eq; Zr-BDC-02 TFA 30 eq",
+    "120 C heating; 24 h is planned and not asserted complete",
+    "Provenance and simulated-record label retained"
+  ],
+  "acceptance": "All critical facts must appear in actual structured persistent fields with correct subjects, original units and source references; otherwise report missing/incorrect and do not promote setting as validated.",
+  "latency": "first delegation/write are DB polling observations including attachment/start overhead, not exact provider timing",
+  "round_limit": 2,
+  "candidate_trials_per_round": 2,
+  "timeout_seconds": 300,
+  "main_service_default": "private file has no effort override; historical English evaluation explicitly used max. Pair is historical max versus low, not a claim that running UI is max."
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "name": "baseline-max",
+    "status": "partial",
+    "seconds": 255.89,
+    "first_delegation_observed_s": 210.0,
+    "first_write_observed_s": null,
+    "no_write_at_90s": true,
+    "poll_interval_s": 0.5,
+    "poll_errors": 0,
+    "saved_events": 0,
+    "readback_events": 0,
+    "provider": {
+      "request_count": 3,
+      "retry_count": 0,
+      "request_intent_count": 3,
+      "unfinished_requests": 0,
+      "not_sent_requests": 0,
+      "usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "total_tokens": null,
+        "cache_read_tokens": null,
+        "cache_write_tokens": null,
+        "reasoning_tokens": null
+      },
+      "usage_observed_requests": 2,
+      "quota_exhausted_requests": 0,
+      "cost": null,
+      "cost_currency": null
+    },
+    "delegate_message_chars": [
+      5258
+    ],
+    "active_runs": 0,
+    "active_tokens": 0,
+    "tool_error_count": 0
+  },
+  {
+    "name": "baseline-low",
+    "status": "needs_review",
+    "seconds": 168.39,
+    "first_delegation_observed_s": 27.953,
+    "first_write_observed_s": 95.297,
+    "no_write_at_90s": true,
+    "poll_interval_s": 0.5,
+    "poll_errors": 0,
+    "saved_events": 11,
+    "readback_events": 11,
+    "provider": {
+      "request_count": 5,
+      "retry_count": 0,
+      "request_intent_count": 5,
+      "unfinished_requests": 0,
+      "not_sent_requests": 0,
+      "usage": {
+        "input_tokens": 102843,
+        "output_tokens": 8581,
+        "total_tokens": 111424,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 1011
+      },
+      "usage_observed_requests": 5,
+      "quota_exhausted_requests": 0,
+      "cost": null,
+      "cost_currency": null
+    },
+    "delegate_message_chars": [
+      3305
+    ],
+    "active_runs": 0,
+    "active_tokens": 0,
+    "tool_error_count": 0
+  },
+  {
+    "name": "candidate-low",
+    "status": "completed",
+    "seconds": 216.91,
+    "first_delegation_observed_s": 22.484,
+    "first_write_observed_s": 119.844,
+    "no_write_at_90s": true,
+    "poll_interval_s": 0.5,
+    "poll_errors": 0,
+    "saved_events": 9,
+    "readback_events": 9,
+    "provider": {
+      "request_count": 8,
+      "retry_count": 0,
+      "request_intent_count": 8,
+      "unfinished_requests": 0,
+      "not_sent_requests": 0,
+      "usage": {
+        "input_tokens": 170774,
+        "output_tokens": 10912,
+        "total_tokens": 181686,
+        "cache_read_tokens": 10176,
+        "cache_write_tokens": null,
+        "reasoning_tokens": 861
+      },
+      "usage_observed_requests": 8,
+      "quota_exhausted_requests": 0,
+      "cost": null,
+      "cost_currency": null
+    },
+    "delegate_message_chars": [
+      2589
+    ],
+    "active_runs": 0,
+    "active_tokens": 0,
+    "tool_error_count": 1
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "agent_id": "observer",
+  "version": "1.0.0",
+  "mode": "readonly",
+  "display_name": "Observer（只读示例角色）",
+  "required_capabilities": [
+    "query.events.search",
+    "query.sample.timeline",
+    "evidence.page.read",
+    "memory.event.read"
+  ],
+  "triggers": ["observe_demo"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "question": { "type": "string" }
+    }
+  },
+  "context_scope": { "project_ids": "auto" },
+  "timeout_s": 60,
+  "tool_call_budget": 10,
+  "max_delegation_depth": 0,
+  "retry": { "max_attempts": 1 },
+  "system_prompt_ref": "prompts/observer_1.0.0"
+}

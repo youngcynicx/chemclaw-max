@@ -1,0 +1,16 @@
+{
+  "case_id": "SIMULATED-FILM-LONGITUDINAL-HANDOFF-V2-2026-10-24",
+  "frozen_before_model_runs": true,
+  "disclosure": "Text-only simulated notebook; no OCR; no wet-lab evidence. Evaluation never enters model input.",
+  "sha256": {
+    "input/01_p41.txt": "9fa6011e95789d17762efec745ddb6161b58fcb3cd8f0f1ba9aad6e0b4660571",
+    "input/02_p42.txt": "aa3544173acf7d818f4e1eb23c8936f37e03f5e304a9fff83e0cc5837887c866",
+    "input/03_p43.txt": "7ee6585b1906a1f32453a18e2ca6942afe9f84a27c2101e72f3695da5bea8467",
+    "input/04_p44.txt": "a4e3951d9122fbccf10d207a0e7651a10eb2195aa7b3c6b1f5ac23ac421fcee2",
+    "input/05_p45.txt": "4fb043f680cc7447b6f46dd551368de25799a596321e40f4d997a94a5fee082f",
+    "input/06_p46.txt": "b255cfeb8ede25f55438f3d1291f9bf5f715964768c2891a6f56845495c259a0",
+    "input/tasks.json": "77c4e50e98b20077e6c2a1cc2cb0e67a498990c2478415d0f4021ad6ff01bd30",
+    "evaluation/rubric.json": "17fc916dd307c36b1693d472f3f18d0539738df0a7d197afc5b8565ed81fbc93",
+    "external-tasks/current_research_handoff.txt": "6757db7cc26d68b388c6aa212e150d4b548c6cb66cb1adcb68a7f287a6b3c367"
+  }
+}

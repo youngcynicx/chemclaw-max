@@ -1,0 +1,16 @@
+Official Google Fonts source files
+Retrieved: 2026-10-15
+Licenses: SIL Open Font License 1.1 (see *-OFL.txt)
+The font binaries are unchanged; filenames are simplified for local serving.
+
+Manrope-Variable.ttf
+Source: https://github.com/google/fonts/blob/main/ofl/manrope/Manrope[wght].ttf
+SHA256: 3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6
+
+DMSans-Variable.ttf
+Source: https://github.com/google/fonts/blob/main/ofl/dmsans/DMSans[opsz,wght].ttf
+SHA256: 8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d
+
+DMSans-Italic-Variable.ttf
+Source: https://github.com/google/fonts/blob/main/ofl/dmsans/DMSans-Italic[opsz,wght].ttf
+SHA256: 22259c0cc8237221b80f44c76ba8d36e6bce3cda72779f5b2773643d499720ae

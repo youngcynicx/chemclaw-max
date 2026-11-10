@@ -1,0 +1,47 @@
+{
+  "model": null,
+  "base_url": null,
+  "node": "v22.14.0",
+  "scenarios": [
+    {
+      "run_id": "run_45e47158f354",
+      "trace_id": "trace_fd96113d9b494950",
+      "elapsed_s": 0.1,
+      "pi_error": null,
+      "assistant_text": "根据内核回执，本轮操作已完成：[{\"type\":\"text\",\"text\":\"Tool query.events.search not found\"}]",
+      "tool_calls": [
+        {
+          "name": "query.events.search",
+          "arguments": {
+            "project_ids": []
+          },
+          "action_status": null,
+          "result_excerpt": "null"
+        }
+      ],
+      "scenario": "G_planner_bookings",
+      "plan_id": null
+    }
+  ],
+  "timings": {
+    "G_planner_s": 0.8,
+    "H_mcp_s": 0.1
+  },
+  "manifests_loaded": [
+    "alice_inventory",
+    "b_capture",
+    "b_query",
+    "observer",
+    "planner"
+  ],
+  "db_digest": "99dfd11234aecea7",
+  "H_mcp": {
+    "scenario": "H_mcp_adapter",
+    "protocol": "2025-03-26",
+    "tools_count": 67,
+    "registered_resource": "res_6bdbec0cf4e5",
+    "idempotent_replay": true,
+    "outsider_tools": 0,
+    "unknown_tool_error": -32601
+  }
+}

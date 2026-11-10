@@ -1,0 +1,3894 @@
+{
+  "cards": {
+    "samples": [
+      {
+        "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+        "project_id": "simulated_fast_capture_development",
+        "label": "Zr-BDC-02",
+        "created_at": "2026-10-29 15:24:57",
+        "event_count": 6,
+        "last_event_at": "2026-10-29 15:24:57",
+        "aliases": [],
+        "records": [
+          {
+            "event_id": "evt_20d16d105ac054138f223770cf724e16",
+            "revision": 1,
+            "event_kind": "operation",
+            "raw_text": "2. Batch EXP-1012-B (label: Zr-BDC-02) - Metal salt, linker, DMF and water: SAME AS PREVIOUS BATCH (Zr-BDC-01). Actual weights: ZrCl₄ 233.5 mg; H₂BDC 166.0 mg.",
+            "fields": {
+              "batch_id": "EXP-1012-B",
+              "correction": {
+                "corrected_value": {
+                  "amount": {
+                    "normalized": 233.5,
+                    "unit": "mg"
+                  },
+                  "eq_mmol": 1
+                },
+                "earlier_value": {
+                  "normalized": 200,
+                  "unit": "mg"
+                },
+                "reason": "balance was not zeroed",
+                "subject_reagent": "ZrCl4"
+              },
+              "reagents": [
+                {
+                  "amount": {
+                    "normalized": 233.5,
+                    "raw": "233.5 mg",
+                    "unit": "mg"
+                  },
+                  "name": "ZrCl4"
+                },
+                {
+                  "amount": {
+                    "normalized": 166,
+                    "raw": "166.0 mg",
+                    "unit": "mg"
+                  },
+                  "name": "H2BDC"
+                }
+              ],
+              "shared_with_previous_batch": {
+                "di_water": {
+                  "reference_batch": "Zr-BDC-01"
+                },
+                "dmf": {
+                  "reference_batch": "Zr-BDC-01",
+                  "volume_ml": 30
+                },
+                "linker": {
+                  "name": "H2BDC",
+                  "reference_batch": "Zr-BDC-01"
+                },
+                "metal_salt": {
+                  "name": "ZrCl4",
+                  "reference_batch": "Zr-BDC-01"
+                }
+              },
+              "subject_sample_labels": [
+                "Zr-BDC-02"
+              ],
+              "vessel": "50 mL PTFE liner (same as previous batch)"
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0014",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0015",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0016",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0017",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_20d16d105ac054138f223770cf724e16"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_20d16d105ac054138f223770cf724e16",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+            "revision": 1,
+            "event_kind": "observation",
+            "raw_text": "【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】 AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】 TFA (stronger competition/ more defects?) →【箭头指向簇结构图】",
+            "fields": {
+              "annotation_type": "low-confidence hypothesis sketch",
+              "hypotheses": {
+                "Zr-BDC-01": "AA (weaker competition / fewer defects?)",
+                "Zr-BDC-02": "TFA (stronger competition / more defects?)"
+              },
+              "record_scope": "sample_knowledge",
+              "source_kind": "simulated_record",
+              "source_notice": "SIMULATED RECORD; reused real OCR transcript; no new OCR. 手写批注为低置信假设，非测量结果；页底图示归属已由批注标明（01=AA，02=TFA）。",
+              "subject_sample_labels": [
+                "Zr-BDC-01",
+                "Zr-BDC-02"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0025",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0028",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0029",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_46aa39159bfa5fdba193b46fb5a4c63a"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_49411321be81582a83e5eae19e53941c",
+            "revision": 1,
+            "event_kind": "operation",
+            "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+            "fields": {
+              "ambient": {
+                "rh_percent": 45,
+                "room_temperature_c": 23
+              },
+              "oven": "Oven #1",
+              "start_time": "14:00",
+              "subject_sample_labels": [
+                "Zr-BDC-01",
+                "Zr-BDC-02"
+              ],
+              "temperature_c": 120,
+              "temperature_scope_note": "120 °C applies to both batches; oven shared"
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0023",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_49411321be81582a83e5eae19e53941c"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_49411321be81582a83e5eae19e53941c",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_728ac287e8f05ba3847c052eb6f7880a",
+            "revision": 1,
+            "event_kind": "operation",
+            "raw_text": "- Change: replace AA with stronger trifluoroacetic acid (TFA), still 30 eq. TFA ~~2.0 mL~~ → 2.30 mL (volume recalculated from density – nearly underdosed!). - Slight warming on addition; solution stays clear.",
+            "fields": {
+              "correction": {
+                "corrected_value": {
+                  "normalized": 2.3,
+                  "raw": "2.30 mL",
+                  "unit": "mL"
+                },
+                "earlier_value": {
+                  "normalized": 2,
+                  "unit": "mL"
+                },
+                "reason": "volume recalculated from density – nearly underdosed!",
+                "subject_reagent": "TFA"
+              },
+              "reagent": {
+                "amount": {
+                  "eq": 30,
+                  "normalized": 2.3,
+                  "raw": "2.30 mL",
+                  "unit": "mL"
+                },
+                "name": "trifluoroacetic acid (TFA)"
+              },
+              "subject_sample_labels": [
+                "Zr-BDC-02"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0018",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0019",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0020",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0021",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0022",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_728ac287e8f05ba3847c052eb6f7880a"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_728ac287e8f05ba3847c052eb6f7880a",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "revision": 1,
+            "event_kind": "plan",
+            "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+            "fields": {
+              "planned_duration_h": 24,
+              "planned_end_note": "alarm set for next day 14:00; reaction completion unknown at time of page",
+              "planned_start": "2026-10-12T14:00",
+              "subject_sample_labels": [
+                "Zr-BDC-01",
+                "Zr-BDC-02"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0023",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0024",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "lifecycle_state": {
+              "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+              "target_revision": 1,
+              "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "status": "unknown",
+              "explicit": false,
+              "basis": {
+                "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+                "revision": 1,
+                "knowledge_as_of": "2026-10-29 15:24:57",
+                "evidence_refs": [
+                  {
+                    "block_id": "pg_35ac58c71a5b_0001-t0023",
+                    "page_id": "pg_35ac58c71a5b_0001",
+                    "transcript_revision": 1
+                  },
+                  {
+                    "block_id": "pg_35ac58c71a5b_0001-t0024",
+                    "page_id": "pg_35ac58c71a5b_0001",
+                    "transcript_revision": 1
+                  }
+                ]
+              }
+            },
+            "related_event_ids": [
+              "evt_7ec3eb25aeaa5843b5726d1862607d6d"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_b2da598797f550628c60babc3c16ce0d",
+            "revision": 1,
+            "event_kind": "observation",
+            "raw_text": "- Slight warming on addition; solution stays clear.",
+            "fields": {
+              "observations": [
+                "slight warming on addition of TFA",
+                "solution stays clear"
+              ],
+              "subject_sample_labels": [
+                "Zr-BDC-02"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0022",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_b2da598797f550628c60babc3c16ce0d"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_b2da598797f550628c60babc3c16ce0d",
+                "revision": 1
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          {
+            "page_id": "pg_35ac58c71a5b_0001",
+            "project_id": "simulated_fast_capture_development",
+            "title": "Web Agent upload",
+            "page_order": 1,
+            "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+            "active_revision": 1
+          }
+        ],
+        "current_state": [
+          {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "target_revision": 1,
+            "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "status": "unknown",
+            "explicit": false,
+            "basis": {
+              "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "evidence_refs": [
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0023",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                },
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0024",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                }
+              ]
+            }
+          }
+        ],
+        "state_issues": [],
+        "source_count": 1,
+        "acceptance": "default"
+      },
+      {
+        "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+        "project_id": "simulated_fast_capture_development",
+        "label": "Zr-BDC-01",
+        "created_at": "2026-10-29 15:24:57",
+        "event_count": 7,
+        "last_event_at": "2026-10-29 15:24:57",
+        "aliases": [],
+        "records": [
+          {
+            "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+            "revision": 1,
+            "event_kind": "observation",
+            "raw_text": "【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】 AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】 TFA (stronger competition/ more defects?) →【箭头指向簇结构图】",
+            "fields": {
+              "annotation_type": "low-confidence hypothesis sketch",
+              "hypotheses": {
+                "Zr-BDC-01": "AA (weaker competition / fewer defects?)",
+                "Zr-BDC-02": "TFA (stronger competition / more defects?)"
+              },
+              "record_scope": "sample_knowledge",
+              "source_kind": "simulated_record",
+              "source_notice": "SIMULATED RECORD; reused real OCR transcript; no new OCR. 手写批注为低置信假设，非测量结果；页底图示归属已由批注标明（01=AA，02=TFA）。",
+              "subject_sample_labels": [
+                "Zr-BDC-01",
+                "Zr-BDC-02"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0025",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0028",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0029",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_46aa39159bfa5fdba193b46fb5a4c63a"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_49411321be81582a83e5eae19e53941c",
+            "revision": 1,
+            "event_kind": "operation",
+            "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+            "fields": {
+              "ambient": {
+                "rh_percent": 45,
+                "room_temperature_c": 23
+              },
+              "oven": "Oven #1",
+              "start_time": "14:00",
+              "subject_sample_labels": [
+                "Zr-BDC-01",
+                "Zr-BDC-02"
+              ],
+              "temperature_c": 120,
+              "temperature_scope_note": "120 °C applies to both batches; oven shared"
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0023",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_49411321be81582a83e5eae19e53941c"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_49411321be81582a83e5eae19e53941c",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "revision": 1,
+            "event_kind": "plan",
+            "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+            "fields": {
+              "planned_duration_h": 24,
+              "planned_end_note": "alarm set for next day 14:00; reaction completion unknown at time of page",
+              "planned_start": "2026-10-12T14:00",
+              "subject_sample_labels": [
+                "Zr-BDC-01",
+                "Zr-BDC-02"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301",
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0023",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0024",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "lifecycle_state": {
+              "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+              "target_revision": 1,
+              "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "status": "unknown",
+              "explicit": false,
+              "basis": {
+                "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+                "revision": 1,
+                "knowledge_as_of": "2026-10-29 15:24:57",
+                "evidence_refs": [
+                  {
+                    "block_id": "pg_35ac58c71a5b_0001-t0023",
+                    "page_id": "pg_35ac58c71a5b_0001",
+                    "transcript_revision": 1
+                  },
+                  {
+                    "block_id": "pg_35ac58c71a5b_0001-t0024",
+                    "page_id": "pg_35ac58c71a5b_0001",
+                    "transcript_revision": 1
+                  }
+                ]
+              }
+            },
+            "related_event_ids": [
+              "evt_7ec3eb25aeaa5843b5726d1862607d6d"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_ae44e8d9f99154a4bdd3a3fa1b4b764c",
+            "revision": 1,
+            "event_kind": "operation",
+            "raw_text": "1. Batch EXP-1012-A (label: Zr-BDC-01) - Charge: ZrCl₄ ~~200 mg~~ → 233.2 mg * (1.0 mmol; reweighed – balance was not zeroed) + H₂BDC 166.1 mg (1.0 mmol), into a 50 mL PTFE liner.",
+            "fields": {
+              "batch_id": "EXP-1012-A",
+              "correction": {
+                "corrected_value": {
+                  "amount": {
+                    "normalized": 233.2,
+                    "unit": "mg"
+                  },
+                  "eq_mmol": 1
+                },
+                "earlier_value": {
+                  "normalized": 200,
+                  "unit": "mg"
+                },
+                "reason": "balance was not zeroed",
+                "subject_reagent": "ZrCl4"
+              },
+              "product": "UiO-66 defect engineering batch",
+              "reagents": [
+                {
+                  "amount": {
+                    "eq_mmol": 1,
+                    "normalized": 233.2,
+                    "raw": "233.2 mg",
+                    "unit": "mg"
+                  },
+                  "name": "ZrCl4",
+                  "note": "originally ~200 mg, reweighed because balance was not zeroed (correction 200 -> 233.2 mg)"
+                },
+                {
+                  "amount": {
+                    "eq_mmol": 1,
+                    "normalized": 166.1,
+                    "raw": "166.1 mg",
+                    "unit": "mg"
+                  },
+                  "name": "H2BDC"
+                }
+              ],
+              "subject_sample_labels": [
+                "Zr-BDC-01"
+              ],
+              "vessel": "50 mL PTFE liner"
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0005",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0006",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0007",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0008",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_ae44e8d9f99154a4bdd3a3fa1b4b764c"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_ae44e8d9f99154a4bdd3a3fa1b4b764c",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_b691b81afcf151c584ce81515cfeffd4",
+            "revision": 1,
+            "event_kind": "operation",
+            "raw_text": "- Stir 15 min, seal autoclave → Oven #1, 120 °C. Start 14:00; planned reaction time 24 h.",
+            "fields": {
+              "duration_min": 15,
+              "oven": "Oven #1",
+              "pre_oven_steps": [
+                "stir 15 min",
+                "seal autoclave"
+              ],
+              "start_time": "14:00",
+              "subject_sample_labels": [
+                "Zr-BDC-01"
+              ],
+              "temperature_c": 120
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0012",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0013",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_b691b81afcf151c584ce81515cfeffd4"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_b691b81afcf151c584ce81515cfeffd4",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_be6372bba82d5447b4e33a8d448bbe9e",
+            "revision": 1,
+            "event_kind": "operation",
+            "raw_text": "- Solvent / modulator: 30 mL DMF; sonicate 10 min until mostly clear. Add glacial acetic acid (AA) 1.72 mL (30 eq), then DI water 100 μL.",
+            "fields": {
+              "duration_min": 10,
+              "observations": [
+                "solution mostly clear after sonication"
+              ],
+              "reagents_added_after_sonication": [
+                {
+                  "amount": {
+                    "eq": 30,
+                    "normalized": 1.72,
+                    "raw": "1.72 mL",
+                    "unit": "mL"
+                  },
+                  "name": "glacial acetic acid (AA)"
+                },
+                {
+                  "amount": {
+                    "normalized": 100,
+                    "raw": "100 μL",
+                    "unit": "μL"
+                  },
+                  "name": "DI water"
+                }
+              ],
+              "solvent": {
+                "name": "DMF",
+                "volume_ml": 30
+              },
+              "sonication": {
+                "duration_min": 10,
+                "endpoint_observation": "mostly clear"
+              },
+              "subject_sample_labels": [
+                "Zr-BDC-01"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0009",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0011",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "related_event_ids": [
+              "evt_be6372bba82d5447b4e33a8d448bbe9e"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_be6372bba82d5447b4e33a8d448bbe9e",
+                "revision": 1
+              }
+            ]
+          },
+          {
+            "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+            "revision": 1,
+            "event_kind": "plan",
+            "raw_text": "Start 14:00; planned reaction time 24 h.",
+            "fields": {
+              "planned_duration_h": 24,
+              "planned_start": "2026-10-12T14:00",
+              "planned_status": "planned end not yet reached at time of page; completion unknown",
+              "subject_sample_labels": [
+                "Zr-BDC-01"
+              ]
+            },
+            "title": null,
+            "section": null,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "subject_sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ],
+            "page_id": "pg_35ac58c71a5b_0001",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0013",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ],
+            "source_pages": [
+              {
+                "page_id": "pg_35ac58c71a5b_0001",
+                "project_id": "simulated_fast_capture_development",
+                "title": "Web Agent upload",
+                "page_order": 1,
+                "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+                "active_revision": 1
+              }
+            ],
+            "source_stale": false,
+            "event_time_start": "2026-10-12",
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "provenance": {
+              "acceptance": "default",
+              "acceptance_policy": "notebook_knowledge_v1",
+              "confirmed_by": null,
+              "knowledge_only": true,
+              "profile": "chemistry_notebook@1.0",
+              "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+              "proposal_revision": 0,
+              "result_origin": "reported",
+              "source_kind": "transcript_extraction",
+              "source_transcript_revision": 1
+            },
+            "unknown": false,
+            "unknowns": [],
+            "disputed": false,
+            "lifecycle_state": {
+              "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+              "target_revision": 1,
+              "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "status": "unknown",
+              "explicit": false,
+              "basis": {
+                "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+                "revision": 1,
+                "knowledge_as_of": "2026-10-29 15:24:57",
+                "evidence_refs": [
+                  {
+                    "block_id": "pg_35ac58c71a5b_0001-t0013",
+                    "page_id": "pg_35ac58c71a5b_0001",
+                    "transcript_revision": 1
+                  }
+                ]
+              }
+            },
+            "related_event_ids": [
+              "evt_ec50e9a557025bc2b4abe627d679c4b3"
+            ],
+            "related_events": [
+              {
+                "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+                "revision": 1
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          {
+            "page_id": "pg_35ac58c71a5b_0001",
+            "project_id": "simulated_fast_capture_development",
+            "title": "Web Agent upload",
+            "page_order": 1,
+            "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+            "active_revision": 1
+          }
+        ],
+        "current_state": [
+          {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "target_revision": 1,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "status": "unknown",
+            "explicit": false,
+            "basis": {
+              "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "evidence_refs": [
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0023",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                },
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0024",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                }
+              ]
+            }
+          },
+          {
+            "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+            "target_revision": 1,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "status": "unknown",
+            "explicit": false,
+            "basis": {
+              "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "evidence_refs": [
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0013",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                }
+              ]
+            }
+          }
+        ],
+        "state_issues": [],
+        "source_count": 1,
+        "acceptance": "default"
+      }
+    ],
+    "unassigned_records": [],
+    "source_notes": [
+      {
+        "event_id": "evt_394603b944d3540a866dc2a9bfa039e3",
+        "revision": 1,
+        "event_kind": "observation",
+        "raw_text": "【页边左侧曲线箭头，向下延伸至第2段 —— [unclear:批注归属]】 Autoclave →（高压釜螺盖草图） 50 mL PTFE liner →（衬胆草图）",
+        "fields": {
+          "attribution_unknowns": [
+            "左侧曲线箭头批注（unclear:批注归属）延伸至第2段，其指向的具体条目归属不确定"
+          ],
+          "record_scope": "source_metadata",
+          "subject_sample_labels": [],
+          "uncertain_attribution_blocks": [
+            "pg_35ac58c71a5b_0001-t0010"
+          ]
+        },
+        "title": null,
+        "section": null,
+        "sample_id": null,
+        "sample_ids": [],
+        "subject_sample_ids": [],
+        "page_id": "pg_35ac58c71a5b_0001",
+        "evidence_refs": [
+          {
+            "block_id": "pg_35ac58c71a5b_0001-t0010",
+            "page_id": "pg_35ac58c71a5b_0001",
+            "transcript_revision": 1
+          },
+          {
+            "block_id": "pg_35ac58c71a5b_0001-t0026",
+            "page_id": "pg_35ac58c71a5b_0001",
+            "transcript_revision": 1
+          },
+          {
+            "block_id": "pg_35ac58c71a5b_0001-t0027",
+            "page_id": "pg_35ac58c71a5b_0001",
+            "transcript_revision": 1
+          }
+        ],
+        "source_pages": [
+          {
+            "page_id": "pg_35ac58c71a5b_0001",
+            "project_id": "simulated_fast_capture_development",
+            "title": "Web Agent upload",
+            "page_order": 1,
+            "sha256": "35ac58c71a5b91347fdcaaba0befa6f78b43ab9e71a2e1bd661ea3403807e2ec",
+            "active_revision": 1
+          }
+        ],
+        "source_stale": false,
+        "event_time_start": "2026-10-12",
+        "knowledge_as_of": "2026-10-29 15:24:57",
+        "provenance": {
+          "acceptance": "default",
+          "acceptance_policy": "notebook_knowledge_v1",
+          "confirmed_by": null,
+          "knowledge_only": true,
+          "profile": "chemistry_notebook@1.0",
+          "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+          "proposal_revision": 0,
+          "result_origin": "reported",
+          "source_kind": "transcript_extraction",
+          "source_transcript_revision": 1
+        },
+        "unknown": false,
+        "unknowns": [],
+        "disputed": false
+      }
+    ],
+    "acceptance_policy": "default_accept_with_corrections",
+    "scope": [
+      "simulated_fast_capture_development"
+    ]
+  },
+  "contexts": [
+    {
+      "schema_version": "sample_context_v1",
+      "status": "complete",
+      "project_id": "simulated_fast_capture_development",
+      "resolution": {
+        "status": "resolved",
+        "candidates": [
+          {
+            "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "label": "Zr-BDC-02",
+            "aliases": []
+          }
+        ]
+      },
+      "sample": {
+        "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+        "project_id": "simulated_fast_capture_development",
+        "label": "Zr-BDC-02",
+        "created_at": "2026-10-29 15:24:57",
+        "aliases": []
+      },
+      "snapshot": {
+        "mode": "current",
+        "knowledge_as_of": null,
+        "read_at": "2026-10-29T15:26:11.494717+00:00",
+        "identity_scope": "current",
+        "source_status_scope": "current",
+        "fingerprint": "d4012b07d5cb32a308c6aa996748cc3fa13044b8352858d56279e0b2625a33ba"
+      },
+      "events": [
+        {
+          "acceptance": "default",
+          "event_kind": "operation",
+          "fields": {
+            "batch_id": "EXP-1012-B",
+            "correction": {
+              "corrected_value": {
+                "amount": {
+                  "normalized": 233.5,
+                  "unit": "mg"
+                },
+                "eq_mmol": 1
+              },
+              "earlier_value": {
+                "normalized": 200,
+                "unit": "mg"
+              },
+              "reason": "balance was not zeroed",
+              "subject_reagent": "ZrCl4"
+            },
+            "reagents": [
+              {
+                "amount": {
+                  "normalized": 233.5,
+                  "raw": "233.5 mg",
+                  "unit": "mg"
+                },
+                "name": "ZrCl4"
+              },
+              {
+                "amount": {
+                  "normalized": 166,
+                  "raw": "166.0 mg",
+                  "unit": "mg"
+                },
+                "name": "H2BDC"
+              }
+            ],
+            "shared_with_previous_batch": {
+              "di_water": {
+                "reference_batch": "Zr-BDC-01"
+              },
+              "dmf": {
+                "reference_batch": "Zr-BDC-01",
+                "volume_ml": 30
+              },
+              "linker": {
+                "name": "H2BDC",
+                "reference_batch": "Zr-BDC-01"
+              },
+              "metal_salt": {
+                "name": "ZrCl4",
+                "reference_batch": "Zr-BDC-01"
+              }
+            },
+            "subject_sample_labels": [
+              "Zr-BDC-02"
+            ],
+            "vessel": "50 mL PTFE liner (same as previous batch)"
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "2. Batch EXP-1012-B (label: Zr-BDC-02) - Metal salt, linker, DMF and water: SAME AS PREVIOUS BATCH (Zr-BDC-01). Actual weights: ZrCl₄ 233.5 mg; H₂BDC 166.0 mg.",
+          "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": true,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_20d16d105ac054138f223770cf724e16",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0014",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0015",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0016",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0017",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "observation",
+          "fields": {
+            "annotation_type": "low-confidence hypothesis sketch",
+            "hypotheses": {
+              "Zr-BDC-01": "AA (weaker competition / fewer defects?)",
+              "Zr-BDC-02": "TFA (stronger competition / more defects?)"
+            },
+            "record_scope": "sample_knowledge",
+            "source_kind": "simulated_record",
+            "source_notice": "SIMULATED RECORD; reused real OCR transcript; no new OCR. 手写批注为低置信假设，非测量结果；页底图示归属已由批注标明（01=AA，02=TFA）。",
+            "subject_sample_labels": [
+              "Zr-BDC-01",
+              "Zr-BDC-02"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】 AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】 TFA (stronger competition/ more defects?) →【箭头指向簇结构图】",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              },
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0025",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0028",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0029",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "operation",
+          "fields": {
+            "ambient": {
+              "rh_percent": 45,
+              "room_temperature_c": 23
+            },
+            "oven": "Oven #1",
+            "start_time": "14:00",
+            "subject_sample_labels": [
+              "Zr-BDC-01",
+              "Zr-BDC-02"
+            ],
+            "temperature_c": 120,
+            "temperature_scope_note": "120 °C applies to both batches; oven shared"
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              },
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_49411321be81582a83e5eae19e53941c",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "operation",
+          "fields": {
+            "correction": {
+              "corrected_value": {
+                "normalized": 2.3,
+                "raw": "2.30 mL",
+                "unit": "mL"
+              },
+              "earlier_value": {
+                "normalized": 2,
+                "unit": "mL"
+              },
+              "reason": "volume recalculated from density – nearly underdosed!",
+              "subject_reagent": "TFA"
+            },
+            "reagent": {
+              "amount": {
+                "eq": 30,
+                "normalized": 2.3,
+                "raw": "2.30 mL",
+                "unit": "mL"
+              },
+              "name": "trifluoroacetic acid (TFA)"
+            },
+            "subject_sample_labels": [
+              "Zr-BDC-02"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Change: replace AA with stronger trifluoroacetic acid (TFA), still 30 eq. TFA ~~2.0 mL~~ → 2.30 mL (volume recalculated from density – nearly underdosed!). - Slight warming on addition; solution stays clear.",
+          "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_728ac287e8f05ba3847c052eb6f7880a",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0018",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0019",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0020",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0021",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0022",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "plan",
+          "fields": {
+            "planned_duration_h": 24,
+            "planned_end_note": "alarm set for next day 14:00; reaction completion unknown at time of page",
+            "planned_start": "2026-10-12T14:00",
+            "subject_sample_labels": [
+              "Zr-BDC-01",
+              "Zr-BDC-02"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              },
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0024",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          },
+          "lifecycle_state": {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "target_revision": 1,
+            "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "status": "unknown",
+            "explicit": false,
+            "basis": {
+              "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "evidence_refs": [
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0023",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                },
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0024",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "observation",
+          "fields": {
+            "observations": [
+              "slight warming on addition of TFA",
+              "solution stays clear"
+            ],
+            "subject_sample_labels": [
+              "Zr-BDC-02"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Slight warming on addition; solution stays clear.",
+          "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_b2da598797f550628c60babc3c16ce0d",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0022",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0014",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0014",
+              "block_kind": "paragraph",
+              "reading_order": 14,
+              "text": "2. Batch EXP-1012-B (label: Zr-BDC-02)",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0015",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0015",
+              "block_kind": "paragraph",
+              "reading_order": 15,
+              "text": "- Metal salt, linker, DMF and water: 【红色下划线】SAME AS PREVIOUS BATCH",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0016",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0016",
+              "block_kind": "paragraph",
+              "reading_order": 16,
+              "text": "(Zr-BDC-01).",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0017",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0017",
+              "block_kind": "paragraph",
+              "reading_order": 17,
+              "text": "Actual weights: ZrCl₄ 233.5 mg; H₂BDC 166.0 mg.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0025",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0025",
+              "block_kind": "paragraph",
+              "reading_order": 25,
+              "text": "【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0028",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0028",
+              "block_kind": "paragraph",
+              "reading_order": 28,
+              "text": "AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0029",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0029",
+              "block_kind": "paragraph",
+              "reading_order": 29,
+              "text": "TFA (stronger competition/ more defects?) →【箭头指向簇结构图】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0023",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "block_kind": "paragraph",
+              "reading_order": 23,
+              "text": "- Together with 01 in Oven #1, 120 °C; start 14:00.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0018",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0018",
+              "block_kind": "paragraph",
+              "reading_order": 18,
+              "text": "- Change: replace AA with stronger 【红字】trifluoroacetic acid (TFA),",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0019",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0019",
+              "block_kind": "paragraph",
+              "reading_order": 19,
+              "text": "still 30 eq.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0020",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0020",
+              "block_kind": "paragraph",
+              "reading_order": 20,
+              "text": "TFA ~~2.0 mL~~ → 2.30 mL 【红字】(volume recalculated from density –",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0021",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0021",
+              "block_kind": "paragraph",
+              "reading_order": 21,
+              "text": "nearly underdosed!).",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0022",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0022",
+              "block_kind": "paragraph",
+              "reading_order": 22,
+              "text": "- Slight warming on addition; solution stays clear.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0024",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0024",
+              "block_kind": "paragraph",
+              "reading_order": 24,
+              "text": "Set alarm for tomorrow 14:00 【红圈】24 h.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0010",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0010",
+              "block_kind": "paragraph",
+              "reading_order": 10,
+              "text": "【页边左侧曲线箭头，向下延伸至第2段 —— [unclear:批注归属]】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0026",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0026",
+              "block_kind": "paragraph",
+              "reading_order": 26,
+              "text": "Autoclave →　（高压釜螺盖草图）",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0027",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0027",
+              "block_kind": "paragraph",
+              "reading_order": 27,
+              "text": "50 mL PTFE liner →　（衬胆草图）",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        }
+      ],
+      "revision_index": [
+        {
+          "event_id": "evt_20d16d105ac054138f223770cf724e16",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_49411321be81582a83e5eae19e53941c",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_728ac287e8f05ba3847c052eb6f7880a",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_b2da598797f550628c60babc3c16ce0d",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        }
+      ],
+      "relations": [
+        {
+          "kind": "shared_event",
+          "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+          "revision": 1,
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "basis": "stored_sample_links",
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0025",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0028",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0029",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        },
+        {
+          "kind": "shared_event",
+          "event_id": "evt_49411321be81582a83e5eae19e53941c",
+          "revision": 1,
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "basis": "stored_sample_links",
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        },
+        {
+          "kind": "shared_event",
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "revision": 1,
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "basis": "stored_sample_links",
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0024",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      ],
+      "source_context": [
+        {
+          "acceptance": "default",
+          "event_kind": "observation",
+          "fields": {
+            "attribution_unknowns": [
+              "左侧曲线箭头批注（unclear:批注归属）延伸至第2段，其指向的具体条目归属不确定"
+            ],
+            "record_scope": "source_metadata",
+            "subject_sample_labels": [],
+            "uncertain_attribution_blocks": [
+              "pg_35ac58c71a5b_0001-t0010"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "【页边左侧曲线箭头，向下延伸至第2段 —— [unclear:批注归属]】 Autoclave →（高压釜螺盖草图） 50 mL PTFE liner →（衬胆草图）",
+          "sample_id": null,
+          "sample_ids": [],
+          "sample_resolution": {
+            "issues": [],
+            "links": [],
+            "sample_ids": []
+          },
+          "event_id": "evt_394603b944d3540a866dc2a9bfa039e3",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0010",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0026",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0027",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        }
+      ],
+      "current_state": [
+        {
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "target_revision": 1,
+          "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+          "status": "unknown",
+          "explicit": false,
+          "basis": {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "revision": 1,
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0023",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0024",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ]
+          }
+        }
+      ],
+      "quality": {
+        "issues": [],
+        "semantic_coverage": "not_assessed",
+        "unassigned_records_on_linked_pages": 0,
+        "source_stale_event_ids": [],
+        "disputed_event_ids": []
+      },
+      "coverage": {
+        "requested_sections": [
+          "cited_blocks",
+          "current_state",
+          "events",
+          "provenance",
+          "relations",
+          "revision_index",
+          "source_context"
+        ],
+        "scope": "explicit_authorized_links",
+        "retrieval_complete": true,
+        "knowledge_complete": null,
+        "omitted": [],
+        "totals": {
+          "current_state": 1,
+          "events": 6,
+          "evidence": 17,
+          "revision_index": 6,
+          "relations": 3,
+          "source_context": 1
+        },
+        "returned": {
+          "current_state": 1,
+          "events": 6,
+          "evidence": 17,
+          "revision_index": 6,
+          "relations": 3,
+          "source_context": 1
+        },
+        "budget_bytes": 1048576,
+        "result_bytes": 24824,
+        "byte_encoding": "compact UTF-8 JSON result; excludes transport envelope",
+        "pagination": "Use explicit versioned object reads for omitted sections; fixed snapshot cursors are not implemented."
+      }
+    },
+    {
+      "schema_version": "sample_context_v1",
+      "status": "complete",
+      "project_id": "simulated_fast_capture_development",
+      "resolution": {
+        "status": "resolved",
+        "candidates": [
+          {
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "label": "Zr-BDC-01",
+            "aliases": []
+          }
+        ]
+      },
+      "sample": {
+        "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+        "project_id": "simulated_fast_capture_development",
+        "label": "Zr-BDC-01",
+        "created_at": "2026-10-29 15:24:57",
+        "aliases": []
+      },
+      "snapshot": {
+        "mode": "current",
+        "knowledge_as_of": null,
+        "read_at": "2026-10-29T15:26:11.516176+00:00",
+        "identity_scope": "current",
+        "source_status_scope": "current",
+        "fingerprint": "618558058a42c283571249639e905d486110c1febb7612f608803dd7207ea7dd"
+      },
+      "events": [
+        {
+          "acceptance": "default",
+          "event_kind": "observation",
+          "fields": {
+            "annotation_type": "low-confidence hypothesis sketch",
+            "hypotheses": {
+              "Zr-BDC-01": "AA (weaker competition / fewer defects?)",
+              "Zr-BDC-02": "TFA (stronger competition / more defects?)"
+            },
+            "record_scope": "sample_knowledge",
+            "source_kind": "simulated_record",
+            "source_notice": "SIMULATED RECORD; reused real OCR transcript; no new OCR. 手写批注为低置信假设，非测量结果；页底图示归属已由批注标明（01=AA，02=TFA）。",
+            "subject_sample_labels": [
+              "Zr-BDC-01",
+              "Zr-BDC-02"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】 AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】 TFA (stronger competition/ more defects?) →【箭头指向簇结构图】",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              },
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0025",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0028",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0029",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "operation",
+          "fields": {
+            "ambient": {
+              "rh_percent": 45,
+              "room_temperature_c": 23
+            },
+            "oven": "Oven #1",
+            "start_time": "14:00",
+            "subject_sample_labels": [
+              "Zr-BDC-01",
+              "Zr-BDC-02"
+            ],
+            "temperature_c": 120,
+            "temperature_scope_note": "120 °C applies to both batches; oven shared"
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              },
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_49411321be81582a83e5eae19e53941c",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "plan",
+          "fields": {
+            "planned_duration_h": 24,
+            "planned_end_note": "alarm set for next day 14:00; reaction completion unknown at time of page",
+            "planned_start": "2026-10-12T14:00",
+            "subject_sample_labels": [
+              "Zr-BDC-01",
+              "Zr-BDC-02"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Together with 01 in Oven #1, 120 °C; start 14:00. Set alarm for tomorrow 14:00 24 h.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              },
+              {
+                "created": false,
+                "label": "Zr-BDC-02",
+                "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c",
+              "smp_6dc4558bc5a44165b5b644810ec5a301"
+            ]
+          },
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "smp_6dc4558bc5a44165b5b644810ec5a301"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0024",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          },
+          "lifecycle_state": {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "target_revision": 1,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "status": "unknown",
+            "explicit": false,
+            "basis": {
+              "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "evidence_refs": [
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0023",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                },
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0024",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "operation",
+          "fields": {
+            "batch_id": "EXP-1012-A",
+            "correction": {
+              "corrected_value": {
+                "amount": {
+                  "normalized": 233.2,
+                  "unit": "mg"
+                },
+                "eq_mmol": 1
+              },
+              "earlier_value": {
+                "normalized": 200,
+                "unit": "mg"
+              },
+              "reason": "balance was not zeroed",
+              "subject_reagent": "ZrCl4"
+            },
+            "product": "UiO-66 defect engineering batch",
+            "reagents": [
+              {
+                "amount": {
+                  "eq_mmol": 1,
+                  "normalized": 233.2,
+                  "raw": "233.2 mg",
+                  "unit": "mg"
+                },
+                "name": "ZrCl4",
+                "note": "originally ~200 mg, reweighed because balance was not zeroed (correction 200 -> 233.2 mg)"
+              },
+              {
+                "amount": {
+                  "eq_mmol": 1,
+                  "normalized": 166.1,
+                  "raw": "166.1 mg",
+                  "unit": "mg"
+                },
+                "name": "H2BDC"
+              }
+            ],
+            "subject_sample_labels": [
+              "Zr-BDC-01"
+            ],
+            "vessel": "50 mL PTFE liner"
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "1. Batch EXP-1012-A (label: Zr-BDC-01) - Charge: ZrCl₄ ~~200 mg~~ → 233.2 mg * (1.0 mmol; reweighed – balance was not zeroed) + H₂BDC 166.1 mg (1.0 mmol), into a 50 mL PTFE liner.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": true,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ]
+          },
+          "event_id": "evt_ae44e8d9f99154a4bdd3a3fa1b4b764c",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0005",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0006",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0007",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0008",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "operation",
+          "fields": {
+            "duration_min": 15,
+            "oven": "Oven #1",
+            "pre_oven_steps": [
+              "stir 15 min",
+              "seal autoclave"
+            ],
+            "start_time": "14:00",
+            "subject_sample_labels": [
+              "Zr-BDC-01"
+            ],
+            "temperature_c": 120
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Stir 15 min, seal autoclave → Oven #1, 120 °C. Start 14:00; planned reaction time 24 h.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ]
+          },
+          "event_id": "evt_b691b81afcf151c584ce81515cfeffd4",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0012",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0013",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "operation",
+          "fields": {
+            "duration_min": 10,
+            "observations": [
+              "solution mostly clear after sonication"
+            ],
+            "reagents_added_after_sonication": [
+              {
+                "amount": {
+                  "eq": 30,
+                  "normalized": 1.72,
+                  "raw": "1.72 mL",
+                  "unit": "mL"
+                },
+                "name": "glacial acetic acid (AA)"
+              },
+              {
+                "amount": {
+                  "normalized": 100,
+                  "raw": "100 μL",
+                  "unit": "μL"
+                },
+                "name": "DI water"
+              }
+            ],
+            "solvent": {
+              "name": "DMF",
+              "volume_ml": 30
+            },
+            "sonication": {
+              "duration_min": 10,
+              "endpoint_observation": "mostly clear"
+            },
+            "subject_sample_labels": [
+              "Zr-BDC-01"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "- Solvent / modulator: 30 mL DMF; sonicate 10 min until mostly clear. Add glacial acetic acid (AA) 1.72 mL (30 eq), then DI water 100 μL.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ]
+          },
+          "event_id": "evt_be6372bba82d5447b4e33a8d448bbe9e",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0009",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0011",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        },
+        {
+          "acceptance": "default",
+          "event_kind": "plan",
+          "fields": {
+            "planned_duration_h": 24,
+            "planned_start": "2026-10-12T14:00",
+            "planned_status": "planned end not yet reached at time of page; completion unknown",
+            "subject_sample_labels": [
+              "Zr-BDC-01"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "Start 14:00; planned reaction time 24 h.",
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "sample_resolution": {
+            "issues": [],
+            "links": [
+              {
+                "created": false,
+                "label": "Zr-BDC-01",
+                "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c"
+              }
+            ],
+            "sample_ids": [
+              "smp_6e36432ba06c46ffb93fb35af84f623c"
+            ]
+          },
+          "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0013",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          },
+          "lifecycle_state": {
+            "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+            "target_revision": 1,
+            "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+            "status": "unknown",
+            "explicit": false,
+            "basis": {
+              "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "evidence_refs": [
+                {
+                  "block_id": "pg_35ac58c71a5b_0001-t0013",
+                  "page_id": "pg_35ac58c71a5b_0001",
+                  "transcript_revision": 1
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0025",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0025",
+              "block_kind": "paragraph",
+              "reading_order": 25,
+              "text": "【页底图示区，对应第1、2段两种调节剂的对比 —— 批注归属：Zr-BDC-01（AA）/ Zr-BDC-02（TFA）】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0028",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0028",
+              "block_kind": "paragraph",
+              "reading_order": 28,
+              "text": "AA (weaker competition/ fewer defects?) →【箭头指向簇结构图】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0029",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0029",
+              "block_kind": "paragraph",
+              "reading_order": 29,
+              "text": "TFA (stronger competition/ more defects?) →【箭头指向簇结构图】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0023",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "block_kind": "paragraph",
+              "reading_order": 23,
+              "text": "- Together with 01 in Oven #1, 120 °C; start 14:00.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0024",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0024",
+              "block_kind": "paragraph",
+              "reading_order": 24,
+              "text": "Set alarm for tomorrow 14:00 【红圈】24 h.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0005",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0005",
+              "block_kind": "paragraph",
+              "reading_order": 5,
+              "text": "1. Batch EXP-1012-A (label: Zr-BDC-01)",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0006",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0006",
+              "block_kind": "paragraph",
+              "reading_order": 6,
+              "text": "- Charge: ZrCl₄ ~~200 mg~~ → 233.2 mg *",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0007",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0007",
+              "block_kind": "paragraph",
+              "reading_order": 7,
+              "text": "(1.0 mmol; 【红色波浪下划线】reweighed – balance was not zeroed) + H₂BDC 166.1 mg",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0008",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0008",
+              "block_kind": "paragraph",
+              "reading_order": 8,
+              "text": "(1.0 mmol), into a 50 mL PTFE liner.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0012",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0012",
+              "block_kind": "paragraph",
+              "reading_order": 12,
+              "text": "- Stir 15 min, seal autoclave → Oven #1, 【红圈】120 °C.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0013",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0013",
+              "block_kind": "paragraph",
+              "reading_order": 13,
+              "text": "Start 14:00; planned reaction time 【红圈】24 h.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0009",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0009",
+              "block_kind": "paragraph",
+              "reading_order": 9,
+              "text": "- Solvent / modulator: 30 mL DMF; sonicate 10 min until mostly clear.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0011",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0011",
+              "block_kind": "paragraph",
+              "reading_order": 11,
+              "text": "Add glacial acetic acid (AA) 1.72 mL (30 eq), then DI water 100 μL.",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0010",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0010",
+              "block_kind": "paragraph",
+              "reading_order": 10,
+              "text": "【页边左侧曲线箭头，向下延伸至第2段 —— [unclear:批注归属]】",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0026",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0026",
+              "block_kind": "paragraph",
+              "reading_order": 26,
+              "text": "Autoclave →　（高压釜螺盖草图）",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        },
+        {
+          "page_id": "pg_35ac58c71a5b_0001",
+          "transcript_revision": 1,
+          "active_revision": 1,
+          "block_id": "pg_35ac58c71a5b_0001-t0027",
+          "blocks": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0027",
+              "block_kind": "paragraph",
+              "reading_order": 27,
+              "text": "50 mL PTFE liner →　（衬胆草图）",
+              "quality_flags": []
+            }
+          ],
+          "source_stale": false
+        }
+      ],
+      "revision_index": [
+        {
+          "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_49411321be81582a83e5eae19e53941c",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_ae44e8d9f99154a4bdd3a3fa1b4b764c",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_b691b81afcf151c584ce81515cfeffd4",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_be6372bba82d5447b4e33a8d448bbe9e",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        },
+        {
+          "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+          "selected_revision": 1,
+          "current_revision": 1,
+          "revisions": [
+            {
+              "revision": 1,
+              "knowledge_as_of": "2026-10-29 15:24:57",
+              "supersedes_revision_id": null
+            }
+          ],
+          "history_visibility": "authorized",
+          "read_capability": "memory.event.read"
+        }
+      ],
+      "relations": [
+        {
+          "kind": "shared_event",
+          "event_id": "evt_46aa39159bfa5fdba193b46fb5a4c63a",
+          "revision": 1,
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "basis": "stored_sample_links",
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0025",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0028",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0029",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        },
+        {
+          "kind": "shared_event",
+          "event_id": "evt_49411321be81582a83e5eae19e53941c",
+          "revision": 1,
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "basis": "stored_sample_links",
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        },
+        {
+          "kind": "shared_event",
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "revision": 1,
+          "sample_ids": [
+            "smp_6dc4558bc5a44165b5b644810ec5a301",
+            "smp_6e36432ba06c46ffb93fb35af84f623c"
+          ],
+          "basis": "stored_sample_links",
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0023",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0024",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ]
+        }
+      ],
+      "source_context": [
+        {
+          "acceptance": "default",
+          "event_kind": "observation",
+          "fields": {
+            "attribution_unknowns": [
+              "左侧曲线箭头批注（unclear:批注归属）延伸至第2段，其指向的具体条目归属不确定"
+            ],
+            "record_scope": "source_metadata",
+            "subject_sample_labels": [],
+            "uncertain_attribution_blocks": [
+              "pg_35ac58c71a5b_0001-t0010"
+            ]
+          },
+          "knowledge_only": true,
+          "occurred_at": "2026-10-12",
+          "page_id": "pg_35ac58c71a5b_0001",
+          "project_id": "simulated_fast_capture_development",
+          "raw_text": "【页边左侧曲线箭头，向下延伸至第2段 —— [unclear:批注归属]】 Autoclave →（高压釜螺盖草图） 50 mL PTFE liner →（衬胆草图）",
+          "sample_id": null,
+          "sample_ids": [],
+          "sample_resolution": {
+            "issues": [],
+            "links": [],
+            "sample_ids": []
+          },
+          "event_id": "evt_394603b944d3540a866dc2a9bfa039e3",
+          "revision": 1,
+          "event_time_start": "2026-10-12",
+          "knowledge_as_of": "2026-10-29 15:24:57",
+          "subject_sample_ids": [],
+          "evidence_refs": [
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0010",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0026",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            },
+            {
+              "block_id": "pg_35ac58c71a5b_0001-t0027",
+              "page_id": "pg_35ac58c71a5b_0001",
+              "transcript_revision": 1
+            }
+          ],
+          "unknown": false,
+          "unknowns": [],
+          "is_corrected": false,
+          "current_revision": 1,
+          "is_current": true,
+          "disputed": false,
+          "source_stale": false,
+          "provenance": {
+            "acceptance": "default",
+            "acceptance_policy": "notebook_knowledge_v1",
+            "confirmed_by": null,
+            "knowledge_only": true,
+            "profile": "chemistry_notebook@1.0",
+            "proposal_id": "prop_ae5da5e38447478a94d4f6a9ca87a5c8",
+            "proposal_revision": 0,
+            "result_origin": "reported",
+            "source_kind": "transcript_extraction",
+            "source_transcript_revision": 1
+          }
+        }
+      ],
+      "current_state": [
+        {
+          "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+          "target_revision": 1,
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "status": "unknown",
+          "explicit": false,
+          "basis": {
+            "event_id": "evt_7ec3eb25aeaa5843b5726d1862607d6d",
+            "revision": 1,
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0023",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              },
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0024",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ]
+          }
+        },
+        {
+          "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+          "target_revision": 1,
+          "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+          "status": "unknown",
+          "explicit": false,
+          "basis": {
+            "event_id": "evt_ec50e9a557025bc2b4abe627d679c4b3",
+            "revision": 1,
+            "knowledge_as_of": "2026-10-29 15:24:57",
+            "evidence_refs": [
+              {
+                "block_id": "pg_35ac58c71a5b_0001-t0013",
+                "page_id": "pg_35ac58c71a5b_0001",
+                "transcript_revision": 1
+              }
+            ]
+          }
+        }
+      ],
+      "quality": {
+        "issues": [],
+        "semantic_coverage": "not_assessed",
+        "unassigned_records_on_linked_pages": 0,
+        "source_stale_event_ids": [],
+        "disputed_event_ids": []
+      },
+      "coverage": {
+        "requested_sections": [
+          "cited_blocks",
+          "current_state",
+          "events",
+          "provenance",
+          "relations",
+          "revision_index",
+          "source_context"
+        ],
+        "scope": "explicit_authorized_links",
+        "retrieval_complete": true,
+        "knowledge_complete": null,
+        "omitted": [],
+        "totals": {
+          "current_state": 2,
+          "events": 7,
+          "evidence": 16,
+          "revision_index": 7,
+          "relations": 3,
+          "source_context": 1
+        },
+        "returned": {
+          "current_state": 2,
+          "events": 7,
+          "evidence": 16,
+          "revision_index": 7,
+          "relations": 3,
+          "source_context": 1
+        },
+        "budget_bytes": 1048576,
+        "result_bytes": 26965,
+        "byte_encoding": "compact UTF-8 JSON result; excludes transport envelope",
+        "pagination": "Use explicit versioned object reads for omitted sections; fixed snapshot cursors are not implemented."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "sample_id": "smp_6dc4558bc5a44165b5b644810ec5a301",
+      "label": "Zr-BDC-02",
+      "human_events": 6,
+      "ai_events": 6,
+      "matched_events": 6,
+      "context_status": "complete",
+      "fingerprint": "d4012b07d5cb32a308c6aa996748cc3fa13044b8352858d56279e0b2625a33ba",
+      "mismatches": [],
+      "consistent": true
+    },
+    {
+      "sample_id": "smp_6e36432ba06c46ffb93fb35af84f623c",
+      "label": "Zr-BDC-01",
+      "human_events": 7,
+      "ai_events": 7,
+      "matched_events": 7,
+      "context_status": "complete",
+      "fingerprint": "618558058a42c283571249639e905d486110c1febb7612f608803dd7207ea7dd",
+      "mismatches": [],
+      "consistent": true
+    }
+  ],
+  "nonempty_consistent": true
+}

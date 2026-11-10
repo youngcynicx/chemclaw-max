@@ -1,0 +1,18 @@
+{
+  "case_id": "SIMULATED-CARBON-HANDOFF-2026-10-23",
+  "mode": "text-only synthetic; no real experimental claims; no OCR",
+  "project_id": "simulated_handoff",
+  "stages": [
+    {"id": "initial", "source": "01_initial.txt", "organize": "请将附件模拟资料整理到知识与样品，保存明确的共享操作、分阶段条件、各样品观察、计划与未知，避免将计划当成实测。实际读回验收后，回答本阶段两项任务。", "task_ids": ["initial_timeline", "initial_next_action"]},
+    {"id": "append", "source": "02_append.txt", "organize": "请补入附件模拟续页，复用已有样品及事实，仅保存新增知识，保持两样品归属、实测条件和计划执行状态。实际读回验收后，回答本阶段两项任务。", "task_ids": ["append_results", "append_handoff"]},
+    {"id": "correction", "source": "03_correction_completion.txt", "organize": "请补入附件模拟更正与补测记录。宿主已按人工复核依据更正原有质量事件，请读取当前版本，不要再建一条称量替代纠错；补测应关联已有样品与原计划。实际读回验收后，回答本阶段两项任务。", "task_ids": ["correction_current", "correction_research_limits"]}
+  ],
+  "tasks": [
+    {"id": "initial_timeline", "stage": "initial", "prompt": "分别给出CCX-A和CCX-B当前的实际操作时间线、质量、观察和来源，准确保留阶段顺序及共享操作关联。"},
+    {"id": "initial_next_action", "stage": "initial", "prompt": "交接后下一位研究者可以执行哪些已记录计划？列出目标条件、尚未知的信息，并说明现阶段不能把哪些值当成实测。"},
+    {"id": "append_results", "stage": "append", "prompt": "按样品对比目前已有的吸附测试、测量条件、未完成计划与未知项，列出依据。不要把一种样品的结果转移到另一种样品。"},
+    {"id": "append_handoff", "stage": "append", "prompt": "给下一位研究者一份简明状态交接，区分已经完成的操作与测试、待执行计划、目前无法得出的结论，并注明来源。"},
+    {"id": "correction_current", "stage": "correction", "prompt": "给出两个样品的当前质量与测试结果、测试条件和来源。说明原始值与当前值的区别、纠错依据，以及计划到完成的变化；不要把纠错描述成重新称量。"},
+    {"id": "correction_research_limits", "stage": "correction", "prompt": "生成可供外部研究AI接续的JSON交接：每个样品列出实际操作阶段、当前观察与测试、计划状态、版本依据和未知项；最后说明这些材料支持的比较及仍不能断言的结论。未知值用null并附原因。"}
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1120" viewBox="0 0 900 1120" role="img" aria-labelledby="title desc">
+  <title id="title">合成示例实验笔记：MOF-025 薄膜生长</title>
+  <desc id="desc">计划为 80 摄氏度两小时，示例实测为 80 摄氏度 120 分钟，观察为连续浅白色薄膜。未据此推断结晶质量。</desc>
+  <defs><pattern id="lines" width="900" height="48" patternUnits="userSpaceOnUse"><path d="M0 47.5H900" stroke="#c5d7dd" stroke-width="1"/></pattern><pattern id="grain" width="43" height="39" patternUnits="userSpaceOnUse"><circle cx="6" cy="3" r=".5" fill="#b3a68e" opacity=".16"/><circle cx="25" cy="27" r=".6" fill="#b3a68e" opacity=".1"/></pattern></defs>
+  <rect width="900" height="1120" fill="#f7f4e9"/><rect width="900" height="1120" fill="url(#grain)"/>
+  <rect y="145" width="900" height="863" fill="url(#lines)"/><path d="M105 0V1050" stroke="#d8aba0" stroke-width="1.4"/>
+  <g fill="#bdb8a9"><circle cx="42" cy="190" r="13"/><circle cx="42" cy="565" r="13"/><circle cx="42" cy="940" r="13"/></g>
+  <g fill="#2c4a70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="27" transform="rotate(.4 450 450)">
+    <text x="135" y="84" font-size="18" fill="#7c8579" font-family="Arial,sans-serif" letter-spacing="3">LABORATORY NOTEBOOK / 025</text>
+    <text x="132" y="137" font-size="37">Film growth — batch 025</text>
+    <text x="135" y="186" font-size="22">14 OCT 2026</text><text x="633" y="186" font-size="22">MOF-025</text>
+    <text x="135" y="279">Working solution: 20 mL</text>
+    <text x="135" y="375">Planned: 80 °C / 2 h</text>
+    <text x="135" y="423">Measured: 80 °C / 120 min</text>
+    <text x="135" y="519">Observation:</text>
+    <text x="166" y="567">continuous pale-white film.</text>
+    <text x="135" y="663">4 glass substrates</text>
+    <text x="135" y="711">label: MOF-025</text>
+    <text x="135" y="903">Next: XRD, then immersion.</text>
+    <text x="135" y="951" font-size="23">No structure claim from appearance.</text>
+  </g>
+  <g transform="translate(177 776) rotate(-2)" fill="#dce4d5" stroke="#2c4a70" stroke-width="1.7">
+    <path d="m0 8 94-8 8 44-94 8Z"/><path d="m133 8 94-8 8 44-94 8Z"/><path d="m266 8 94-8 8 44-94 8Z"/><path d="m399 8 94-8 8 44-94 8Z"/>
+  </g>
+  <path d="M500 430c65 8 139 7 216-3" fill="none" stroke="#6f8b68" stroke-width="2.2"/>
+  <path d="m748 397 13 12 25-28" fill="none" stroke="#6f8b68" stroke-width="3" stroke-linecap="round"/>
+  <path d="M135 1001H810" stroke="#bdb8a9"/>
+  <text x="135" y="1041" fill="#777d72" font-size="15" font-family="Arial,'Microsoft YaHei',sans-serif" letter-spacing="1.5">SYNTHETIC DEMO · 合成示例 · NOT A REAL EXPERIMENT</text>
+  <text x="794" y="1082" fill="#9c9e8e" font-size="18" font-family="Arial,sans-serif">025</text>
+</svg>

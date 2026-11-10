@@ -1,0 +1,162 @@
+{
+  "edition": "English",
+  "language": "en",
+  "created_date": "2026-10-28",
+  "source_archive": "chemclaw_mof_handwritten_records_suite.zip",
+  "source_sha256": "28c84aa41aaf233eb6b9e3a5e9c9ee9a1e397caff7764235298fb936f78a7087",
+  "pages": [
+    {
+      "id": "P01",
+      "date": "2026-10-12",
+      "image": "images/P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2.jpg",
+      "transcript": "inputs/pages/P01_en.md",
+      "width": 1084,
+      "height": 1451
+    },
+    {
+      "id": "P02",
+      "date": "2026-10-13",
+      "image": "images/P02_2026-10-13_Washing_and_Batch3_Synthesis.jpg",
+      "transcript": "inputs/pages/P02_en.md",
+      "width": 1084,
+      "height": 1451
+    },
+    {
+      "id": "P03",
+      "date": "2026-10-15",
+      "image": "images/P03_2026-10-15_Vacuum_Activation_and_FTIR_Check.jpg",
+      "transcript": "inputs/pages/P03_en.md",
+      "width": 1084,
+      "height": 1451
+    },
+    {
+      "id": "P04",
+      "date": "2026-10-16",
+      "image": "images/P04_2026-10-16_PXRD_SEM_FTIR_Summary.jpg",
+      "transcript": "inputs/pages/P04_en.md",
+      "width": 1087,
+      "height": 1447
+    },
+    {
+      "id": "P05",
+      "date": "2026-10-17",
+      "image": "images/P05_2026-10-17_77K_N2_BET_and_TGA_Defects.jpg",
+      "transcript": "inputs/pages/P05_en.md",
+      "width": 1084,
+      "height": 1451
+    },
+    {
+      "id": "P06",
+      "date": "2026-10-19",
+      "image": "images/P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough.jpg",
+      "transcript": "inputs/pages/P06_en.md",
+      "width": 1084,
+      "height": 1451
+    }
+  ],
+  "validation": {
+    "page_sequence": "P01-P06",
+    "pdf_page_count": 6,
+    "critical_numeric_text_checks": 142,
+    "crossed_out_corrections_preserved": true,
+    "cjk_characters_in_delivered_text_files": 0,
+    "records_exclude_background_questions_and_answer_key": true,
+    "pdf_rendered_for_visual_review": true,
+    "source_archive_unchanged": true,
+    "final_images_visually_reviewed_english_only": true,
+    "final_pdf_layout_visually_reviewed": true,
+    "pdf_embeds_exact_final_jpeg_files": true
+  },
+  "files": [
+    {
+      "path": "ChemClaw_MOF_Handwritten_Lab_Notebook_P01-P06_EN.pdf",
+      "bytes": 6457313,
+      "sha256": "352aabb56345dca7eb95c523345965a1090ef6aa38c0a2c58f11435e1083394f"
+    },
+    {
+      "path": "chemclaw_mof_lab_records_benchmark_en.md",
+      "bytes": 22679,
+      "sha256": "43d8935de236306b77fbce8654aabb58e6a26c060b2323e3ddf4c58a3fbc8404"
+    },
+    {
+      "path": "evaluation_prompts_en.json",
+      "bytes": 1251,
+      "sha256": "0890a919ac88527a7f307da06af8374ac3c757f2f93306921a3a30cc4ae4b0bb"
+    },
+    {
+      "path": "image_generation_prompts.json",
+      "bytes": 15211,
+      "sha256": "eeb7180aba184db77d39f0f7149722f02206a010e523a6d29bba789594d80879"
+    },
+    {
+      "path": "images/P01_2026-10-12_Zr-MOF_Synthesis_Batch1_2.jpg",
+      "bytes": 828023,
+      "sha256": "17ae18a80c7fc0d66a576cc24217315962f1be1ea60fe469b640c958f7c925fc"
+    },
+    {
+      "path": "images/P02_2026-10-13_Washing_and_Batch3_Synthesis.jpg",
+      "bytes": 777161,
+      "sha256": "951a185c33a56b0eef462ba76a93748fd2d2b76588a21d774e3e6697ddb91494"
+    },
+    {
+      "path": "images/P03_2026-10-15_Vacuum_Activation_and_FTIR_Check.jpg",
+      "bytes": 864716,
+      "sha256": "f01eb65e6d0ba67ca494549283b430e3a9ebfdc7269370adf670f7c5a5d27d2d"
+    },
+    {
+      "path": "images/P04_2026-10-16_PXRD_SEM_FTIR_Summary.jpg",
+      "bytes": 850318,
+      "sha256": "0d89283541d25d897abb617e2387b4658b4238c12d63dfa004cd7a24b0d9ec53"
+    },
+    {
+      "path": "images/P05_2026-10-17_77K_N2_BET_and_TGA_Defects.jpg",
+      "bytes": 877506,
+      "sha256": "c5bb907aed2b0b9525a2496d8a8620f6828d0e5fa5b0c13a91c3e790dfd250e3"
+    },
+    {
+      "path": "images/P06_2026-10-19_CO2_N2_Adsorption_IAST_Breakthrough.jpg",
+      "bytes": 963584,
+      "sha256": "da90659434ce69b58691e6e1ed1db9ff5f36d52bedb8eb6b1ff587308490248d"
+    },
+    {
+      "path": "inputs/pages/P01_en.md",
+      "bytes": 1634,
+      "sha256": "7ba72dad76c7fd6abc5d4d793da28d6daa2db5f5cde8454e432b92e9230ec9ca"
+    },
+    {
+      "path": "inputs/pages/P02_en.md",
+      "bytes": 1466,
+      "sha256": "63f66f02a4864d10c92f6fe2ca33c0bd3a0f1d431844112874a4d9bcc3d7509b"
+    },
+    {
+      "path": "inputs/pages/P03_en.md",
+      "bytes": 1661,
+      "sha256": "3cdad617494eaedfe45a6e647aa3a9fef8779c973291a729153e61dda602ebc6"
+    },
+    {
+      "path": "inputs/pages/P04_en.md",
+      "bytes": 2339,
+      "sha256": "d8d4285589536253e194c65af29505a8e71883415ce673cbfb0ee9606f660296"
+    },
+    {
+      "path": "inputs/pages/P05_en.md",
+      "bytes": 2771,
+      "sha256": "097817ef5be7ee634b50765f0c627826a304d967ea40420411601bd3f81483f1"
+    },
+    {
+      "path": "inputs/pages/P06_en.md",
+      "bytes": 3144,
+      "sha256": "6a0610387e5cd1e7ab9b9c50f6c680c42fb30b42c88b591fa9543f30ae2de2a7"
+    },
+    {
+      "path": "inputs/records_P01-P06_en.md",
+      "bytes": 13119,
+      "sha256": "e9861980e130d963ce2a2003c50db135c12056dc756ec00dfdb39146d1c2d712"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3571,
+      "sha256": "13b64730d30374e922b64fd6ae110e696864684ba8318a168f2fe0ef65912be8"
+    }
+  ]
+}

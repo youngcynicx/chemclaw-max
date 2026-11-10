@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "phase": "before",
+  "captured_at_utc": "2026-10-29T15:40:52.418303+00:00",
+  "method": "GET",
+  "provider_calls": 0,
+  "process_identities": [],
+  "endpoints": {
+    "core": {
+      "url": "http://127.0.0.1:8876/health",
+      "state": "healthy",
+      "http_status": 200,
+      "error_class": null,
+      "duration_ms": 31.0
+    },
+    "frontend": {
+      "url": "http://127.0.0.1:4174/",
+      "state": "healthy",
+      "http_status": 200,
+      "error_class": null,
+      "duration_ms": 16.0
+    }
+  },
+  "completed_at_utc": "2026-10-29T15:40:52.467515+00:00"
+}

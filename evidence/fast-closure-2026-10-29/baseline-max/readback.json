@@ -1,0 +1,14 @@
+{
+  "cards": {
+    "samples": [],
+    "unassigned_records": [],
+    "source_notes": [],
+    "acceptance_policy": "default_accept_with_corrections",
+    "scope": [
+      "simulated_fast_capture_development"
+    ]
+  },
+  "contexts": [],
+  "comparisons": [],
+  "nonempty_consistent": false
+}

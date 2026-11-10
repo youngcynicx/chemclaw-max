@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-29T15:40:29.533899+00:00",
+  "origin": "Original English-suite rubric/checklist reused without denominator changes",
+  "files": {
+    "frozen_question_rubric.json": "ae3f2a6ee04aa142b21ec1a3b29e2f76cb11f307a17197707a0867b5fe6b032c",
+    "frozen_fact_checklist.json": "f3dec9270cd54d2b83d6da7b904d8956fd261ae814e652cd17db47d875ba6eae",
+    "frozen_protocol.md": "f884d0f8123e548489c317251452901c5514d711e51a463db9fd9b649768bd44",
+    "frozen_source_limitations.md": "85ed2431ae198dbf4871a350a9faa76cec31ce759ed6649e0818efa8bd9d01ce",
+    "FREEZE_MANIFEST.json": "d965f27bc68c508213bba6884ffe13401b56fb4eb814de1fc00cc1e7838c54cb"
+  },
+  "evaluator": "Current assistant after run; not a new independent or blind evaluator",
+  "development_exposure": "P01 was reused in preceding prompt development; entire suite is a retained development regression, not unseen validation."
+}

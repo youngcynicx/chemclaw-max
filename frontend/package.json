@@ -1,0 +1,8 @@
+{
+  "name": "chemclaw-research-desk",
+  "private": true,
+  "version": "0.1.9",
+  "type": "module",
+  "description": "A unified evidence-first laboratory research workspace",
+  "scripts": { "check": "node --check dist/src/app.js && node --check dist/src/data.js && node --check dist/src/core-client.js && node --check dist/src/icons.js" }
+}

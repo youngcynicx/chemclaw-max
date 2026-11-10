@@ -1,0 +1,19 @@
+{
+  "name": "chemclaw-lab-pi-server",
+  "private": true,
+  "version": "0.6.0",
+  "description": "Pi agent loop for ChemClaw-Lab (S06 agent host; tool calling over the Core run-token gateway)",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test *.test.mjs"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "0.86.0",
+    "@earendil-works/pi-ai": "0.86.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

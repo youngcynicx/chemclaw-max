@@ -1,0 +1,13 @@
+PASS headings, emphasis, fenced JSON and tables render real structural markup
+PASS raw HTML, code and image tags never become executable elements
+PASS only HTTP HTTPS and mailto links survive; dangerous targets are inert
+PASS table escaped pipes and inline code pipes remain within their cells
+PASS unclosed code fences remain escaped and token-like untrusted text cannot inject
+PASS model payload includes both protocols, separate vision fields and bounded integers
+PASS empty keys remain empty for server-side same-endpoint reuse; invalid budgets fail
+PASS named schemes round-trip only public fields, never keys or nested secrets
+PASS secrets embedded in endpoint URLs cannot enter saved metadata or requests
+PASS stored schemes are sanitized again when loaded
+PASS client config sends exact allowlisted metadata and empty-key reuse, caches no secrets
+PASS failed configuration preserves existing client state for retry
+12 Markdown/model settings tests passed.

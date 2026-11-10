@@ -1,0 +1,48 @@
+/** Small, dependency-free icon vocabulary. Generated SVG contains no user input. */
+const paths = {
+  overview: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  search: '<circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/>',
+  book: '<path d="M12 5.5C9 3.5 5.8 3.3 3 4.2v15.2c3-.8 6-.5 9 1.6 3-2.1 6-2.4 9-1.6V4.2c-2.8-.9-6-.7-9 1.3Zm0 0V21"/>',
+  evidence: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9Zm0 0v6h6M8 13h8M8 17h5"/>',
+  box: '<path d="m12 3 9 5-9 5-9-5 9-5Zm-9 5v9l9 5 9-5V8M12 13v9M7.5 5.5l9 5"/>',
+  agents: '<rect x="4" y="7" width="16" height="13" rx="4"/><path d="M12 7V3M10 3h4M1 12v4M23 12v4M9 16h6"/><circle cx="8.5" cy="11.5" r=".8" fill="currentColor" stroke="none"/><circle cx="15.5" cy="11.5" r=".8" fill="currentColor" stroke="none"/>',
+  calendar: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 11h18M7 15h2M12 15h2M7 18h2"/>',
+  settings: '<path d="m9.5 3-.7 2.2-2 .9-2.2-.6-2.5 4.3 1.6 1.6v2.3L2.1 15l2.5 4.3 2.2-.6 2 .9.7 2.4h5l.7-2.4 2-.9 2.2.6L21.9 15l-1.6-1.3v-2.3l1.6-1.6-2.5-4.3-2.2.6-2-.9L14.5 3h-5Z"/><circle cx="12" cy="12.5" r="3.2"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  arrow: '<path d="M5 12h14m-6-6 6 6-6 6"/>',
+  arrowRight: '<path d="M4 12h16m-6-6 6 6-6 6"/>',
+  chevron: '<path d="m9 5 7 7-7 7"/>',
+  chevronDown: '<path d="m6 9 6 6 6-6"/>',
+  close: '<path d="m6 6 12 12M18 6 6 18"/>',
+  check: '<path d="m5 12 4.5 4.5L19 7"/>',
+  alert: '<path d="M10.3 4.3 2.5 18a2 2 0 0 0 1.7 3h15.6a2 2 0 0 0 1.7-3L13.7 4.3a2 2 0 0 0-3.4 0ZM12 9v4M12 17h.01"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  upload: '<path d="M12 16V3M7 8l5-5 5 5M4 15v5a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5"/>',
+  download: '<path d="M12 3v13m-5-5 5 5 5-5M4 16v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/>',
+  link: '<path d="m10 14 4-4M8.7 16.7l-1 1a4.5 4.5 0 0 1-6.4-6.4l4-4a4.5 4.5 0 0 1 6.4 0m.6 9.4a4.5 4.5 0 0 0 6.4 0l4-4a4.5 4.5 0 0 0-6.4-6.4l-1 1"/>',
+  more: '<circle cx="5" cy="12" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="19" cy="12" r="1" fill="currentColor"/>',
+  filter: '<path d="M4 6h16M7 12h10M10 18h4"/>',
+  command: '<path d="M9 9H6a3 3 0 1 1 3-3v12a3 3 0 1 1-3-3h12a3 3 0 1 1-3 3V6a3 3 0 1 1 3 3H9Z"/>',
+  bell: '<path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/>',
+  moon: '<path d="M21 12.8A9 9 0 0 1 11.2 3 9 9 0 1 0 21 12.8Z"/>',
+  external: '<path d="M14 3h7v7M21 3 10 14M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/>',
+  send: '<path d="m22 2-7 20-4-9L2 9l20-7ZM11 13 22 2"/>',
+  file: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Zm0 0v6h6"/>',
+  copy: '<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/>',
+  menu: '<path d="M4 6h16M4 12h16M4 18h16"/>',
+  refresh: '<path d="M20 8A8 8 0 0 0 6.3 5.7L3 9m0-6v6h6M4 16a8 8 0 0 0 13.7 2.3L21 15m0 6v-6h-6"/>',
+  logout: '<path d="M9 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4M14 8l5 4-5 4M8 12h11"/>',
+  shield: '<path d="M12 2 3 6v6c0 5 9 10 9 10s9-5 9-10V6l-9-4Z"/><path d="m8 12 3 3 5-6"/>',
+  spark: '<path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7L12 2Z"/>',
+  beaker: '<path d="M9 3v6l-6 10a1.4 1.4 0 0 0 1.2 2h15.6a1.4 1.4 0 0 0 1.2-2L15 9V3M7 3h10M6 15h12"/><circle cx="9" cy="18" r=".7" fill="currentColor" stroke="none"/>',
+  folder: '<path d="M3 7V5a2 2 0 0 1 2-2h5l2 3h7a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z"/>',
+  play: '<path d="m7 4 14 8-14 8V4Z"/>',
+  pause: '<path d="M8 4v16M16 4v16"/>',
+  help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4.3 1.7c-1.2.8-1.8 1.1-1.8 2.8M12 17h.01"/>',
+};
+
+export function icon(name, size = 20) {
+  const safeSize = Number.isFinite(Number(size)) ? Math.max(8, Math.min(120, Number(size))) : 20;
+  return `<svg width="${safeSize}" height="${safeSize}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.file}</svg>`;
+}
